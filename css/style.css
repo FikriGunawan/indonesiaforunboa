@@ -53,6 +53,7 @@ body{background: #EBEDEF;}
 .Body-LargeDecorative{font-family: "SourceSerifVariable-Roman";font-weight: 300;font-size: 1.6vw;}
 .Body-Large{font-family: "Sequel-Sans-Roman-Body";font-size: 1.4vw;}
 .Body-BoldLarge{font-family: "Sequel-Sans-Roman-Body";font-size: 1.75vw;}
+h3.font-orange500.Body-BoldLarge{padding: 1vh 1vw;border: 0.2vw solid #FF7300;border-radius: 0.5vw;}
 h3.font-orange700.Body-BoldLarge{padding: 1vh 1vw;border: 0.2vw solid #994500;border-radius: 0.5vw;}
 .Body-Text{font-family: "Sequel-Sans-Light-Body";font-size: 1.2vw;}
 h6.font-mono700.Body-Text:after,h6.font-white.Body-Text:after{content: '';display: block;position: absolute;bottom: 0;left: 0;width: 100%;height: 0.1vh;background-color: #636972;}
@@ -99,7 +100,7 @@ p,a,label,th,td,li,input,textarea,select{margin-bottom: 0;color: #1A1B1C;}
 a,a:hover,a[data-toggle="collapse"]{outline: none;color:#1A1B1C;text-decoration: none !important;cursor: pointer;transition: all .5s;}
 b,strong{}
 i{}
-hr{margin: 2vh 0 !important;height: 0.2vh !important;}
+hr{margin: 2vh 0 !important;height: 0.2vh !important;opacity: 1 !important;}
 form input::-webkit-outer-spin-button,form input::-webkit-inner-spin-button{-webkit-appearance: none;margin: 0;}
 form input[type=number]{-webkit-appearance: textfield;-moz-appearance: textfield;appearance: textfield;}
 .form-control:focus,.form-select:focus{box-shadow: unset;}
@@ -180,6 +181,12 @@ form input[type=number]{-webkit-appearance: textfield;-moz-appearance: textfield
 .ornt.navy600s{
   background-color: #0F32AD;
   border: 0.2vw solid #0F32AD;
+}
+.ornt.navy700{
+  width: 3.5vw;
+  height: 3.5vw;
+  border-radius: 0.5vw;
+  border: 0.3vw solid #0B2582;
 }
 .ornt.orange200{
   width: 2.2vw;
@@ -344,6 +351,7 @@ form input[type=number]{-webkit-appearance: textfield;-moz-appearance: textfield
   width: 5vw;
   height: 5vw;
   border-radius: 50vw;
+  cursor: pointer;
 }
 #footer .wrapper .gotop .icon{
   width: 2vw;
@@ -474,6 +482,25 @@ form input[type=number]{-webkit-appearance: textfield;-moz-appearance: textfield
 #chair-statement .wrapper{
   height: 130vh;
 }
+#chair-statement .wrapper .ornt.navy200s{
+  top: 13vh;
+  left: -2vw;
+  width: 6vw;
+  height: 6vw;
+}
+#chair-statement .wrapper .ornt.orange200{
+  top: 6vh;
+  left: 75vw;
+  width: 5vw;
+  height: 5vw;
+  border: 0.4vw solid #FFC799;
+}
+#chair-statement .wrapper .ornt.blue600{
+  left: 80vw;
+  width: 2.8vw;
+  height: 2.8vw;
+  border: 0.4vw solid #0262CC;
+}
 #chair-statement .wrapper .layer-01{
   left: 6.5vw;
   width: 29vw;
@@ -576,6 +603,21 @@ form input[type=number]{-webkit-appearance: textfield;-moz-appearance: textfield
 #strengths .wrapper{
   height: 120vh;
 }
+#strengths .wrapper .ornt.ornt.orange500{
+  top: 17vh;
+  left: 92vw;
+  width: 3.5vw;
+  height: 3.5vw;
+  border-radius: 0.7vw;
+  border: 0.3vw solid #FF7300;
+}
+#strengths .wrapper .ornt.ornt.ornt.navy400s{
+  top: 23.5vh;
+  left: 90vw;
+  width: 2vw;
+  height: 2vw;
+  border-radius: 0.5vw;
+}
 #strengths .wrapper .background-strengths{}
 #strengths .wrapper .layer-01{
   top: 45%;
@@ -673,6 +715,26 @@ form input[type=number]{-webkit-appearance: textfield;-moz-appearance: textfield
 /* ----- Desktop ----- */
 #employees{}
 #employees .wrapper{}
+#employees .wrapper .ornt.ornt.orange500{
+  top: -5vh;
+  left: 93vw;
+  width: 5vw;
+  height: 5vw;
+  border: 0.3vw solid #FF7300;
+}
+#employees .wrapper .ornt.ornt.orange500.second{
+  top: 75vh;
+  left: -1vw;
+  width: 5vw;
+  height: 5vw;
+  border: 0.3vw solid #FF7300;
+}
+#employees .wrapper .ornt.ornt.navy100s{
+  top: 85vh;
+  left: 4vw;
+  width: 5vw;
+  height: 5vw;
+}
 #employees .wrapper .layer-01{
   left: 6.5vw;
   width: 25vw;
@@ -730,14 +792,27 @@ form input[type=number]{-webkit-appearance: textfield;-moz-appearance: textfield
 /* ----- Desktop ----- */
 #tools{}
 #tools .wrapper{}
+#tools .wrapper .ornt.ornt.navy100s{
+  top: 15vh;
+  left: 87vw;
+  width: 3vw;
+  height: 3vw;
+}
+#tools .wrapper .ornt.ornt.orange500{
+  top: 50vh;
+  left: -0.5vw;
+  width: 3vw;
+  height: 3vw;
+  border: 0.3vw solid #FF7300;
+}
 #tools .wrapper .layer-01{
   margin: 15vh auto 10vh;
   width: 90vw;
 }
 #tools .wrapper .item{
   margin: 0 2vw;
-  padding: 6vh 2.5vw;
-  width: 43vw;
+  padding: 6vh 3.5vw;
+  width: 38vw;
   height: 62vh;
   border-radius: 2vw;
   overflow: hidden;
@@ -747,7 +822,7 @@ form input[type=number]{-webkit-appearance: textfield;-moz-appearance: textfield
   height: 35vh;
 }
 #tools .wrapper .item .logo img{
-  width: 32vw;
+  width: 20vw;
 }
 #tools .wrapper .item hr{
   margin: 2vh 0 4vh !important;
@@ -774,6 +849,21 @@ form input[type=number]{-webkit-appearance: textfield;-moz-appearance: textfield
 #credentials .wrapper{
   height: 135vh;
   overflow-x: hidden;
+}
+#credentials .wrapper .ornt.ornt.orange500{
+  top: 32vh;
+  left: 65vw;
+  width: 3.5vw;
+  height: 3.5vw;
+  border-radius: 0.5vw;
+  border: 0.3vw solid #FF7300;
+}
+#credentials .wrapper .ornt.ornt.ornt.navy100s{
+  top: 38.5vh;
+  left: 63vw;
+  width: 2vw;
+  height: 2vw;
+  border-radius: 0.5vw;
 }
 #credentials .wrapper .layer-01{
   bottom: 8vh;
@@ -871,7 +961,7 @@ form input[type=number]{-webkit-appearance: textfield;-moz-appearance: textfield
   width: 3vw;
   height: 3vw;
   border-radius: 50vw;
-  background-color: #CC5C00;
+  background-color: #FF7300;
 }
 #timeline .wrapper .layer-02 .content .item .right .wrap{}
 #timeline .wrapper .layer-02 .content .item .right .wrap .logo{
@@ -894,7 +984,69 @@ form input[type=number]{-webkit-appearance: textfield;-moz-appearance: textfield
 /* =============================================================== */
 /* ----- Desktop ----- */
 #commitment{}
-#commitment .wrapper{}
+#commitment .wrapper{
+  overflow: hidden;
+}
+#commitment .wrapper .ornt.ornt.navy300s{
+  top: 0;
+  left: 75vw;
+  width: 7vw;
+  height: 7vw;
+}
+#commitment .wrapper .ornt.ornt.orange500{
+  top: 22vh;
+  left: 50vw;
+  width: 3.5vw;
+  height: 3.5vw;
+  border-radius: 0.5vw;
+  border: 0.3vw solid #FF7300;
+}
+#commitment .wrapper .ornt.ornt.navy100s{
+  top: 28.5vh;
+  left: 53.5vw;
+  width: 2vw;
+  height: 2vw;
+  border-radius: 0.5vw;
+}
+#commitment .wrapper .ornt.ornt.orange400{
+  top: 37vh;
+  left: 70vw;
+  width: 30vw;
+  height: 15vh;
+  border-radius: 1.5vw;
+  border: 0.5vw solid #FF8F33;
+}
+#commitment .wrapper .ornt.ornt.navy300s.second{
+  top: 52vh;
+  left: 40vw;
+  width: 2vw;
+  height: 2vw;
+}
+#commitment .wrapper .ornt.ornt.orange600s{
+  top: 91.5vh;
+  left: 95.5vw;
+  width: 3.4vw;
+  height: 7vw;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+#commitment .wrapper .ornt.ornt.navy700{
+  top: 106.5vh;
+  left: 91.5vw;
+}
+#commitment .wrapper .ornt.ornt.orange500.second{
+  top: 155vh;
+  left: -1vw;
+  width: 5vw;
+  height: 5vw;
+  border: 0.3vw solid #FF7300;
+}
+#commitment .wrapper .ornt.ornt.navy100s.second{
+  top: 165vh;
+  left: 4vw;
+  width: 5vw;
+  height: 5vw;
+}
 #commitment .wrapper .ornt.navy600s{
   padding: 8vh 5vw;
   top: 65vh;
@@ -959,13 +1111,30 @@ form input[type=number]{-webkit-appearance: textfield;-moz-appearance: textfield
   overflow: hidden;
   height: 111vh;
 }
+#portfolio .wrapper .ornt.navy300s{
+  top: 10vh;
+  left: 43vw;
+  width: 3.3vw;
+  height: 3.3vw;
+}
+#portfolio .wrapper .ornt.orange500{
+  top: 16.4vh;
+  left: 40.9vw;
+  width: 2.2vw;
+  height: 2.2vw;
+  border: 0.3vw solid #FF7300;
+}
 #portfolio .wrapper .background{}
 #portfolio .wrapper .layer-01{
   margin: 15vh auto 8vh;
-  width: 90vw;
+  width: 87vw;
+}
+#portfolio .wrapper .layer-01 h6{}
+#portfolio .wrapper .layer-01 h2{
+  width: 25vw;
 }
 #portfolio .wrapper .layer-02{
-  margin: 0 0 15vh 3%;
+  margin: 0 0 15vh 5%;
   width: 95.5%;
 }
 #portfolio .wrapper .layer-02 .content{
