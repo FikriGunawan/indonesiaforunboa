@@ -253,14 +253,33 @@ form input[type=number]{-webkit-appearance: textfield;-moz-appearance: textfield
 /* =============================================================== */
 /* ----- Desktop ----- */
 #navigation{
-  position: absolute;
+  position: fixed;
   z-index: 99;
   padding: 9vh 6.5vw 9vh 7.5vw;
+  top: 0;
+  left: 0;
+  transition: all .3s;
+}
+#navigation.change{
+  padding: 4vh 6.5vw 3vh 7.5vw;
+  background-color: #FF7300;
+  transition: all .3s;
 }
 #navigation .wrapper{}
-#navigation .wrapper .logo{}
+#navigation .wrapper .logo{
+  transition: all .3s;
+}
+#navigation.change .wrapper .logo{
+  top: 35%;
+  transition: all .3s;
+}
 #navigation .wrapper .logo .image{
   width: 11.5vw;
+  transition: all .3s;
+}
+#navigation.change .wrapper .logo .image{
+  width: 6.5vw;
+  transition: all .3s;
 }
 #navigation .wrapper .menu{
   float: right;
@@ -937,8 +956,8 @@ form input[type=number]{-webkit-appearance: textfield;-moz-appearance: textfield
   top: 49%;
   transform: translateY(-50%);
   left: 30.4vw;
-  width: 0.3vw;
-  height: 88%;
+  width: 0.25vw;
+  height: 87%;
   background-color: #FF7300;
 }
 #timeline .wrapper .layer-02 .content .bg-white{
@@ -957,9 +976,9 @@ form input[type=number]{-webkit-appearance: textfield;-moz-appearance: textfield
   display: block;
   position: absolute;
   top: 0;
-  left: 19vw;
-  width: 3vw;
-  height: 3vw;
+  left: 19.9vw;
+  width: 1.2vw;
+  height: 1.2vw;
   border-radius: 50vw;
   background-color: #FF7300;
 }
