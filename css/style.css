@@ -7,6 +7,8 @@
 body{background: #EBEDEF;}
 .font-white{color: #FBF9F9;}
 .font-mono200{color: #D7DBDF;}
+.font-mono300{color: #C3C8D0;}
+.font-mono500{color: #9BA4B0;}
 .font-mono600{color: #7F8791;}
 .font-mono700{color: #636972;}
 .font-orange300{color: #FFAB66}
@@ -53,8 +55,8 @@ body{background: #EBEDEF;}
 .Body-LargeDecorative{font-family: "SourceSerifVariable-Roman";font-weight: 300;font-size: 1.6vw;}
 .Body-Large{font-family: "Sequel-Sans-Roman-Body";font-size: 1.4vw;}
 .Body-BoldLarge{font-family: "Sequel-Sans-Roman-Body";font-size: 1.75vw;}
-h3.font-orange500.Body-BoldLarge{padding: 1vh 1vw;border: 0.2vw solid #FF7300;border-radius: 0.5vw;}
-h3.font-orange700.Body-BoldLarge{padding: 1vh 1vw;border: 0.2vw solid #994500;border-radius: 0.5vw;}
+h3.font-orange500.Body-BoldLarge{padding: 1vh 1vw;border: 0.15vw solid #FF7300;border-radius: 0.5vw;}
+h3.font-orange700.Body-BoldLarge{padding: 1vh 1vw;border: 0.15vw solid #994500;border-radius: 0.5vw;}
 .Body-Text{font-family: "Sequel-Sans-Light-Body";font-size: 1.2vw;}
 h6.font-mono700.Body-Text:after,h6.font-white.Body-Text:after{content: '';display: block;position: absolute;bottom: 0;left: 0;width: 100%;height: 0.1vh;background-color: #636972;}
 .Body-TextBold{font-family: "Sequel-Sans-Roman-Body";font-size: 1.2vw;}
@@ -142,85 +144,84 @@ form input[type=number]{-webkit-appearance: textfield;-moz-appearance: textfield
   border-top-right-radius: 0;
   border-bottom-right-radius: 0;
   background-color: #67AFFF;
-  border: 0.2vw solid #67AFFF;
+  border: 0.15vw solid #67AFFF;
 }
 .ornt.blue400s{
   background-color: #3595FF;
-  border: 0.2vw solid #3595FF;
+  border: 0.15vw solid #3595FF;
 }
 .ornt.blue600{
   background-color: transparent;
-  border: 0.2vw solid #0262CC;
+  border: 0.15vw solid #0262CC;
 }
 .ornt.navy100s{
   width: 3.8vw;
   height: 3.8vw;
   border-radius: 0.5vw;
   background-color: #D0D8F7;
-  border: 0.2vw solid #D0D8F7;
+  border: 0.15vw solid #D0D8F7;
 }
 .ornt.navy200s{
   background-color: #A1B2EF;
-  border: 0.2vw solid #A1B2EF;
+  border: 0.15vw solid #A1B2EF;
 }
 .ornt.navy300s{
   background-color: #718BE8;
-  border: 0.2vw solid #718BE8;
+  border: 0.15vw solid #718BE8;
 }
 .ornt.navy400s{
   background-color: #4265E0;
-  border: 0.2vw solid #4265E0;
+  border: 0.15vw solid #4265E0;
 }
 .ornt.navy500s{
   width: 14vw;
   height: 14vw;
   border-radius: 2vw;
   background-color: #133ED8;
-  border: 0.2vw solid #133ED8;
+  border: 0.15vw solid #133ED8;
 }
 .ornt.navy600s{
   background-color: #0F32AD;
-  border: 0.2vw solid #0F32AD;
+  border: 0.15vw solid #0F32AD;
 }
 .ornt.navy700{
   width: 3.5vw;
   height: 3.5vw;
   border-radius: 0.5vw;
-  border: 0.3vw solid #0B2582;
+  border: 0.15vw solid #0B2582;
 }
 .ornt.orange200{
   width: 2.2vw;
   height: 2.2vw;
   background-color: transparent;
-  border: 0.3vw solid #FFC799;
+  border: 0.15vw solid #FFC799;
 }
 .ornt.orange300{
   width: 3.5vw;
   height: 3.5vw;
   background-color: transparent;
-  border: 0.3vw solid #FFAB66;
+  border: 0.15vw solid #FFAB66;
 }
 .ornt.orange400{
   background-color: transparent;
-  border: 0.2vw solid #FF8F33;
+  border: 0.15vw solid #FF8F33;
 }
 .ornt.orange500s{
   width: 2vw;
   height: 2vw;
   background-color: #FF7300;
-  border: 0.2vw solid #FF7300;
+  border: 0.15vw solid #FF7300;
 }
 .ornt.orange500{
   background-color: transparent;
-  border: 0.2vw solid #FF7300;
+  border: 0.15vw solid #FF7300;
 }
 .ornt.orange600s{
   background-color: #CC5C00;
-  border: 0.2vw solid #CC5C00;
+  border: 0.15vw solid #CC5C00;
 }
 
 /* Component */
-
 .compArrow{}
 .compArrow .wrap{
   margin: 0 0.5vw;
@@ -235,6 +236,20 @@ form input[type=number]{-webkit-appearance: textfield;-moz-appearance: textfield
 }
 .compArrow .wrap .left{}
 .compArrow .wrap .right{}
+
+.compDots{}
+.compDots span{
+  display: inline-block;
+  margin-right: 0.5vw;
+  width: 0.8vw;
+  height: 0.8vw;
+  border-radius: 50vw;
+  background-color: #C3C8D0;
+}
+.compDots span.active{
+  width: 47vw;
+  background-color: #9BA4B0;
+}
 /* ----- End Desktop ----- */
 /* ----- Mobile ----- */
 @media screen and (max-width: 846px){
@@ -262,7 +277,7 @@ form input[type=number]{-webkit-appearance: textfield;-moz-appearance: textfield
 }
 #navigation.change{
   padding: 4vh 6.5vw 3vh 7.5vw;
-  background-color: #FF7300;
+  background-color: #081956;
   transition: all .3s;
 }
 #navigation .wrapper{}
@@ -376,22 +391,21 @@ form input[type=number]{-webkit-appearance: textfield;-moz-appearance: textfield
   width: 2vw;
 }
 #footer .wrapper .logo{
-  top: 10vh;
+  top: 8vh;
   left: 6.5vw;
 }
 #footer .wrapper .logo .image{
-  width: 12vw;
+  width: 16vw;
 }
 #footer .wrapper .information{
   top: 10vh;
   right: 6.5vw;
-  width: 25vw;
+  width: 32vw;
   height: 10vw;
   text-align: right;
 }
 #footer .wrapper .information h2{
-  font-size: 2.5vw;
-  font-style: italic;
+  font-size: 3.5vw;
 }
 #footer .wrapper .information .socmed{}
 #footer .wrapper .information .socmed .icon{
@@ -512,13 +526,13 @@ form input[type=number]{-webkit-appearance: textfield;-moz-appearance: textfield
   left: 75vw;
   width: 5vw;
   height: 5vw;
-  border: 0.4vw solid #FFC799;
+  border: 0.15vw solid #FFC799;
 }
 #chair-statement .wrapper .ornt.blue600{
   left: 80vw;
   width: 2.8vw;
   height: 2.8vw;
-  border: 0.4vw solid #0262CC;
+  border: 0.15vw solid #0262CC;
 }
 #chair-statement .wrapper .layer-01{
   left: 6.5vw;
@@ -597,6 +611,7 @@ form input[type=number]{-webkit-appearance: textfield;-moz-appearance: textfield
   padding: 1vh 1vw;
   border-radius: 0.5vw;
   background-color: #4265E0;
+  cursor: unset;
 }
 #board .wrapper .layer-01 a:hover{
   color: #133ED8;
@@ -622,15 +637,15 @@ form input[type=number]{-webkit-appearance: textfield;-moz-appearance: textfield
 #strengths .wrapper{
   height: 120vh;
 }
-#strengths .wrapper .ornt.ornt.orange500{
+#strengths .wrapper .ornt.orange500{
   top: 17vh;
   left: 92vw;
   width: 3.5vw;
   height: 3.5vw;
   border-radius: 0.7vw;
-  border: 0.3vw solid #FF7300;
+  border: 0.15vw solid #FF7300;
 }
-#strengths .wrapper .ornt.ornt.ornt.navy400s{
+#strengths .wrapper .ornt.navy400s{
   top: 23.5vh;
   left: 90vw;
   width: 2vw;
@@ -734,21 +749,21 @@ form input[type=number]{-webkit-appearance: textfield;-moz-appearance: textfield
 /* ----- Desktop ----- */
 #employees{}
 #employees .wrapper{}
-#employees .wrapper .ornt.ornt.orange500{
+#employees .wrapper .ornt.orange500{
   top: -5vh;
   left: 93vw;
   width: 5vw;
   height: 5vw;
-  border: 0.3vw solid #FF7300;
+  border: 0.15vw solid #FF7300;
 }
-#employees .wrapper .ornt.ornt.orange500.second{
+#employees .wrapper .ornt.orange500.second{
   top: 75vh;
   left: -1vw;
   width: 5vw;
   height: 5vw;
-  border: 0.3vw solid #FF7300;
+  border: 0.15vw solid #FF7300;
 }
-#employees .wrapper .ornt.ornt.navy100s{
+#employees .wrapper .ornt.navy100s{
   top: 85vh;
   left: 4vw;
   width: 5vw;
@@ -811,18 +826,18 @@ form input[type=number]{-webkit-appearance: textfield;-moz-appearance: textfield
 /* ----- Desktop ----- */
 #tools{}
 #tools .wrapper{}
-#tools .wrapper .ornt.ornt.navy100s{
+#tools .wrapper .ornt.navy100s{
   top: 15vh;
   left: 87vw;
   width: 3vw;
   height: 3vw;
 }
-#tools .wrapper .ornt.ornt.orange500{
+#tools .wrapper .ornt.orange500{
   top: 50vh;
   left: -0.5vw;
   width: 3vw;
   height: 3vw;
-  border: 0.3vw solid #FF7300;
+  border: 0.15vw solid #FF7300;
 }
 #tools .wrapper .layer-01{
   margin: 15vh auto 10vh;
@@ -869,15 +884,15 @@ form input[type=number]{-webkit-appearance: textfield;-moz-appearance: textfield
   height: 135vh;
   overflow-x: hidden;
 }
-#credentials .wrapper .ornt.ornt.orange500{
+#credentials .wrapper .ornt.orange500{
   top: 32vh;
   left: 65vw;
   width: 3.5vw;
   height: 3.5vw;
   border-radius: 0.5vw;
-  border: 0.3vw solid #FF7300;
+  border: 0.15vw solid #FF7300;
 }
-#credentials .wrapper .ornt.ornt.ornt.navy100s{
+#credentials .wrapper .ornt.navy100s{
   top: 38.5vh;
   left: 63vw;
   width: 2vw;
@@ -912,6 +927,24 @@ form input[type=number]{-webkit-appearance: textfield;-moz-appearance: textfield
   position: absolute;
   top: 10vh;
   right: 4vw;
+}
+#credentials .wrapper .layer-01 .compDots{
+  position: absolute;
+  top: 75vh;
+  right: 6.5vw;
+  width: 51.5vw;
+}
+#credentials .wrapper .layer-01 .compDots span{
+  display: inline-block;
+  margin-right: 0.5vw;
+  width: 0.8vw;
+  height: 0.8vw;
+  border-radius: 50vw;
+  background-color: #C3C8D0;
+}
+#credentials .wrapper .layer-01 .compDots span.active{
+  width: 47vw;
+  background-color: #9BA4B0;
 }
 /* ----- End Desktop ----- */
 /* ----- Mobile ----- */
@@ -953,11 +986,10 @@ form input[type=number]{-webkit-appearance: textfield;-moz-appearance: textfield
   display: block;
   position: absolute;
   z-index: 2;
-  top: 49%;
-  transform: translateY(-50%);
+  top: 10vh;
   left: 30.4vw;
   width: 0.25vw;
-  height: 85%;
+  height: 178vh;
   background-color: #FF7300;
 }
 #timeline .wrapper .layer-02 .content .bg-white{
@@ -984,7 +1016,8 @@ form input[type=number]{-webkit-appearance: textfield;-moz-appearance: textfield
 }
 #timeline .wrapper .layer-02 .content .item .right .wrap{}
 #timeline .wrapper .layer-02 .content .item .right .wrap .logo{
-  width: 49%;
+  margin-right: 1vw;
+  width: 28%;
 }
 /* ----- End Desktop ----- */
 /* ----- Mobile ----- */
@@ -1006,42 +1039,42 @@ form input[type=number]{-webkit-appearance: textfield;-moz-appearance: textfield
 #commitment .wrapper{
   overflow: hidden;
 }
-#commitment .wrapper .ornt.ornt.navy300s{
+#commitment .wrapper .ornt.navy300s{
   top: 0;
   left: 75vw;
   width: 7vw;
   height: 7vw;
 }
-#commitment .wrapper .ornt.ornt.orange500{
+#commitment .wrapper .ornt.orange500{
   top: 22vh;
   left: 50vw;
   width: 3.5vw;
   height: 3.5vw;
   border-radius: 0.5vw;
-  border: 0.3vw solid #FF7300;
+  border: 0.15vw solid #FF7300;
 }
-#commitment .wrapper .ornt.ornt.navy100s{
+#commitment .wrapper .ornt.navy100s{
   top: 28.5vh;
   left: 53.5vw;
   width: 2vw;
   height: 2vw;
   border-radius: 0.5vw;
 }
-#commitment .wrapper .ornt.ornt.orange400{
+#commitment .wrapper .ornt.orange400{
   top: 37vh;
   left: 70vw;
   width: 30vw;
   height: 15vh;
   border-radius: 1.5vw;
-  border: 0.5vw solid #FF8F33;
+  border: 0.15vw solid #FF8F33;
 }
-#commitment .wrapper .ornt.ornt.navy300s.second{
+#commitment .wrapper .ornt.navy300s.second{
   top: 52vh;
   left: 40vw;
   width: 2vw;
   height: 2vw;
 }
-#commitment .wrapper .ornt.ornt.orange600s{
+#commitment .wrapper .ornt.orange600s{
   top: 91.5vh;
   left: 95.5vw;
   width: 3.4vw;
@@ -1049,18 +1082,18 @@ form input[type=number]{-webkit-appearance: textfield;-moz-appearance: textfield
   border-top-right-radius: 0;
   border-bottom-right-radius: 0;
 }
-#commitment .wrapper .ornt.ornt.navy700{
+#commitment .wrapper .ornt.navy700{
   top: 106.5vh;
   left: 91.5vw;
 }
-#commitment .wrapper .ornt.ornt.orange500.second{
+#commitment .wrapper .ornt.orange500.second{
   top: 155vh;
   left: -1vw;
   width: 5vw;
   height: 5vw;
-  border: 0.3vw solid #FF7300;
+  border: 0.15vw solid #FF7300;
 }
-#commitment .wrapper .ornt.ornt.navy100s.second{
+#commitment .wrapper .ornt.navy100s.second{
   top: 165vh;
   left: 4vw;
   width: 5vw;
@@ -1133,15 +1166,16 @@ form input[type=number]{-webkit-appearance: textfield;-moz-appearance: textfield
 #portfolio .wrapper .ornt.navy300s{
   top: 10vh;
   left: 43vw;
-  width: 3.3vw;
-  height: 3.3vw;
+  width: 3.5vw;
+  height: 3.5vw;
+  border-radius: 0.5vw;
 }
 #portfolio .wrapper .ornt.orange500{
   top: 16.4vh;
   left: 40.9vw;
   width: 2.2vw;
   height: 2.2vw;
-  border: 0.3vw solid #FF7300;
+  border: 0.15vw solid #FF7300;
 }
 #portfolio .wrapper .background{}
 #portfolio .wrapper .layer-01{
@@ -1181,6 +1215,16 @@ form input[type=number]{-webkit-appearance: textfield;-moz-appearance: textfield
   position: absolute;
   top: -17vh;
   right: 4vw;
+}
+#portfolio .wrapper .layer-02 .compDots{
+  position: absolute;
+  top: 55vh;
+  left: 1.5vw;
+  width: 86vw;
+}
+#portfolio .wrapper .layer-02 .compDots span{}
+#portfolio .wrapper .layer-02 .compDots span.active{
+  width: 82vw;
 }
 /* ----- End Desktop ----- */
 /* ----- Mobile ----- */

@@ -100,3 +100,34 @@ $(document).ready(function(){
     });
   });
 });
+
+$(document).ready(function() {
+  // Stage Padding Slider
+  $('.stagePadding-01').addClass('owl-carousel owl-theme').owlCarousel({
+    responsiveClass: true,
+    nav: true,
+    dots: true,
+    navText: ["<span class='owl-icon-left-linegold'></span>","<span class='owl-icon-right-linegold'></span>"],
+    responsive:{
+      0:{
+        items: 1,
+        stagePadding: 20,
+        margin: 0
+      },
+      600:{
+        items: 5,
+        stagePadding: 50,
+        margin: 0
+      },
+      1000:{
+        items: 5,
+        stagePadding: 50,
+        margin: 0
+      }
+    }
+  })
+  var navStagePadding01 = $('.stagePadding-01');
+  navStagePadding01.owlCarousel();
+  $('.navStagePadding01PrevBtn').click(function() {navStagePadding01.trigger('prev.owl.carousel');})
+  $('.navStagePadding01NextBtn').click(function() {navStagePadding01.trigger('next.owl.carousel');})
+});
