@@ -1250,7 +1250,33 @@ form input[type=number]{-webkit-appearance: textfield;-moz-appearance: textfield
   transform: unset;
   width: 90vw;
 }
-#gallery .wrapper .layer-01 img{}
+#gallery .wrapper .layer-01 .container{
+  max-width: 100%;
+  width: 100%;
+}
+#gallery .wrapper .layer-01 img{
+  width: 100%;
+  object-fit: cover;
+  border-radius: 1vw;
+}
+#gallery .wrapper .layer-01 .image-01{
+  height: 32vh;
+}
+#gallery .wrapper .layer-01 .image-02{
+  height: 32vh;
+}
+#gallery .wrapper .layer-01 .image-03{
+  height: 71vh;
+}
+#gallery .wrapper .layer-01 .image-04{
+  height: 30vh;
+}
+#gallery .wrapper .layer-01 .image-05{
+  height: 30vh;
+}
+#gallery .wrapper .layer-01 .image-06{
+  height: 63vh;
+}
 /* ----- End Desktop ----- */
 /* ----- Mobile ----- */
 @media screen and (max-width: 846px){}
