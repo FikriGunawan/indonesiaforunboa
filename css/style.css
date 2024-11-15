@@ -4,16 +4,20 @@
 /* ----- Desktop ----- */
 
 /* Public */
-body{background: #EBEDEF;}
+body{
+  background: #EBEDEF;
+  color: #1A1B1C;
+}
 .font-white{color: #FBF9F9;}
 .font-mono200{color: #D7DBDF;}
 .font-mono300{color: #C3C8D0;}
 .font-mono500{color: #9BA4B0;}
 .font-mono600{color: #7F8791;}
 .font-mono700{color: #636972;}
-.font-orange300{color: #FFAB66}
-.font-orange500{color: #FF7300}
-.font-orange700{color: #994500}
+.font-orange300{color: #FFAB66;}
+.font-orange500{color: #FF7300;}
+.font-orange700{color: #994500;}
+.font-orange700{color: #662E00;}
 .font-navy500{color: #133ED8;}
 .bg-white{background-color: #FBF9F9 !important;}
 .bg-mono100{background-color: #EBEDEF;}
@@ -97,8 +101,8 @@ h6.font-mono700.Body-Text:after,h6.font-white.Body-Text:after{content: '';displa
 .font-1_6vw{font-size: 1.6vw;}
 .font-1vw{font-size: 1vw;}
 .font-1vw{font-size: 1vw;}
-h1,h2,h3,h4,h5,h6{margin-bottom: 0;color: #1A1B1C;}
-p,a,label,th,td,li,input,textarea,select{margin-bottom: 0;color: #1A1B1C;}
+h1,h2,h3,h4,h5,h6{margin-bottom: 0;}
+p,a,label,th,td,li,input,textarea,select{margin-bottom: 0;}
 a,a:hover,a[data-toggle="collapse"]{outline: none;color:#1A1B1C;text-decoration: none !important;cursor: pointer;transition: all .5s;}
 b,strong{}
 i{}
@@ -126,6 +130,7 @@ form input[type=number]{-webkit-appearance: textfield;-moz-appearance: textfield
 .mb-3vh{margin-bottom: 3vh;}
 .mb-4vh{margin-bottom: 4vh;}
 .mb-5vh{margin-bottom: 5vh;}
+.mb-8vh{margin-bottom: 8vh;}
 .mb-10vh{margin-bottom: 10vh;}
 .mb-15vh{margin-bottom: 15vh;}
 .objectfit-cover{object-fit: cover;}
@@ -190,6 +195,13 @@ form input[type=number]{-webkit-appearance: textfield;-moz-appearance: textfield
   border-radius: 0.5vw;
   border: 0.15vw solid #0B2582;
 }
+.ornt.navy700s{
+  width: 14vw;
+  height: 14vw;
+  border-radius: 2vw;
+  background-color: #0B2582;
+  border: 0.15vw solid #0B2582;
+}
 .ornt.orange200{
   width: 2.2vw;
   height: 2.2vw;
@@ -200,6 +212,12 @@ form input[type=number]{-webkit-appearance: textfield;-moz-appearance: textfield
   width: 3.5vw;
   height: 3.5vw;
   background-color: transparent;
+  border: 0.15vw solid #FFAB66;
+}
+.ornt.orange300s{
+  width: 2vw;
+  height: 2vw;
+  background-color: #FFAB66;
   border: 0.15vw solid #FFAB66;
 }
 .ornt.orange400{
@@ -295,6 +313,14 @@ form input[type=number]{-webkit-appearance: textfield;-moz-appearance: textfield
 #navigation.change .wrapper .logo .image{
   width: 6.5vw;
   transition: all .3s;
+}
+#navigation .wrapper .logo .image.img-01,
+#navigation.change .wrapper .logo .image.img-02{
+  display: block;
+}
+#navigation.change .wrapper .logo .image.img-01,
+#navigation .wrapper .logo .image.img-02{
+  display: none;
 }
 #navigation .wrapper .menu{
   float: right;
@@ -431,11 +457,17 @@ form input[type=number]{-webkit-appearance: textfield;-moz-appearance: textfield
 #header{}
 #header .wrapper{}
 #header .wrapper .ornt{}
-#header .wrapper .ornt.blue300s{
+#header .wrapper .ornt.orange500s{
   top: 35vh;
   right: 0;
+  width: 23vw;
+  height: 32.5vh;
+  border-top-left-radius: 2vw;
+  border-bottom-left-radius: 2vw;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
 }
-#header .wrapper .ornt.navy500s{
+#header .wrapper .ornt.navy700s{
   top: 58.5vh;
   left: 58.6vw;
 }
@@ -447,7 +479,7 @@ form input[type=number]{-webkit-appearance: textfield;-moz-appearance: textfield
   top: 26vh;
   left: 93vw;
 }
-#header .wrapper .ornt.orange500s{
+#header .wrapper .ornt.orange300s{
   top: 33vh;
   left: 91vw;
 }
@@ -556,17 +588,55 @@ form input[type=number]{-webkit-appearance: textfield;-moz-appearance: textfield
 #chair-statement .wrapper .layer-01 .ornt.blue400s h3{}
 #chair-statement .wrapper .layer-01 .ornt.blue400s p{}
 #chair-statement .wrapper .ornt.navy600s{
-  padding: 14vh 5vw 15vh 4vw;
-  bottom: -5vh;
+  padding: 10vh 11vw 10vh 4vw;
+  top: 32vh;
   right: 0;
   width: 53vw;
-  height: 57vh;
+  height: auto;
   border-top-left-radius: 2vw;
   border-bottom-left-radius: 2vw;
   border-top-right-radius: 0;
   border-bottom-right-radius: 0;
 }
 #chair-statement .wrapper .ornt.navy600s p{}
+#chair-statement .wrapper .button-youtube{
+  display: inline-block;
+  padding: 2vh 1.5vw;
+  width: auto;
+  height: auto;
+  border-radius: 1vw;
+}
+#chair-statement .wrapper .button-youtube:hover{
+  color: #662E00;
+  background-color: #FFAB66;
+  border: 0.15vw solid #FFAB66;
+}
+#youtubeModal{}
+#youtubeModal .modal-dialog{}
+#youtubeModal .modal-dialog,
+#youtubeModal .modal-dialog .modal-content{
+  position: relative;
+  max-width: 100%;
+  width: 100%;
+  max-height: 100%;
+  height: 100vh;
+  margin: 0;
+  background: transparent;
+}
+#youtubeModal .modal-dialog .modal-content{}
+#youtubeModal .modal-dialog .modal-content .close{
+  top: 12.5vh;
+  right: 15.5vw;
+  width: 2.5vw;
+  cursor: pointer;
+}
+#youtubeModal .modal-dialog .modal-content .chair-video{
+  top: 16vh;
+  transform: unset;
+  width: 63vw;
+  height: 70vh;
+  border-radius: 2vw;
+}
 #chair-statement .wrapper .layer-03{
   top: 26vh;
   right: 6.5vw;
@@ -594,7 +664,16 @@ form input[type=number]{-webkit-appearance: textfield;-moz-appearance: textfield
 /* ----- Desktop ----- */
 #board{}
 #board .wrapper{}
-#board .wrapper .background{
+#board .wrapper .sticky-statement{
+  position: relative;
+  width: 100%;
+  height: 150vh;
+}
+#board .wrapper .sticky-statement .background{
+  position: sticky;
+  top: 0;
+  width: 100%;
+  height: 100vh;
   object-fit: cover;
 }
 #board .wrapper .layer-01{
@@ -635,7 +714,7 @@ form input[type=number]{-webkit-appearance: textfield;-moz-appearance: textfield
 /* ----- Desktop ----- */
 #strengths{}
 #strengths .wrapper{
-  height: 120vh;
+  height: 140vh;
 }
 #strengths .wrapper .ornt.orange500{
   top: 17vh;
@@ -654,7 +733,7 @@ form input[type=number]{-webkit-appearance: textfield;-moz-appearance: textfield
 }
 #strengths .wrapper .background-strengths{}
 #strengths .wrapper .layer-01{
-  top: 45%;
+  top: 43%;
   left: 6.5vw;
   width: 55vw;
   height: 80vh;
@@ -664,6 +743,7 @@ form input[type=number]{-webkit-appearance: textfield;-moz-appearance: textfield
   width: 22vw;
 }
 #strengths .wrapper .layer-01 h3{}
+/*  
 #strengths .wrapper .layer-01 .content{
   margin-left: -0.5vw;
 }
@@ -696,11 +776,6 @@ form input[type=number]{-webkit-appearance: textfield;-moz-appearance: textfield
 #strengths .wrapper .layer-01 .content .item.active h4{
   color: #FBF9F9;
 }
-#strengths .wrapper .layer-01 .content .item hr{}
-#strengths .wrapper .layer-01 .content .item:hover hr,
-#strengths .wrapper .layer-01 .content .item.active hr{
-  background-color: #FBF9F9;
-}
 #strengths .wrapper .layer-01 .content .item p{
   float: right;
   width: 88%;
@@ -709,12 +784,19 @@ form input[type=number]{-webkit-appearance: textfield;-moz-appearance: textfield
 #strengths .wrapper .layer-01 .content .item.active p{
   color: #FBF9F9;
 }
+#strengths .wrapper .layer-01 .content .item hr{}
+#strengths .wrapper .layer-01 .content .item:hover hr,
+#strengths .wrapper .layer-01 .content .item.active hr{
+  background-color: #FBF9F9;
+}
+*/
 #strengths .wrapper .layer-02{
-  top: 55%;
-  right: 4vw;
+  top: 63%;
+  right: 5vw;
   width: 31vw;
   height: 80vh;
 }
+/*  
 #strengths .wrapper .layer-02 img{
   width: 80%;
 }
@@ -731,6 +813,7 @@ form input[type=number]{-webkit-appearance: textfield;-moz-appearance: textfield
   top: 52%;
   left: 4%;
 }
+*/
 /* ----- End Desktop ----- */
 /* ----- Mobile ----- */
 @media screen and (max-width: 846px){}
@@ -908,43 +991,44 @@ form input[type=number]{-webkit-appearance: textfield;-moz-appearance: textfield
 #credentials .wrapper .layer-01 h2{
   width: 22vw;
 }
-#credentials .wrapper .layer-01 .content{
-  width: 112vw;
-}
+#credentials .wrapper .layer-01 .content{}
 #credentials .wrapper .layer-01 .content .item{
-  margin-right: 2vw;
-  width: 20vw;
+  padding: 0 1vw;
+}
+#credentials .wrapper .layer-01 .content .item .wrap{
   height: 20vw;
   border-radius: 2vw;
 }
-#credentials .wrapper .layer-01 .content .item .icon{
+#credentials .wrapper .layer-01 .content .item .wrap .icon{
   width: 17vw;
 }
-#credentials .wrapper .layer-01 .content .item h3{
+#credentials .wrapper .layer-01 .content .item .wrap h3{
   width: 13vw;
 }
-#credentials .wrapper .layer-01 .compArrow{
-  position: absolute;
-  top: 10vh;
-  right: 4vw;
-}
-#credentials .wrapper .layer-01 .compDots{
-  position: absolute;
-  top: 75vh;
-  right: 6.5vw;
+#credentials .wrapper .layer-01 .content.stagePadding-01 .owl-stage{padding-left:0px !important;}
+#credentials .wrapper .layer-01 .content.stagePadding-01 .owl-dots{
   width: 51.5vw;
+  text-align: left;
 }
-#credentials .wrapper .layer-01 .compDots span{
-  display: inline-block;
+#credentials .wrapper .layer-01 .content.stagePadding-01 .owl-dots .owl-dot{outline: none !important;}
+#credentials .wrapper .layer-01 .content.stagePadding-01 .owl-dots .owl-dot span{
   margin-right: 0.5vw;
   width: 0.8vw;
   height: 0.8vw;
   border-radius: 50vw;
   background-color: #C3C8D0;
 }
-#credentials .wrapper .layer-01 .compDots span.active{
-  width: 47vw;
-  background-color: #9BA4B0;
+#credentials .wrapper .layer-01 .content.stagePadding-01 .owl-dots .owl-dot.active span{
+  width: 47vw !important;
+  background-color: #9BA4B0 !important;
+}
+#credentials .wrapper .layer-01 .content.stagePadding-01 .owl-dots .owl-dot:hover span{
+  background-color: #9BA4B0 !important;
+}
+#credentials .wrapper .layer-01 .compArrow{
+  position: absolute;
+  top: 10vh;
+  right: 4vw;
 }
 /* ----- End Desktop ----- */
 /* ----- Mobile ----- */
@@ -964,15 +1048,25 @@ form input[type=number]{-webkit-appearance: textfield;-moz-appearance: textfield
 /* ----- Desktop ----- */
 #timeline{}
 #timeline .wrapper{}
+ 
 #timeline .wrapper .layer-01{
-  margin: 10vh auto 25vh;
+  margin: 10vh auto 10vh;
   width: 90vw;
 }
-#timeline .wrapper .layer-02{
-  margin-bottom: 15vh;
+#timeline .wrapper .sticky-statement{
+  position: relative;
+  width: 100%;
+  height: 250vh;
 }
-#timeline .wrapper .layer-02 .background{
-  top: -15vh;
+#timeline .wrapper .sticky-statement .background{
+  position: sticky;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  object-fit: contain;
+}
+#timeline .wrapper .layer-02{
+  top: -32%;
 }
 #timeline .wrapper .layer-02 .content{
   margin: 0 auto;

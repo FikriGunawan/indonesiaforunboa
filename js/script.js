@@ -105,9 +105,10 @@ $(document).ready(function() {
   // Stage Padding Slider
   $('.stagePadding-01').addClass('owl-carousel owl-theme').owlCarousel({
     responsiveClass: true,
-    nav: true,
+    nav: false,
     dots: true,
-    navText: ["<span class='owl-icon-left-linegold'></span>","<span class='owl-icon-right-linegold'></span>"],
+    loop: true,
+    autoplay: true,
     responsive:{
       0:{
         items: 1,
@@ -115,13 +116,13 @@ $(document).ready(function() {
         margin: 0
       },
       600:{
-        items: 5,
-        stagePadding: 50,
+        items: 2,
+        stagePadding: 100,
         margin: 0
       },
       1000:{
-        items: 5,
-        stagePadding: 50,
+        items: 2,
+        stagePadding: 100,
         margin: 0
       }
     }

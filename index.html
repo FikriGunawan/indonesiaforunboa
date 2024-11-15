@@ -16,6 +16,7 @@
     <!-- Owl Carousel --> <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <!-- Custom CSS -->
   <link rel="stylesheet" href="css/style.css" />
+  <script type="text/javascript" src="card-section.js" defer="defer" data-wp-strategy="defer"></script>
 </head>
 <body>
 
@@ -24,7 +25,8 @@
     <div class="row">
       <div class="col-lg-12 p-0 position-relative wrapper">
         <div class="boxl logo">
-          <img class="img-fluid image" src="images/indonesia-for-un-boa.png" alt="Indonesia for UNBoA" />
+          <img class="img-fluid image img-01" src="images/indonesia-for-un-boa-white.png" alt="Indonesia for UNBoA" />
+          <img class="img-fluid image img-02" src="images/indonesia-for-un-boa.png" alt="Indonesia for UNBoA" />
         </div>
         <div class="menu">
           <ul>
@@ -58,11 +60,11 @@
   <section id="header" class="container-fluid">
     <div class="row">
       <div class="col-lg-12 p-0 position-relative vh-100 wrapper">
-        <div class="position-absolute ornt blue300s"></div>
-        <div class="position-absolute ornt navy500s"></div>
+        <div class="position-absolute ornt orange500s"></div>
+        <div class="position-absolute ornt navy700s"></div>
         <div class="position-absolute ornt navy100s"></div>
         <div class="position-absolute ornt orange300"></div>
-        <div class="position-absolute ornt orange500s"></div>
+        <div class="position-absolute ornt orange300s"></div>
         <div class="position-absolute ornt orange200"></div>
         <div class="boxl layer-01">
           <h1 class="mb-5vh"><span class="d-block font-white Decorative-Headline">Strategic Partner for</span><span class="d-block font-white Decorative-Headline-2">Better Governance</span></h1>
@@ -98,11 +100,15 @@
           </div>
         </div>
         <div class="position-absolute ornt navy600s">
-          <p class="font-white Body-LargeDecorative">We are highly confident that the election of BPK as the External Auditor of the UN BOA will enhance UN governance system by bridging stakeholders’ trust and management’s transparency.</p>
+          <p class="font-white mb-5vh Body-LargeDecorative">We are highly confident that the election of BPK as the External Auditor of the UN BOA will enhance UN governance system by bridging stakeholders’ trust and management’s transparency.</p>
+          <p class="font-white mb-5vh Body-Text">“VOTE FOR THE AUDIT BOARD OF THE REPUBLIC OF INDONESIA AS A MEMBER OF THE UN BOARD OF AUDITORS FOR THE PERIOD OF 2026-2032”​​</p>
+          <a class="button-youtube ornt orange500s font-white Body-TextBold" data-bs-toggle="modal" data-bs-target="#youtubeModal">Watch Statement Video</a>
         </div>
+        <!--  
         <div class="position-absolute layer-03">
           <iframe class="chair-video w-100 h-100" src="https://www.youtube.com/embed/85drSvxAKO8?si=OIst-WArq5dTHdtG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </div>
+        -->
       </div>
     </div>
   </section>
@@ -114,19 +120,23 @@
   <!-- Section Board -->
   <section id="board" class="container-fluid">
     <div class="row">
-      <div class="col-lg-12 p-0 position-relative vh-100 wrapper">
-        <img class="img-fluid position-absolute top-0 start-0 w-100 h-100 background" src="images/background-board.jpg" alt="Indonesia for UNBoA" />
-        <div class="boxr layer-01">
-          <h2 class="d-block font-white Headline-Hero">The Audit Board</h2>
-          <h3 class="d-block font-white Headline-ExtraLarge">Republic of Indonesia</h3>
-          <a class="d-inline-block font-white Body-TextBold" href="#strengths">INDEPENDENT POSITION</a>
-          <a class="d-inline-block font-white Body-TextBold" href="#employees">BPK TEAM SIZE</a>
-          <a class="d-inline-block font-white Body-TextBold" href="#commitment">COMMITMENT</a>
-          <a class="d-inline-block font-white Body-TextBold" href="#tools">MODERN & RISK-BASED AUDIT</a>
-          <a class="d-inline-block font-white Body-TextBold" href="#credentials">PROFESSIONAL CERTIFICATIONS</a>
-          <a class="d-inline-block font-white Body-TextBold" href="#timeline">INTERNATIONAL ENGAGEMENT</a>
-          <a class="d-inline-block font-white Body-TextBold" href="#portfolio">INTERNATIONAL EXPERIENCE</a>
+      <div class="col-lg-12 p-0 position-relative wrapper">
+
+        <div class="sticky-statement">
+          <img class="img-fluid background" src="images/background-board.jpg" alt="Indonesia for UNBoA" />  
+          <div class="boxr layer-01">
+            <h2 class="d-block font-white Headline-Hero">The Audit Board</h2>
+            <h3 class="d-block font-white Headline-ExtraLarge">Republic of Indonesia</h3>
+            <a class="d-inline-block font-white Body-TextBold" href="#strengths">INDEPENDENT POSITION</a>
+            <a class="d-inline-block font-white Body-TextBold" href="#employees">BPK TEAM SIZE</a>
+            <a class="d-inline-block font-white Body-TextBold" href="#commitment">COMMITMENT</a>
+            <a class="d-inline-block font-white Body-TextBold" href="#tools">MODERN & RISK-BASED AUDIT</a>
+            <a class="d-inline-block font-white Body-TextBold" href="#credentials">PROFESSIONAL CERTIFICATIONS</a>
+            <a class="d-inline-block font-white Body-TextBold" href="#timeline">INTERNATIONAL ENGAGEMENT</a>
+            <a class="d-inline-block font-white Body-TextBold" href="#portfolio">INTERNATIONAL EXPERIENCE</a>
+          </div>
         </div>
+
       </div>
     </div>
   </section>
@@ -139,43 +149,338 @@
         <div class="position-absolute z-1 ornt orange500"></div>
         <div class="position-absolute z-1 ornt navy400s"></div>
         <img class="img-fluid position-absolute top-0 w-100 background-strengths" src="images/background-section-strengths.jpg" alt="Indonesia for UNBoA" />
-        <div class="boxl layer-01">
-          <h6 class="position-relative d-inline-block mb-2vh pb-1vh font-mono700 Body-Text">Our Strengths</h6>
-          <h2 class="d-block mb-3vh Headline-BoldXL">Independent Position</h2>
-          <h3 class="d-inline-block mb-4vh font-orange500 Body-BoldLarge">1945 Indonesian Constitution</h3>
-          <div class="position-relative d-block content">
-            <div class="d-inline-block item">
-              <h5 class="d-inline-block text-start font-mono600 Body-TextBold">01</h5>
-              <h4 class="d-inline-block font-mono600 Subtitle">Audit Board</h4>
-              <hr class="bg-mono600" />
-              <p class="font-mono600 Body-Text">Head Office & 34 Representative Offices</p>
+        <style>
+          .my-\[160px\]{margin-top: 160px;margin-bottom: 160px;}
+          .grid{display: grid;}
+          .grid-cols-1{grid-template-columns: repeat(1, minmax(0, 1fr));}
+          .grid-cols-12{grid-template-columns: repeat(12, minmax(0, 1fr));}
+          .grid-flow-dense{grid-auto-flow: dense;}
+          .gap-x-5{-moz-column-gap: 1.25rem;column-gap: 1.25rem;}
+          .gap-y-\[60px\]{row-gap: 60px;}
+          .col-span-12{grid-column: span 12 / span 12;}
+          .group:hover .group-hover\:translate-x-0{--tw-translate-x: 0px;transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));}
+          .group:hover .group-hover\:pl-5{padding-left: 1.25rem;}
+          html.no-touch .group:hover .no-touch\:group-hover\:translate-x-full{--tw-translate-x: 100%;transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));}
+          html.no-touch .group:hover .no-touch\:group-hover\:text-stone-300{--tw-text-opacity: 1;color: rgb(196 196 196 / var(--tw-text-opacity));}
+          .col-span-1{grid-column: span 1 / span 1;}
+          .transition-colors{transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);transition-duration: 150ms;}
+          .relative{position: relative;}
+          .border-b{border-bottom-width: 1px;}
+          .border-stone-300{--tw-border-opacity: 1;border-color: rgb(196 196 196 / var(--tw-border-opacity));}
+          .block{display: block;}
+          .absolute{position: absolute;}
+          .w-full{width: 100%;}
+          .-bottom-px{bottom: -1px;}
+          .h-px{height: 1px;}
+          .bg-gray-700{--tw-bg-opacity: 1;background-color: rgb(55 71 79 / var(--tw-bg-opacity));}
+          .text-balance{text-wrap: balance;}
+          .tracking-\[-\.36px\]{letter-spacing: -.36px;}
+          .text-pretty{text-wrap: pretty;}
+          .\[\&_\.swiper-slide\]\:\!w-\[calc\(100vw-60px\)\] .swiper-slide{width: calc(100vw - 60px) !important;}
+          .md\:\[\&_\.swiper-slide\]\:\!w-\[calc\(33\.3333\%\)\] .swiper-slide{width: calc(33.3333%) !important;}
+          .md\:\[\&_\.swiper-slide\]\:\!w-\[calc\(41\.66\%\)\] .swiper-slide{width: calc(41.66%) !important;}
+          .rounded-lg{border-radius: 0.5rem;}
+          .overflow-hidden{overflow: hidden;}
+          .bg-cover{background-size: cover;}
+          .bg-center{background-position: center;}
+          .aspect-\[5\/6\]{aspect-ratio: 5/6;}
+          .bg-gray-300{--tw-bg-opacity: 1;background-color: rgb(209 213 219 / var(--tw-bg-opacity));}
+          .bg-no-repeat{background-repeat: no-repeat;}
+          .md\:col-span-5{grid-column: span 5 / span 5;}
+          .md\:col-span-7{grid-column: span 7 / span 7;}
+          .md\:pr-10{padding-right: 2.5rem;}
+          .md\:order-first{order: -9999;}
+          .md\:order-last{order: 9999;}
+          .md\:tracking-\[-\.8px\]{letter-spacing: -.8px;}
+          .group:hover .md\:group-hover\:z-20{z-index: 20;}
+          .group:hover .md\:group-hover\:pr-5{padding-right: 1.25rem;}
+          .group:hover .md\:group-hover\:opacity-100{opacity: 1;}
+          .group:hover .md\:group-hover\:drop-shadow-\[0_5px_5px_\#37474F\]{--tw-drop-shadow: drop-shadow(0 5px 5px #37474F);filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);}
+          .lg\:gap-y-\[80px\]{row-gap: 80px;}
+          .lg\:grid-cols-2{grid-template-columns: repeat(2, minmax(0, 1fr));}
+          #strengths .wrapper .strWrapper{
+            padding: 10vh 6.5vw;
+          }
+          #strengths .wrapper .strWrapper .layer-01{}
+          #strengths .wrapper .strWrapper .layer-01 .strTextWrap{}
+          #strengths .wrapper .strWrapper .layer-01 .strTextWrap .item{
+            margin: 0 0.5vw -5vh;
+            padding: 5vh 2.5vw;
+            width: 25vw;
+            text-align: right;
+            border-radius: 2vw;
+            background-color: transparent;
+            cursor: pointer;
+            transition: all .5s;
+          }
+          #strengths .wrapper .strWrapper .layer-01 .strTextWrap .item:hover,
+          #strengths .wrapper .strWrapper .layer-01 .strTextWrap .item.active{
+            background-color: #133ED8;
+            transition: all .5s;
+          }
+          #strengths .wrapper .strWrapper .layer-01 .strTextWrap .item .strTextHeading{
+            position: relative;
+            margin-bottom: 3vh;
+            padding-bottom: 3vh;
+            border-bottom-width: 1px;
+            --tw-border-opacity: 1;
+            border-color: rgb(196 196 196 / var(--tw-border-opacity));
+          }
+          #strengths .wrapper .strWrapper .layer-01 .strTextWrap .item .strTextHeading h5{
+            width: 20%;
+          }
+          #strengths .wrapper .strWrapper .layer-01 .strTextWrap .item:hover h5,
+          #strengths .wrapper .strWrapper .layer-01 .strTextWrap .item.active h5{
+            color: #FBF9F9;
+          }
+          #strengths .wrapper .strWrapper .layer-01 .strTextWrap .item .strTextHeading h4{
+            width: 78%;
+          }
+          #strengths .wrapper .strWrapper .layer-01 .strTextWrap .item:hover h4,
+          #strengths .wrapper .strWrapper .layer-01 .strTextWrap .item.active h4{
+            color: #FBF9F9;
+          }
+          #strengths .wrapper .strWrapper .layer-01 .strTextWrap .item .strTextBrief{
+            float: right;
+            width: 88%;
+          }
+          #strengths .wrapper .strWrapper .layer-01 .strTextWrap .item:hover .strTextBrief,
+          #strengths .wrapper .strWrapper .layer-01 .strTextWrap .item.active .strTextBrief{
+            color: #FBF9F9;
+          }
+          #strengths .wrapper .strWrapper .layer-01 .strTextWrap .item .strTextHeading .Line{
+            display: none;
+            position: absolute;
+            bottom: -1px;
+            width: 100%;
+          }
+          #strengths .wrapper .strWrapper .layer-01 .strTextWrap .item .strTextHeading .Line .LineMove{
+            height: 1px;
+            --tw-bg-opacity: 1;
+            background-color: rgb(55 71 79 / var(--tw-bg-opacity));
+          }
+          #strengths .wrapper .strWrapper .layer-01 .strTextWrap .item .strTextHeading .LineStay{
+            display: block;
+            position: absolute;
+            bottom: -1px;
+            width: 100%;
+            height: 0.1px;
+            --tw-bg-opacity: 1;
+            background-color: rgb(55 71 79 / var(--tw-bg-opacity));
+          }
+          #strengths .wrapper .strWrapper .layer-01 .strTextWrap .item:hover .strTextHeading .Line .LineMove,
+          #strengths .wrapper .strWrapper .layer-01 .strTextWrap .item.active .strTextHeading .Line .LineMove,
+          #strengths .wrapper .strWrapper .layer-01 .strTextWrap .item:hover .strTextHeading .LineStay,
+          #strengths .wrapper .strWrapper .layer-01 .strTextWrap .item.active .strTextHeading .LineStay{
+            background-color: #FBF9F9;
+          }
+        </style>
+            <div class="strWrapper">
+              <div class="container-fluid">
+                <div x-data="xSlider02wrap" x-intersect:enter="inViewport = true" x-intersect:leave="inViewport = false" class="row">
+          
+                  <!-- Text -->
+                  <div class="boxl layer-01">
+                    <h6 class="position-relative d-inline-block mb-2vh pb-1vh font-mono700 Body-Text">Our Strengths</h6>
+                    <h2 class="d-block mb-3vh Headline-BoldXL">Independent Position</h2>
+                    <h3 class="d-inline-block mb-5vh font-orange500 Body-BoldLarge">1945 Indonesian Constitution</h3>
+                    <div x-on:mouseenter="hasHover = true" x-on:mouseleave="hasHover = false" class="group grid grid-cols-1 lg:grid-cols-2 grid-flow-dense gap-x-5 gap-y-[60px] lg:gap-y-[80px] strTextWrap">
+                      
+                      <!-- Item 1 -->
+                      <div x-data="{ slideIndex: 0 }" x-init="slideIndex = parseInt($el.getAttribute('data-slide-index'))" data-slide-index="0" class="d-inline-block item transition-colors" x-bind:class="{ 'no-touch:group-hover:text-stone-300': activeSlideIndex !== slideIndex }" x-on:mouseenter="activeSlideIndex = slideIndex">
+                        <div class="strTextHeading">
+                          <h5 class="d-inline-block text-start Body-TextBold">01</h5>
+                          <h4 class="d-inline-block Subtitle">Audit Board</h4>
+                          <div x-show="activeSlideIndex === slideIndex" class="Line">
+                            <div class="LineMove" x-bind:style="{ width: timeoutPercent * 100 + '%' }"></div>
+                          </div>
+                          <div class="LineStay"></div>
+                        </div>
+                        <p class="Body-Text strTextBrief">Head Office & 34 Representative Offices</p>
+                      </div>
+                      <!-- End Item 1 -->
+                      
+                      <!-- Item 2 -->
+                      <div x-data="{ slideIndex: 0 }" x-init="slideIndex = parseInt($el.getAttribute('data-slide-index'))" data-slide-index="1" class="d-inline-block item transition-colors" x-bind:class="{ 'no-touch:group-hover:text-stone-300': activeSlideIndex !== slideIndex }" x-on:mouseenter="activeSlideIndex = slideIndex">
+                        <div class="strTextHeading">
+                          <h5 class="d-inline-block text-start Body-TextBold">02</h5>
+                          <h4 class="d-inline-block Subtitle">Legislative</h4>
+                          <div x-show="activeSlideIndex === slideIndex" class="Line">
+                            <div class="LineMove" x-bind:style="{ width: timeoutPercent * 100 + '%' }"></div>
+                          </div>
+                          <div class="LineStay"></div>
+                        </div>
+                        <p class="Body-Text strTextBrief">542 Central & Local Legislative bodies</p>
+                      </div>
+                      <!-- End Item 2 -->
+                      
+                      <!-- Item 3 -->
+                      <div x-data="{ slideIndex: 0 }" x-init="slideIndex = parseInt($el.getAttribute('data-slide-index'))" data-slide-index="2" class="d-inline-block item transition-colors" x-bind:class="{ 'no-touch:group-hover:text-stone-300': activeSlideIndex !== slideIndex }" x-on:mouseenter="activeSlideIndex = slideIndex">
+                        <div class="strTextHeading">
+                          <h5 class="d-inline-block text-start Body-TextBold">03</h5>
+                          <h4 class="d-inline-block Subtitle">Executive</h4>
+                          <div x-show="activeSlideIndex === slideIndex" class="Line">
+                            <div class="LineMove" x-bind:style="{ width: timeoutPercent * 100 + '%' }"></div>
+                          </div>
+                          <div class="LineStay"></div>
+                        </div>
+                        <p class="Body-Text strTextBrief">President Office, 87 Ministries & Local Governments</p>
+                      </div>
+                      <!-- End Item 3 -->
+                      
+                      <!-- Item 4 -->
+                      <div x-data="{ slideIndex: 0 }" x-init="slideIndex = parseInt($el.getAttribute('data-slide-index'))" data-slide-index="3" class="d-inline-block item transition-colors" x-bind:class="{ 'no-touch:group-hover:text-stone-300': activeSlideIndex !== slideIndex }" x-on:mouseenter="activeSlideIndex = slideIndex">
+                        <div class="strTextHeading">
+                          <h5 class="d-inline-block text-start Body-TextBold">04</h5>
+                          <h4 class="d-inline-block Subtitle">Judicative</h4>
+                          <div x-show="activeSlideIndex === slideIndex" class="Line">
+                            <div class="LineMove" x-bind:style="{ width: timeoutPercent * 100 + '%' }"></div>
+                          </div>
+                          <div class="LineStay"></div>
+                        </div>
+                        <p class="Body-Text strTextBrief">Supreme Court, High Courts, & Municipal Court</p>
+                      </div>
+                      <!-- End Item 4 -->
+                    </div>
+                  </div>
+                  <!-- End Text -->
+          
+                  <!-- Image -->
+                  <div class="boxr layer-02">
+          
+                    <!-- Image Content -->
+                    <div x-data="xSlider02" x-ref="sliderData">
+                      <div class="swiper">
+                        <div class="swiper-wrapper">
+          
+                          <!-- Item 1 -->
+                          <div class="swiper-slide rounded-lg overflow-hidden">
+                            <div x-data="xLazyBackground" x-init="loadImage" data-image-url="images/audit-board.png" x-bind:style="{ background: shown ? null : 'linear-gradient(to right, #0A833E, #6D767B)' }" class="bg-center bg-cover overflow-hidden transition-background" style="background: linear-gradient(to right, #0A833E, #6D767B)">
+                              <div x-ref="image" x-bind:style="{backgroundImage: loaded ? `url(${imageUrl})` : null,opacity: opacity}" class="aspect-[5/6] bg-gray-300 bg-cover bg-center bg-no-repeat"></div>
+                            </div>
+                          </div>
+                          <!-- Item 1 -->
+          
+                          <!-- Item 2 -->
+                          <div class="swiper-slide rounded-lg overflow-hidden">
+                            <div x-data="xLazyBackground" x-init="loadImage" data-image-url="images/legislative.png" x-bind:style="{ background: shown ? null : 'linear-gradient(to right, #77747F, #888332)' }" class="bg-center bg-cover overflow-hidden transition-background" style="background: linear-gradient(to right, #77747F, #888332)">
+                              <div x-ref="image" x-bind:style="{backgroundImage: loaded ? `url(${imageUrl})` : null,opacity: opacity}" class="aspect-[5/6] bg-gray-300 bg-cover bg-center bg-no-repeat"></div>
+                            </div>
+                          </div>
+                          <!-- Item 2 -->
+          
+                          <!-- Item 3 -->
+                          <div class="swiper-slide rounded-lg overflow-hidden">
+                            <div x-data="xLazyBackground" x-init="loadImage" data-image-url="images/executive.png" x-bind:style="{ background: shown ? null : 'linear-gradient(to right, #564033, #6C7E8C)' }" class="bg-center bg-cover overflow-hidden transition-background" style="background: linear-gradient(to right, #564033, #6C7E8C)">
+                              <div x-ref="image" x-bind:style="{backgroundImage: loaded ? `url(${imageUrl})` : null,opacity: opacity}" class="aspect-[5/6] bg-gray-300 bg-cover bg-center bg-no-repeat"></div>
+                            </div>
+                          </div>
+                          <!-- Item 3 -->
+          
+                          <!-- Item 4 -->
+                          <div class="swiper-slide rounded-lg overflow-hidden">
+                            <div x-data="xLazyBackground" x-init="loadImage" data-image-url="images/judicative.png" x-bind:style="{ background: shown ? null : 'linear-gradient(to right, #8692AA, #5F7374)' }" class="bg-center bg-cover overflow-hidden transition-background" style="background: linear-gradient(to right, #8692AA, #5F7374)">
+                              <div x-ref="image" x-bind:style="{backgroundImage: loaded ? `url(${imageUrl})` : null,opacity: opacity}" class="aspect-[5/6] bg-gray-300 bg-cover bg-center bg-no-repeat"></div>
+                            </div>
+                          </div>
+                          <!-- Item 4 -->
+          
+                        </div>
+                      </div>
+                    </div>
+                    <!-- End Image Content -->
+          
+                    <!-- Script -->
+                    <script>
+                      function xSlider02() {
+                        return {
+                          swiper: null,
+                          init: function () {
+                            this.swiper = new Swiper(this.$el.querySelector('.swiper'), {
+                              direction: 'horizontal',
+                              loop: false,
+                              slidesPerView: 1,
+                              effect: 'creative',
+                              creativeEffect: {
+                                prev: {
+                                  shadow: true,
+                                  translate: [0, 0, -400],
+                                },
+                                next: {
+                                  translate: ["100%", "100%", 0],
+                                  rotate: [0, 0, 45],
+                                  origin: 'right bottom',
+                                },
+                              },
+                              on: {
+                                slideChange: (swiper) => {
+                                  this.activeSlideIndex = swiper.activeIndex;
+                                  this.timeoutPercent = 0;
+                                }
+                              }
+                            });
+                            this.slidesCount = this.swiper.slides.length;
+                            this.$watch('activeSlideIndex', (slideIndex) => {
+                              if (this.swiper.activeIndex === slideIndex) {
+                                return;
+                              }
+                              this.swiper.slideTo(slideIndex);
+                            });
+                          }
+                        }
+                      }
+                    </script>
+                    <!-- End Script -->
+          
+                  </div>
+                  <!-- End Image -->
+                   
+                </div>
+          
+                <!-- Script -->
+                <script>
+                  function xSlider02wrap() {
+                    return {
+                      slidesCount: 1,
+                      activeSlideIndex: 0,
+                      timeoutDuration: 3000,
+                      timeoutPercent: 0,
+                      refreshInterval: 50,
+                      hasHover: false,
+                      inViewport: false,
+                      init: function () {
+                        setInterval(() => {
+                          if (this.hasHover) {
+                            this.timeoutPercent = .0;
+                            return;
+                          }
+                          if (!this.inViewport) {
+                            this.timeoutPercent = 0;
+                            return;
+                          }
+                          if (document.documentElement.classList.contains('touch')) {
+                            this.timeoutPercent = 0;
+                            return;
+                          }
+                          if (this.timeoutPercent > 1) {
+                            this.timeoutPercent = 0;
+                            if (this.activeSlideIndex + 1 <= this.slidesCount - 1) {
+                              this.activeSlideIndex++;
+                            } else {
+                              this.activeSlideIndex = 0;
+                            }
+                          }
+                          this.timeoutPercent += this.refreshInterval / this.timeoutDuration;
+                        }, this.refreshInterval)
+                      }
+                    }
+                  }
+                </script>
+                <!-- End Script -->
+          
+              </div>
             </div>
-            <div class="d-inline-block item">
-              <h5 class="d-inline-block text-start font-mono600 Body-TextBold">02</h5>
-              <h4 class="d-inline-block font-mono600 Subtitle">Legislative</h4>
-              <hr class="bg-mono600" />
-              <p class="font-mono600 Body-Text">542 Central & Local Legislative bodies</p>
-            </div>
-            <div class="d-inline-block item">
-              <h5 class="d-inline-block text-start font-mono600 Body-TextBold">03</h5>
-              <h4 class="d-inline-block font-mono600 Subtitle">Executive</h4>
-              <hr class="bg-mono600" />
-              <p class="font-mono600 Body-Text">President Office, 87 Ministries & Local Governments</p>
-            </div>
-            <div class="d-inline-block item">
-              <h5 class="d-inline-block text-start font-mono600 Body-TextBold">04</h5>
-              <h4 class="d-inline-block font-mono600 Subtitle">Judicative</h4>
-              <hr class="bg-mono600" />
-              <p class="font-mono600 Body-Text">Supreme Court, High Courts, & Municipal Court</p>
-            </div>
-          </div>
-        </div>
-        <div class="boxr layer-02">
-          <img class="img-fluid boxc image-01 z-4" src="images/audit-board.png" alt="Indonesia for UNBoA" />
-          <img class="img-fluid boxc image-02 z-3" src="images/legislative.png" alt="Indonesia for UNBoA" />
-          <img class="img-fluid boxc image-03 z-2" src="images/executive.png" alt="Indonesia for UNBoA" />
-          <img class="img-fluid boxc image-04 z-1" src="images/judicative.png" alt="Indonesia for UNBoA" />
-        </div>
+
       </div>
     </div>
   </section>
@@ -260,37 +565,46 @@
         <div class="position-absolute end-0 layer-01">
           <h6 class="position-relative d-inline-block mb-2vh pb-1vh font-mono700 Body-Text">Credentials</h6>
           <h2 class="d-block mb-5vh Headline-BoldXL">Professional Certifications</h2>
-          <div class="content">
-            <div class="position-relative d-inline-block align-top bg-navy100 text-center item">
-              <img class="img-fluid boxc icon" src="images/icon/credentials.png" alt="Indonesia for UNBoA" />
-              <h3 class="boxc Body-Large">Certified Fraud Examiner</h3>
+          <div class="stagePadding-01 owl-theme content">
+            <div class="item">
+              <div class="position-relative bg-navy100 text-center mb-5vh wrap">
+                <img class="img-fluid boxc icon" src="images/icon/credentials.png" alt="Indonesia for UNBoA" />
+                <h3 class="boxc Body-Large">Certified Fraud Examiner</h3>
+              </div>
             </div>
-            <div class="position-relative d-inline-block align-top bg-navy100 text-center item">
-              <img class="img-fluid boxc icon" src="images/icon/credentials.png" alt="Indonesia for UNBoA" />
-              <h3 class="boxc Body-Large">Certified Public Accountant</h3>
+            <div class="item">
+              <div class="position-relative bg-navy100 text-center mb-5vh wrap">
+                <img class="img-fluid boxc icon" src="images/icon/credentials.png" alt="Indonesia for UNBoA" />
+                <h3 class="boxc Body-Large">Certified Public Accountant</h3>
+              </div>
             </div>
-            <div class="position-relative d-inline-block align-top bg-navy100 text-center item">
-              <img class="img-fluid boxc icon" src="images/icon/credentials.png" alt="Indonesia for UNBoA" />
-              <h3 class="boxc Body-Large">Certified Systems Auditor</h3>
+            <div class="item">
+              <div class="position-relative bg-navy100 text-center mb-5vh wrap">
+                <img class="img-fluid boxc icon" src="images/icon/credentials.png" alt="Indonesia for UNBoA" />
+                <h3 class="boxc Body-Large">Certified Systems Auditor</h3>
+              </div>
             </div>
-            <div class="position-relative d-inline-block align-top bg-navy100 text-center item">
-              <img class="img-fluid boxc icon" src="images/icon/credentials.png" alt="Indonesia for UNBoA" />
-              <h3 class="boxc Body-Large">Certified International Auditing</h3>
+            <div class="item">
+              <div class="position-relative bg-navy100 text-center mb-5vh wrap">
+                <img class="img-fluid boxc icon" src="images/icon/credentials.png" alt="Indonesia for UNBoA" />
+                <h3 class="boxc Body-Large">Certified International Auditing</h3>
+              </div>
             </div>
-            <div class="position-relative d-inline-block align-top bg-navy100 text-center item">
-              <img class="img-fluid boxc icon" src="images/icon/credentials.png" alt="Indonesia for UNBoA" />
-              <h3 class="boxc Body-Large">Certified in International Public Sector Accounting Standards</h3>
+            <div class="item">
+              <div class="position-relative bg-navy100 text-center mb-5vh wrap">
+                <img class="img-fluid boxc icon" src="images/icon/credentials.png" alt="Indonesia for UNBoA" />
+                <h3 class="boxc Body-Large">Certified in International Public Sector Accounting Standards</h3>
+              </div>
             </div>
           </div>
           <div class="compArrow">
-            <a class="position-relative d-inline-block align-middle wrap left">
+            <a class="position-relative d-inline-block align-middle wrap left navStagePadding01PrevBtn">
               <img class="img-fluid boxc" src="images/icon/arrow-left.svg" alt="Indonesia for UNBoA" />
             </a>
-            <a class="position-relative d-inline-block align-middle wrap right">
+            <a class="position-relative d-inline-block align-middle wrap right navStagePadding01NextBtn">
               <img class="img-fluid boxc" src="images/icon/arrow-right.svg" alt="Indonesia for UNBoA" />
             </a>
           </div>
-          <div class="compDots"><span class="active"></span><span></span><span></span></div>
         </div>
       </div>
     </div>
@@ -303,7 +617,100 @@
   <!-- Section Timeline -->
   <section id="timeline" class="container-fluid">
     <div class="row">
-      <div class="col-lg-12 position-relative wrapper">
+      <div class="col-lg-12 p-0 position-relative wrapper">
+        <div class="position-relative text-center layer-01">
+          <h6 class="position-relative d-inline-block mb-2vh pb-1vh font-mono700 Body-Text">Timeline</h6>
+          <h2 class="d-block Headline-BoldXL">International Engagement</h2>
+        </div>
+        <div class="sticky-statement">
+          <img class="img-fluid background" src="images/background-timeline.png" alt="Indonesia for UNBoA" />
+          <div class="position-relative layer-02">
+            <div class="position-relative content">
+              <div class="position-absolute top-0 start-0 w-100 h-100 bg-white"></div>
+              <div class="position-relative z-3 d-block pb-5vh w-100 item">
+                <div class="d-inline-block align-top text-end left">
+                  <h3 class="mb-3vh Subtitle-Hero">2014 - 2016</h3>
+                  <h3 class="mb-3vh Subtitle-Hero">2017 - 2019</h3>
+                </div>
+                <div class="d-inline-block align-top right">
+                  <div class="mb-3vh wrap">
+                    <img class="img-fluid d-inline-block mb-3vh logo" src="images/intosai-logo.png" alt="Indonesia for UNBoA" />
+                    <h4 class="Body-Large">Chaired INTOSAI Working Group on Environmental Auditing (WGEA),</h4>
+                    <p class="font-mono600 Body-Text">the largest working group in INTOSAI with 78 members</p>
+                  </div>
+                  <div class="mb-3vh wrap">
+                    <h4 class="Body-Large">Vice Chair INTOSAI Governing Board</h4>
+                    <p class="font-mono600 Body-Text">2025 - 2028</p>
+                  </div>
+                  <div class="mb-3vh wrap">
+                    <h4 class="Body-Large">Chair of INTOSAI Governing Board</h4>
+                    <p class="font-mono600 Body-Text">2028 - 2031</p>
+                  </div>
+                  <div class="mb-3vh wrap">
+                    <h4 class="Body-Large">Member of INTOSAI Governing Board</h4>
+                    <p class="font-mono600 Body-Text">2031 - 2037</p>
+                  </div>
+                </div>
+              </div>
+              <div class="position-relative z-3 d-block pb-5vh w-100 item">
+                <div class="d-inline-block align-top text-end left">
+                  <h3 class="mb-3vh Subtitle-Hero">2020 - 2023</h3>
+                </div>
+                <div class="d-inline-block align-top right">
+                  <div class="mb-3vh wrap">
+                    <h4 class="Body-Large">BPK’s Vice Chair as the Board Member of the INTOSAI Development Initiative (IDI)</h4>
+                  </div>
+                </div>
+              </div>
+              <div class="position-relative z-3 d-block pb-5vh w-100 item">
+                <div class="d-inline-block align-top text-end left">
+                  <h3 class="mb-3vh Subtitle-Hero">2021 - 2022</h3>
+                </div>
+                <div class="d-inline-block align-top right">
+                  <div class="mb-3vh wrap">
+                    <img class="img-fluid d-inline-block mb-3vh logo" src="images/sai20-logo.png" alt="Indonesia for UNBoA" />
+                    <img class="img-fluid d-inline-block mb-3vh logo" src="images/aseansai-logo.png" alt="Indonesia for UNBoA" />
+                    <h4 class="Body-Large">Initiated the establishment of ASEAN Supreme Audit Institution (ASEANSAI) and Supreme Audit Institution 20 (SAI20)</h4>
+                  </div>
+                </div>
+              </div>
+              <div class="position-relative z-3 d-block pb-5vh w-100 item">
+                <div class="d-inline-block align-top text-end left">
+                  <h3 class="mb-3vh Subtitle-Hero">2022 - 2023</h3>
+                </div>
+                <div class="d-inline-block align-top right">
+                  <div class="mb-3vh wrap">
+                    <img class="img-fluid d-inline-block mb-3vh logo" src="images/united-nations-logo.png" alt="Indonesia for UNBoA" />
+                    <h4 class="Body-Large">Chair & Vice Chair</h4>
+                    <h4 class="Body-Large">The United Nations Panel of External Auditors</h4>
+                  </div>
+                </div>
+              </div>
+              <div class="position-relative z-3 d-block pb-5vh w-100 item">
+                <div class="d-inline-block align-top text-end left">
+                  <h3 class="mb-3vh Subtitle-Hero">2022 - 2023</h3>
+                </div>
+                <div class="d-inline-block align-top right">
+                  <div class="mb-3vh wrap">
+                    <img class="img-fluid d-inline-block mb-3vh logo" src="images/state-audit-of-mongolia-logo.png" alt="Indonesia for UNBoA" />
+                    <h4 class="Body-Large">Collaborations with ANAO as peer reviewers of SAI Mongolia</h4>
+                  </div>
+                </div>
+              </div>
+              <div class="position-relative z-3 d-block pb-5vh w-100 item">
+                <div class="d-inline-block align-top text-end left">
+                  <h3 class="mb-3vh Subtitle-Hero">2017 - Present</h3>
+                </div>
+                <div class="d-inline-block align-top right">
+                  <div class="wrap">
+                    <h4 class="Body-Large">Member of UN Panelu</h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--  
         <div class="position-relative text-center layer-01">
           <h6 class="position-relative d-inline-block mb-2vh pb-1vh font-mono700 Body-Text">Timeline</h6>
           <h2 class="d-block Headline-BoldXL">International Engagement</h2>
@@ -394,6 +801,7 @@
             </div>
           </div>
         </div>
+        -->
       </div>
     </div>
   </section>
@@ -556,7 +964,7 @@
         <img class="img-fluid position-relative w-100 background" src="images/background-gallery.jpg" alt="Indonesia for UNBoA" />
         <div class="boxc layer-01">
           <div class="container p-0">
-            <div class="row mb-5vh justify-content-end">
+            <div class="row mb-8vh justify-content-end">
               <div class="col-4">
                 <img class="img-fluid image-01" src="images/master-gallery-01.png" alt="Indonesia for UNBoA" />
               </div>
@@ -564,12 +972,12 @@
                 <img class="img-fluid image-02" src="images/master-gallery-02.png" alt="Indonesia for UNBoA" />
               </div>
             </div>
-            <div class="row mb-5vh">
+            <div class="row mb-8vh">
               <div class="col-12">
                 <img class="img-fluid image-03" src="images/master-gallery-03.png" alt="Indonesia for UNBoA" />
               </div>
             </div>
-            <div class="row mb-5vh">
+            <div class="row mb-8vh">
               <div class="col-4">
                 <img class="img-fluid mb-5vh image-04" src="images/master-gallery-04.png" alt="Indonesia for UNBoA" />
                 <img class="img-fluid image-05" src="images/master-gallery-05.png" alt="Indonesia for UNBoA" />
@@ -598,7 +1006,7 @@
         </div>
         <img class="img-fluid position-relative w-100 background" src="images/background-footer.jpg" alt="Indonesia for UNBoA" />
         <div class="position-absolute logo">
-          <img class="img-fluid image" src="images/indonesia-for-un-boa.png" alt="Indonesia for UNBoA" />
+          <img class="img-fluid image" src="images/indonesia-for-un-boa-white.png" alt="Indonesia for UNBoA" />
         </div>
         <div class="position-absolute information">
           <h2 class="d-block mb-4vh font-white Headline-ExtraLarge">Strategic Partner for Better Governance</h2>
@@ -617,6 +1025,17 @@
   </footer>
   <!-- Section Footer -->
 
+  <!-- Youtube Modal -->
+  <div class="modal fade" id="youtubeModal" tabindex="-1" aria-labelledby="youtubeModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        
+        <img data-bs-dismiss="modal" class="img-fluid position-absolute close" src="images/icon/modal-close.svg" alt="Indonesia for UNBoA" />
+        <iframe class="boxc chair-video" src="https://www.youtube.com/embed/85drSvxAKO8?si=OIst-WArq5dTHdtG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+      </div>
+    </div>
+  </div>
 
   <!-- CDN JS -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
