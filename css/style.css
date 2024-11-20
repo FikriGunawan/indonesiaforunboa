@@ -5,6 +5,7 @@
 
 /* Public */
 body{
+  overflow-x: hidden;
   background: #EBEDEF;
   color: #1A1B1C;
 }
@@ -291,34 +292,56 @@ form input[type=number]{-webkit-appearance: textfield;-moz-appearance: textfield
   padding: 9vh 6.5vw 9vh 7.5vw;
   top: 0;
   left: 0;
-  transition: all .3s;
+  transition: all .5s;
 }
 #navigation.change{
   padding: 4vh 6.5vw 3vh 7.5vw;
   background-color: #081956;
-  transition: all .3s;
+  transition: all .5s;
+}
+#navigation.show{
+  position: fixed;
+  padding: 4vh 6.5vw 3vh 7.5vw;
+  background-color: #081956;
+  transition: all .5s;
+  opacity: 0;
+  animation: mnsAnimation .5s ease forwards !important;
+}
+@keyframes mnsAnimation{
+  0%{
+    top: -50vw;
+    opacity: 0;
+  }
+  100%{
+    top: 0;
+    opacity: 1;
+  }
 }
 #navigation .wrapper{}
 #navigation .wrapper .logo{
-  transition: all .3s;
+  transition: all .5s;
 }
-#navigation.change .wrapper .logo{
+#navigation.change .wrapper .logo,
+#navigation.show .wrapper .logo{
   top: 35%;
-  transition: all .3s;
+  transition: all .5s;
 }
 #navigation .wrapper .logo .image{
   width: 11.5vw;
-  transition: all .3s;
+  transition: all .5s;
 }
-#navigation.change .wrapper .logo .image{
+#navigation.change .wrapper .logo .image,
+#navigation.show .wrapper .logo .image{
   width: 6.5vw;
-  transition: all .3s;
+  transition: all .5s;
 }
 #navigation .wrapper .logo .image.img-01,
-#navigation.change .wrapper .logo .image.img-02{
+#navigation.change .wrapper .logo .image.img-02,
+#navigation.show .wrapper .logo .image.img-02{
   display: block;
 }
 #navigation.change .wrapper .logo .image.img-01,
+#navigation.show .wrapper .logo .image.img-01,
 #navigation .wrapper .logo .image.img-02{
   display: none;
 }
@@ -1190,7 +1213,7 @@ html.no-touch #strengths .group:hover .no-touch\:group-hover\:text-stone-300{--t
 /* ----- Desktop ----- */
 #commitment{}
 #commitment .wrapper{
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 #commitment .wrapper .ornt.navy300s{
   top: 0;

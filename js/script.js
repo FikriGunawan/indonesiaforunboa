@@ -1,3 +1,57 @@
+$(function() {
+  var HDOr01 = $('.HDOr01');
+  setTimeout(function() {
+    HDOr01.addClass('HDOr01Anim');
+  }, 2500);
+});
+$(function () {
+  var elements = $(".commitmentAnim01").toArray();
+  $(window).scroll(function () {
+    elements.forEach(function (item) {
+      if ($(this).scrollTop() >= $(item).offset().top - 0) {
+        $(".titleAnim-01").removeClass("active");
+        $(".titleAnim-02").addClass("active");
+      }else{
+        $(".titleAnim-01").addClass("active");
+        $(".titleAnim-02").removeClass("active");
+      }
+    });
+  });
+});
+
+
+
+/*
+$(document).ready(function() {
+  $('#navigation').removeClass("show");
+  // Fixed Show and Hide
+  let prevScrollPos = window.pageYOffset;
+  window.addEventListener('scroll', function() {
+    const currentScrollPos = window.pageYOffset;
+    if (prevScrollPos > currentScrollPos) {
+      document.querySelector('#navigation').classList.add('show');
+    }else{
+      document.querySelector('#navigation').classList.remove('show');
+    }
+    prevScrollPos = currentScrollPos;
+  });
+  $(function () {
+    $(window).scroll(function () {
+      if ($('#navigation').scrollTop() = 0) {
+        $('#navigation').addClass("test");
+      }
+    });
+  });
+});
+*/ 
+
+
+
+
+
+
+
+
 $(document).ready(function(){
   $(function () {
     $(window).scroll(function () {

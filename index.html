@@ -694,6 +694,7 @@
         <div class="position-absolute z-1 ornt navy700"></div>
         <div class="position-absolute z-1 ornt orange500 second"></div>
         <div class="position-absolute z-1 ornt navy100s second"></div>
+        <div class="commitmentAnim01"></div>
         <img class="img-fluid w-100 background" src="images/background-commitment.jpg" alt="Indonesia for UNBoA" />
         <div class="boxr ornt navy600s">
           <h6 class="position-relative d-inline-block mb-2vh pb-1vh font-white Body-Text">Our Commitment</h6>
@@ -702,6 +703,8 @@
             <span class="d-block font-white Headline-ExtraLarge">The United Nations</span>
           </h2>
         </div>
+
+        <!--  
         <div class="w-100 layer-02">
           <div class="item">
             <div class="d-inline-block align-top text-end left">
@@ -743,10 +746,145 @@
             </div>
           </div>
         </div>
+        -->
+
       </div>
     </div>
   </section>
   <!-- End Section Commitment -->
+
+  <style>            
+    .commitmentContent{}
+    .commitmentContent .ccWrap{
+      position: sticky;
+      top: 0;
+    }
+    .commitmentContent .ccWrap h3{
+      position: absolute;
+      top: 15vh;
+      left: 0;
+      width: 41%;
+      text-align: right;
+      transition: all 0.5s;
+    }
+    .commitmentContent .ccWrap h3.active{
+      color: #FF7300;
+      transition: all 0.5s;
+    }
+    .commitmentContent .desc{
+      position: absolute;
+      padding: 20vh 5vw 5vh;
+      top: 0;
+      right: 0;
+      width: 58.7%;
+      height: 100%;
+    }    
+    .commitmentContent .desc h5{
+      margin-right: 2vw;
+      padding-bottom: 1vh;
+      width: 5vw;
+    }
+    .commitmentContent .desc h5::after{
+      content: '';
+      position: absolute;
+      display: block;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 0.1vh;
+      background-color: #1A1B1C;
+    }
+    .commitmentContent .desc .brief{
+      margin-bottom: 5vh;
+      width: 80%;
+    }
+    .commitmentAnim01{
+      position: absolute;
+      top: 160vh;
+      width: 100%;
+      height: 1vh;
+    }
+  </style>
+
+  <div class="position-relative z-3 w-100 commitmentContent" style="margin-bottom: 12vh;height: 35vh;">
+    <div class="ccWrap">
+      <h3 class="font-navy500 Decorative-Headline titleAnim-01 active">Accountability</h3>
+    </div>
+    <div class="desc">
+      <!-- Item -->
+      <div class="point">
+        <h5 class="position-relative d-inline-block align-top Body-TextBold">01</h5>
+        <div class="d-inline-block align-top brief">
+          <h4 class="Body-Large">Promote a high degree of fairness and reliability</h4>
+          <p class="font-mono600 Body-Text">of the UN financial statements, internal control, and compliance which leads to continuous improvement and innovation in financial management and operations across the UN system.</p>
+        </div>
+      </div>
+      <!-- End Item -->
+      <!-- Item -->
+      <div class="point">
+        <h5 class="position-relative d-inline-block align-top Body-TextBold">02</h5>
+        <div class="d-inline-block align-top brief">
+          <h4 class="Body-Large">Ensure the recommendations of the UN BoA are effectively incorporated</h4>
+          <p class="font-mono600 Body-Text">into the UN executive management processes.</p>
+        </div>
+      </div>
+      <!-- End Item -->
+    </div>
+  </div>
+  <div class="position-relative w-100 commitmentContent" style="margin-bottom: 30vh;height: 50vh;">
+    <div class="ccWrap">
+      <h3 class="font-navy500 Decorative-Headline titleAnim-02">Integrity</h3>
+    </div>
+    <div class="desc">
+      <div class="point">
+        <h5 class="position-relative d-inline-block align-top Body-TextBold">03</h5>
+        <div class="d-inline-block align-top brief">
+          <h4 class="Body-Large">Work collaboratively under the UN BoA</h4>
+          <p class="font-mono600 Body-Text">mandate to deliver independent, professional, efficient, and innovative audit works to ensure BPK’s constructive audit transcends the promotion of accountability, transparency, and good governance as well as gender equality and women empowerment within the UN system.</p>
+        </div>
+      </div>
+      <div class="point">
+        <h5 class="position-relative d-inline-block align-top Body-TextBold">04</h5>
+        <div class="d-inline-block align-top brief">
+          <h4 class="Body-Large">Contribute to increasing trust and transparency</h4>
+          <p class="font-mono600 Body-Text">among Member States, donors, and other stakeholders by ensuring that resources are used efficiently and effectively, in accordance with established rules and regulations.</p>
+        </div>
+      </div>
+      <div class="point">
+        <h5 class="position-relative d-inline-block align-top Body-TextBold">05</h5>
+        <div class="d-inline-block align-top brief">
+          <h4 class="Body-Large">Engage closely with the UN</h4>
+          <p class="font-mono600 Body-Text">to advance the 2030 Agenda with a view to achieving a better and more sustainable future for all.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
   <!-- Section Portfolio -->
   <section id="portfolio" class="container-fluid">
