@@ -21,7 +21,7 @@
 <body>
 
   <!-- Section Navigation -->
-  <nav id="navigation" class="container-fluid">
+  <nav id="navigation" class="container-fluid tarNav">
     <div class="row">
       <div class="col-lg-12 p-0 position-relative wrapper">
         <div class="boxl logo">
@@ -66,7 +66,7 @@
         <div class="position-absolute ornt orange300"></div>
         <div class="position-absolute ornt orange300s"></div>
         <div class="position-absolute ornt orange200"></div>
-        <div class="boxl layer-01">
+        <div class="boxl layer-01 tarHead01">
           <h1 class="mb-5vh"><span class="d-block font-white Decorative-Headline">Strategic Partner for</span><span class="d-block font-white Decorative-Headline-2">Better Governance</span></h1>
           <ul class="list-style-none">
             <li class="d-inline-block position-relative font-white Body-TextBold">FAIR</li>
@@ -75,8 +75,8 @@
             <li class="d-inline-block position-relative font-white Body-TextBold">CREDIBLE</li>
           </ul>
         </div>
-        <img class="img-fluid boxr ornament-01" src="images/magnifying-glass.png" alt="Indonesia for UNBoA" />
-        <a id="godown" class="position-absolute godown">
+        <img class="img-fluid boxr ornament-01 tarHead02" src="images/magnifying-glass.png" alt="Indonesia for UNBoA" />
+        <a id="godown" class="position-absolute godown tarHead03">
           <img class="img-fluid boxc icon" src="images/icon/arrow-down.svg" alt="Indonesia for UNBoA" />
         </a>
       </div>
@@ -99,7 +99,7 @@
             <p class="m-0 font-white Body-Text">Chair of BPK</p>
           </div>
         </div>
-        <div class="position-absolute ornt navy600s">
+        <div class="position-absolute ornt navy600s slideanimLeft">
           <p class="font-white mb-5vh Body-LargeDecorative">We are highly confident that the election of BPK as the External Auditor of the UN BOA will enhance UN governance system by bridging stakeholders’ trust and management’s transparency.</p>
           <p class="font-white mb-5vh Body-Text">“VOTE FOR THE AUDIT BOARD OF THE REPUBLIC OF INDONESIA AS A MEMBER OF THE UN BOARD OF AUDITORS FOR THE PERIOD OF 2026-2032”​​</p>
           <a class="button-youtube ornt orange500s font-white Body-TextBold" data-bs-toggle="modal" data-bs-target="#youtubeModal">Watch Statement Video</a>
@@ -155,10 +155,10 @@
           
                   <!-- Text -->
                   <div class="boxl layer-01">
-                    <h6 class="position-relative d-inline-block mb-2vh pb-1vh font-mono700 Body-Text">Our Strengths</h6>
-                    <h2 class="d-block mb-3vh Headline-BoldXL">Independent Position</h2>
-                    <h3 class="d-inline-block mb-5vh font-orange500 Body-BoldLarge">1945 Indonesian Constitution</h3>
-                    <div x-on:mouseenter="hasHover = true" x-on:mouseleave="hasHover = false" class="group grid grid-cols-1 lg:grid-cols-2 grid-flow-dense gap-x-5 gap-y-[60px] lg:gap-y-[80px] strTextWrap">
+                    <h6 class="position-relative d-inline-block mb-2vh pb-1vh font-mono700 Body-Text slideanimRight">Our Strengths</h6>
+                    <h2 class="position-relative d-block mb-3vh Headline-BoldXL slideanimRight">Independent Position</h2>
+                    <h3 class="position-relative d-inline-block mb-5vh font-orange500 Body-BoldLarge slideanimRight">1945 Indonesian Constitution</h3>
+                    <div x-on:mouseenter="hasHover = true" x-on:mouseleave="hasHover = false" class="group grid grid-cols-1 lg:grid-cols-2 grid-flow-dense gap-x-5 gap-y-[60px] lg:gap-y-[80px] strTextWrap slideanimUp">
                       
                       <!-- Item 1 -->
                       <div x-data="{ slideIndex: 0 }" x-init="slideIndex = parseInt($el.getAttribute('data-slide-index'))" data-slide-index="0" class="d-inline-block item transition-colors" x-bind:class="{ 'no-touch:group-hover:text-stone-300': activeSlideIndex !== slideIndex }" x-on:mouseenter="activeSlideIndex = slideIndex">
@@ -220,7 +220,7 @@
                   <!-- End Text -->
           
                   <!-- Image -->
-                  <div class="boxr layer-02">
+                  <div class="boxr layer-02 slideanim">
           
                     <!-- Image Content -->
                     <div x-data="xSlider02" x-ref="sliderData">
@@ -368,24 +368,24 @@
         <div class="position-absolute ornt orange500 second"></div>
         <div class="position-absolute ornt navy100s"></div>
         <div class="boxl layer-01">
-          <h6 class="position-relative d-inline-block mb-2vh pb-1vh font-mono700 Body-Text">Employees</h6>
-          <h2 class="d-block mb-3vh Headline-BoldXL">BPK Team Size</h2>
-          <h3 class="d-inline-block font-orange500 Body-BoldLarge">8.500++ Employees</h3>
+          <h6 class="position-relative d-inline-block mb-2vh pb-1vh font-mono700 Body-Text slideanimRight">Employees</h6>
+          <h2 class="position-relative d-block mb-3vh Headline-BoldXL slideanimRight">BPK Team Size</h2>
+          <h3 class="position-relative d-inline-block font-orange500 Body-BoldLarge slideanimRight">8.500++ Employees</h3>
         </div>
         <div class="boxr layer-02">
-          <div class="mb-5vh bg-navy500 item">
+          <div class="mb-5vh bg-navy500 item slideanimUp">
             <h5 class="position-relative d-inline-block align-middle font-white Body-TextBold">01</h5>
             <h4 class="d-inline-block align-middle font-white Decorative-Headline">67%</h4>
             <h6 class="d-inline-block align-middle font-white Subtitle">Auditors</h6>
             <img class="img-fluid d-inline-block align-middle icon" src="images/icon/auditors.svg" alt="Indonesia for UNBoA" />
           </div>
-          <div class="mb-5vh bg-navy500 item">
+          <div class="mb-5vh bg-navy500 item slideanimUp">
             <h5 class="position-relative d-inline-block align-middle font-white Body-TextBold">02</h5>
             <h4 class="d-inline-block align-middle font-white Decorative-Headline">25%</h4>
             <h6 class="d-inline-block align-middle font-white Subtitle">Supporting Management</h6>
             <img class="img-fluid d-inline-block align-middle icon" src="images/icon/supporting-management.svg" alt="Indonesia for UNBoA" />
           </div>
-          <div class="mb-5vh bg-navy500 item">
+          <div class="mb-5vh bg-navy500 item slideanimUp">
             <h5 class="position-relative d-inline-block align-middle font-white Body-TextBold">03</h5>
             <h4 class="d-inline-block align-middle font-white Decorative-Headline">8%</h4>
             <h6 class="d-inline-block align-middle font-white Subtitle">Management Officials</h6>
@@ -408,17 +408,17 @@
         <div class="position-absolute ornt navy100s"></div>
         <div class="position-absolute ornt orange500"></div>
         <div class="layer-01">
-          <h6 class="position-relative d-inline-block mb-2vh pb-1vh font-mono700 Body-Text">Tools</h6>
-          <h2 class="d-block Headline-BoldXL">Modern and Risk-Based Audit</h2>
+          <h6 class="position-relative d-inline-block mb-2vh pb-1vh font-mono700 Body-Text slideanimUp">Tools</h6>
+          <h2 class="position-relative d-block Headline-BoldXL slideanimUp">Modern and Risk-Based Audit</h2>
         </div>
-        <div class="d-inline-block align-top bg-navy100 item">
+        <div class="position-relative d-inline-block align-top bg-navy100 item slideanimRight">
           <div class="position-relative logo">
             <img class="img-fluid boxc" src="images/siap.png" alt="Indonesia for UNBoA" />
           </div>
           <hr class="bg-blue600" />
           <h3 class="Subtitle">Standardized and Integrated Audit Process (SIAP)</h3>
         </div>
-        <div class="d-inline-block align-top bg-navy100 item">
+        <div class="position-relative d-inline-block align-top bg-navy100 item slideanimLeft">
           <div class="position-relative logo">
             <img class="img-fluid boxc" src="images/bidics.png" alt="Indonesia for UNBoA" />
           </div>
@@ -437,9 +437,9 @@
         <div class="position-absolute ornt orange500"></div>
         <div class="position-absolute ornt navy100s"></div>
         <div class="position-absolute end-0 layer-01">
-          <h6 class="position-relative d-inline-block mb-2vh pb-1vh font-mono700 Body-Text">Credentials</h6>
-          <h2 class="d-block mb-5vh Headline-BoldXL">Professional Certifications</h2>
-          <div class="stagePadding-01 owl-theme content">
+          <h6 class="position-relative d-inline-block mb-2vh pb-1vh font-mono700 Body-Text slideanimUp">Credentials</h6>
+          <h2 class="position-relative d-block mb-5vh Headline-BoldXL slideanimUp">Professional Certifications</h2>
+          <div class="position-relative stagePadding-01 owl-theme content slideanimLeft">
             <div class="item">
               <div class="position-relative bg-navy100 text-center mb-5vh wrap">
                 <img class="img-fluid boxc icon" src="images/icon/credentials.png" alt="Indonesia for UNBoA" />
@@ -471,7 +471,7 @@
               </div>
             </div>
           </div>
-          <div class="compArrow">
+          <div class="compArrow slideanim">
             <a class="position-relative d-inline-block align-middle wrap left navStagePadding01PrevBtn">
               <img class="img-fluid boxc" src="images/icon/arrow-left.svg" alt="Indonesia for UNBoA" />
             </a>
@@ -493,8 +493,8 @@
     <div class="row">
       <div class="col-lg-12 p-0 position-relative wrapper">
         <div class="position-relative text-center layer-01">
-          <h6 class="position-relative d-inline-block mb-2vh pb-1vh font-mono700 Body-Text">Timeline</h6>
-          <h2 class="d-block Headline-BoldXL">International Engagement</h2>
+          <h6 class="position-relative d-inline-block mb-2vh pb-1vh font-mono700 Body-Text slideanimUp">Timeline</h6>
+          <h2 class="position-relative d-block Headline-BoldXL slideanimUp">International Engagement</h2>
         </div>
         <div class="sticky-statement">
           <img class="img-fluid background" src="images/background-timeline.png" alt="Indonesia for UNBoA" />
@@ -696,7 +696,7 @@
         <div class="position-absolute z-1 ornt navy100s second"></div>
         <div class="commitmentAnim01"></div>
         <img class="img-fluid w-100 background" src="images/background-commitment.jpg" alt="Indonesia for UNBoA" />
-        <div class="boxr ornt navy600s">
+        <div class="position-absolute ornt navy600s slideanimLeft">
           <h6 class="position-relative d-inline-block mb-2vh pb-1vh font-white Body-Text">Our Commitment</h6>
           <h2>
             <span class="d-block font-white Headline-Hero">Commitment to</span>
@@ -894,11 +894,11 @@
         <div class="position-absolute z-1 ornt orange500"></div>
         <img class="img-fluid position-absolute top-0 start-0 w-100 background" src="images/background-portfolio.jpg" alt="Indonesia for UNBoA" />
         <div class="position-relative layer-01">
-          <h6 class="position-relative d-inline-block mb-2vh pb-1vh font-mono700 Body-Text">Portfolio</h6>
-          <h2 class="d-block Headline-BoldXL">International Experience</h2>
+          <h6 class="position-relative d-inline-block mb-2vh pb-1vh font-mono700 Body-Text slideanimRight">Portfolio</h6>
+          <h2 class="position-relative d-block Headline-BoldXL slideanimRight">International Experience</h2>
         </div>
         <div class="position-relative layer-02">
-          <div class="stagePadding-02 owl-theme content">
+          <div class="stagePadding-02 owl-theme content slideanimLeft">
             <div class="item">
               <div class="position-relative d-inline-block align-top mb-5vh wrap">
                 <img class="img-fluid position-absolute top-0 start-0 w-100 h-100 objectfit-cover image" src="images/IAEA-image.png" alt="Indonesia for UNBoA" />
@@ -990,7 +990,7 @@
               </div>
             </div>
           </div>
-          <div class="compArrow">
+          <div class="compArrow slideanim">
             <a class="position-relative d-inline-block align-middle wrap left navStagePadding02PrevBtn">
               <img class="img-fluid boxc" src="images/icon/arrow-left.svg" alt="Indonesia for UNBoA" />
             </a>
@@ -1013,24 +1013,24 @@
           <div class="container p-0">
             <div class="row mb-8vh justify-content-end">
               <div class="col-4">
-                <img class="img-fluid image-01" src="images/master-gallery-01.png" alt="Indonesia for UNBoA" />
+                <img class="img-fluid image-01 slideanimUp" src="images/master-gallery-01.png" alt="Indonesia for UNBoA" />
               </div>
               <div class="col-4">
-                <img class="img-fluid image-02" src="images/master-gallery-02.png" alt="Indonesia for UNBoA" />
+                <img class="img-fluid image-02 slideanimUp" src="images/master-gallery-02.png" alt="Indonesia for UNBoA" />
               </div>
             </div>
             <div class="row mb-8vh">
               <div class="col-12">
-                <img class="img-fluid image-03" src="images/master-gallery-03.png" alt="Indonesia for UNBoA" />
+                <img class="img-fluid image-03 slideanimUp" src="images/master-gallery-03.png" alt="Indonesia for UNBoA" />
               </div>
             </div>
             <div class="row mb-8vh">
               <div class="col-4">
-                <img class="img-fluid mb-5vh image-04" src="images/master-gallery-04.png" alt="Indonesia for UNBoA" />
-                <img class="img-fluid image-05" src="images/master-gallery-05.png" alt="Indonesia for UNBoA" />
+                <img class="img-fluid mb-5vh image-04 slideanimUp" src="images/master-gallery-04.png" alt="Indonesia for UNBoA" />
+                <img class="img-fluid image-05 slideanimUp" src="images/master-gallery-05.png" alt="Indonesia for UNBoA" />
               </div>
               <div class="col-8">
-                <img class="img-fluid image-06" src="images/master-gallery-06.png" alt="Indonesia for UNBoA" />
+                <img class="img-fluid image-06 slideanimUp" src="images/master-gallery-06.png" alt="Indonesia for UNBoA" />
               </div>
             </div>
           </div>
@@ -1052,10 +1052,10 @@
           <img class="img-fluid boxc icon" src="images/icon/arrow-up.svg" alt="Indonesia for UNBoA" />
         </div>
         <img class="img-fluid position-relative w-100 background" src="images/background-footer.jpg" alt="Indonesia for UNBoA" />
-        <div class="position-absolute logo">
+        <div class="position-absolute logo slideanimRight">
           <img class="img-fluid image" src="images/indonesia-for-un-boa-white.png" alt="Indonesia for UNBoA" />
         </div>
-        <div class="position-absolute information">
+        <div class="position-absolute information slideanimUp">
           <h2 class="d-block mb-4vh font-white Headline-ExtraLarge">Strategic Partner for Better Governance</h2>
           <a class="socmed d-inline-block align-top" target="_blank" href="">
             <img class="img-fluid icon" src="images/icon/icon-yt.svg" alt="Indonesia for UNBoA" />  

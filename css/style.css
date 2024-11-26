@@ -1277,7 +1277,7 @@ html.no-touch #strengths .group:hover .no-touch\:group-hover\:text-stone-300{--t
 }
 #commitment .wrapper .ornt.navy600s{
   padding: 8vh 5vw;
-  top: 65vh;
+  top: 45vh;
   right: 0;
   width: 58vw;
   height: auto;
@@ -1397,7 +1397,7 @@ html.no-touch #strengths .group:hover .no-touch\:group-hover\:text-stone-300{--t
   transition: all .5s;
 }
 #portfolio .wrapper .layer-02 .content .item .wrap:hover .wrapTitle{
-  transform: translate(50%, -230%);
+  transform: translate(40%, -230%);
   transition: all .5s;
 }
 #portfolio .wrapper .layer-02 .content .item .wrap .wrapTitle h3{}
@@ -1518,3 +1518,108 @@ html.no-touch #strengths .group:hover .no-touch\:group-hover\:text-stone-300{--t
 
 
 
+
+/* =============================================================== */
+/*                  Animation                                      */
+/* =============================================================== */
+/* Animation On Load First Section */
+#navigation.tarNav{
+  opacity: 0;
+  transition: all 1s;
+}
+#navigation.tarNav.anim{
+  opacity: 1;
+  transition: all 1s;
+}
+#header .wrapper .tarHead01{
+  top: 100%;
+  opacity: 0;
+  transition: all 1s;
+}
+#header .wrapper .tarHead01.anim{
+  top: 53%;
+  opacity: 1;
+  transition: all 1s;
+}
+#header .wrapper .tarHead02{
+  right: -40vw;
+  transition: all 1s;
+}
+#header .wrapper .tarHead02.anim{
+  right: 0;
+  transition: all 1s;
+}
+#header .wrapper .tarHead03{
+  bottom: -20vh;
+  opacity: 0;
+  transition: all 1s;
+}
+#header .wrapper .tarHead03.anim{
+  bottom: 5vh;
+  opacity: 1;
+  transition: all 1s;
+}
+/* Animation Content */
+.slideanim{visibility:hidden;}
+.slide{
+  animation-name: slide;
+  -webkit-animation-name: slide;
+  animation-duration: 3s;
+  -webkit-animation-duration: 3s;
+  visibility: visible;
+}
+@keyframes slide{
+  0%{opacity: 0;}
+  100%{opacity: 1;}
+}
+.slideanimUp{visibility:hidden;}
+.slideUp{
+  animation-name: slideUp;
+  -webkit-animation-name: slideUp;
+  animation-duration: 1.5s;
+  -webkit-animation-duration: 1.5s;
+  visibility: visible;
+}
+@keyframes slideUp{
+  0%{opacity: 0;transform: translateY(50%);}
+  100%{opacity: 1;transform: translateY(0%);}
+}
+@-webkit-keyframes slideUp{
+  0%{opacity: 0;-webkit-transform: translateY(50%);}
+  100%{opacity: 1;-webkit-transform: translateY(0%);}
+}
+.slideanimLeft{visibility:hidden;}
+.slideLeft{
+  animation-name: slideLeft;
+  -webkit-animation-name: slideLeft;
+  animation-duration: 1.5s;
+  -webkit-animation-duration: 1.5s;
+  visibility: visible;
+}
+@keyframes slideLeft{
+  0%{opacity: 0;transform: translateX(50%);}
+  100%{opacity: 1;transform: translateX(0%);}
+}
+@-webkit-keyframes slideLeft{
+  0%{opacity: 0;-webkit-transform: translateX(50%);}
+  100%{opacity: 1;-webkit-transform: translateX(0%);}
+}
+.slideanimRight{visibility:hidden;}
+.slideRight{
+  animation-name: slideRight;
+  -webkit-animation-name: slideRight;
+  animation-duration: 1.5s;
+  -webkit-animation-duration: 1.5s;
+  visibility: visible;
+}
+@keyframes slideRight{
+  0%{opacity: 0;transform: translateX(-50%);}
+  100%{opacity: 1;transform: translateX(0%);}
+}
+@-webkit-keyframes slideRight{
+  0%{opacity: 0;-webkit-transform: translateX(-50%);}
+  100%{opacity: 1;-webkit-transform: translateX(0%);}
+}
+/* =============================================================== */
+/*                  End Animation                                  */
+/* =============================================================== */

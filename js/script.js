@@ -1,9 +1,72 @@
+/* =============================================================== */
+/*                  Animation                                      */
+/* =============================================================== */
+// Animation On Load First Section
 $(function() {
-  var HDOr01 = $('.HDOr01');
+  var tarNav = $('.tarNav');
+  var tarHead01 = $('.tarHead01');
+  var tarHead02 = $('.tarHead02');
+  var tarHead03 = $('.tarHead03');
   setTimeout(function() {
-    HDOr01.addClass('HDOr01Anim');
-  }, 2500);
+    tarNav.addClass('anim');
+    tarHead01.addClass('anim');
+    tarHead02.addClass('anim');
+    tarHead03.addClass('anim');
+  }, 1000);
 });
+// Animation Content
+$(window).scroll(function() {
+  $(".slideanim").each(function(){
+    var pos = $(this).offset().top;
+    var winTop = $(window).scrollTop();
+      if (pos < winTop + 600) {
+        $(this).addClass("slide");
+      }
+  });
+});
+$(window).scroll(function() {
+  $(".slideanimUp").each(function(){
+    var pos = $(this).offset().top;
+    var winTop = $(window).scrollTop();
+      if (pos < winTop + 600) {
+        $(this).addClass("slideUp");
+      }
+  });
+});
+$(window).scroll(function() {
+  $(".slideanimLeft").each(function(){
+    var pos = $(this).offset().top;
+    var winTop = $(window).scrollTop();
+      if (pos < winTop + 600) {
+        $(this).addClass("slideLeft");
+      }
+  });
+});
+$(window).scroll(function() {
+  $(".slideanimRight").each(function(){
+    var pos = $(this).offset().top;
+    var winTop = $(window).scrollTop();
+      if (pos < winTop + 600) {
+        $(this).addClass("slideRight");
+      }
+  });
+});
+// Animation Ornament
+$(document).ready(function(){
+  $(window).scroll(function(){
+    windowTop = $(window).scrollTop();
+    $('.move-top').css({
+      'transform':'translateY('+(windowTop) * -0.1 +'px)'
+    });
+    $('.move-left').css({
+      'transform':'translateX('+(windowTop) * -0.1 +'px)'
+    });
+    $('.move-right').css({
+      'transform':'translateX('+(windowTop) * 0.1  +'px)'
+    });
+  });
+});
+// Animation Commitment Section
 $(function () {
   var elements = $(".commitmentAnim01").toArray();
   $(window).scroll(function () {
@@ -18,6 +81,13 @@ $(function () {
     });
   });
 });
+/* =============================================================== */
+/*                  End Animation                                  */
+/* =============================================================== */
+
+
+
+
 
 
 
@@ -44,14 +114,6 @@ $(document).ready(function() {
   });
 });
 */ 
-
-
-
-
-
-
-
-
 $(document).ready(function(){
   $(function () {
     $(window).scroll(function () {
