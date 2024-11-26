@@ -788,7 +788,8 @@ html.no-touch #strengths .group:hover .no-touch\:group-hover\:text-stone-300{--t
   height: 140vh;
 }
 #strengths .wrapper .ornt.orange500{
-  top: 17vh;
+  /* top: 17vh; */
+  top: -33vh;
   left: 92vw;
   width: 3.5vw;
   height: 3.5vw;
@@ -797,7 +798,8 @@ html.no-touch #strengths .group:hover .no-touch\:group-hover\:text-stone-300{--t
 }
 #strengths .wrapper .ornt.navy400s{
   top: 23.5vh;
-  left: 90vw;
+  /* left: 90vw; */
+  left: 115vw;
   width: 2vw;
   height: 2vw;
   border-radius: 0.5vw;
@@ -916,20 +918,23 @@ html.no-touch #strengths .group:hover .no-touch\:group-hover\:text-stone-300{--t
 #employees .wrapper{}
 #employees .wrapper .ornt.orange500{
   top: -5vh;
-  left: 93vw;
+  /* left: 93vw; */
+  left: 128vw;
   width: 5vw;
   height: 5vw;
   border: 0.15vw solid #FF7300;
 }
 #employees .wrapper .ornt.orange500.second{
   top: 75vh;
-  left: -1vw;
+  /* left: -1vw; */
+  left: -40vw;
   width: 5vw;
   height: 5vw;
   border: 0.15vw solid #FF7300;
 }
 #employees .wrapper .ornt.navy100s{
-  top: 85vh;
+  /* top: 85vh; */
+  top: 160vh;
   left: 4vw;
   width: 5vw;
   height: 5vw;
@@ -992,13 +997,15 @@ html.no-touch #strengths .group:hover .no-touch\:group-hover\:text-stone-300{--t
 #tools{}
 #tools .wrapper{}
 #tools .wrapper .ornt.navy100s{
-  top: 15vh;
+  /* top: 15vh; */
+  top: -65vh;
   left: 87vw;
   width: 3vw;
   height: 3vw;
 }
 #tools .wrapper .ornt.orange500{
-  top: 50vh;
+  /* top: 50vh; */
+  top: 140vh;
   left: -0.5vw;
   width: 3vw;
   height: 3vw;
@@ -1050,7 +1057,8 @@ html.no-touch #strengths .group:hover .no-touch\:group-hover\:text-stone-300{--t
   overflow-x: hidden;
 }
 #credentials .wrapper .ornt.orange500{
-  top: 32vh;
+  /* top: 32vh; */
+  top: -71vh;
   left: 65vw;
   width: 3.5vw;
   height: 3.5vw;
@@ -1059,7 +1067,8 @@ html.no-touch #strengths .group:hover .no-touch\:group-hover\:text-stone-300{--t
 }
 #credentials .wrapper .ornt.navy100s{
   top: 38.5vh;
-  left: 63vw;
+  /* left: 63vw; */
+  left: 115vw;
   width: 2vw;
   height: 2vw;
   border-radius: 0.5vw;
@@ -1216,13 +1225,15 @@ html.no-touch #strengths .group:hover .no-touch\:group-hover\:text-stone-300{--t
   /* overflow: hidden; */
 }
 #commitment .wrapper .ornt.navy300s{
-  top: 0;
+  /* top: 0; */
+  top: -160vh;
   left: 75vw;
   width: 7vw;
   height: 7vw;
 }
 #commitment .wrapper .ornt.orange500{
-  top: 22vh;
+  /* top: 22vh; */
+  top: -145vh;
   left: 50vw;
   width: 3.5vw;
   height: 3.5vw;
@@ -1231,27 +1242,34 @@ html.no-touch #strengths .group:hover .no-touch\:group-hover\:text-stone-300{--t
 }
 #commitment .wrapper .ornt.navy100s{
   top: 28.5vh;
-  left: 53.5vw;
+  /* left: 53.5vw; */
+  left: -30vw;
   width: 2vw;
   height: 2vw;
   border-radius: 0.5vw;
 }
 #commitment .wrapper .ornt.orange400{
   top: 37vh;
+  /*  
   left: 70vw;
   width: 30vw;
+  */
+  left: -15vw;
+  width: 35vw;
   height: 15vh;
   border-radius: 1.5vw;
   border: 0.15vw solid #FF8F33;
 }
 #commitment .wrapper .ornt.navy300s.second{
-  top: 52vh;
+  /* top: 52vh; */
+  top: -112vh;
   left: 40vw;
   width: 2vw;
   height: 2vw;
 }
 #commitment .wrapper .ornt.orange600s{
-  top: 91.5vh;
+  /* top: 91.5vh; */
+  top: 270vh;
   left: 95.5vw;
   width: 3.4vw;
   height: 7vw;
@@ -1260,17 +1278,20 @@ html.no-touch #strengths .group:hover .no-touch\:group-hover\:text-stone-300{--t
 }
 #commitment .wrapper .ornt.navy700{
   top: 106.5vh;
-  left: 91.5vw;
+  /* left: 91.5vw; */
+  left: 181.5vw;
 }
 #commitment .wrapper .ornt.orange500.second{
   top: 155vh;
-  left: -1vw;
+  /* left: -1vw; */
+  left: -94vw;
   width: 5vw;
   height: 5vw;
   border: 0.15vw solid #FF7300;
 }
 #commitment .wrapper .ornt.navy100s.second{
-  top: 165vh;
+  /* top: 165vh; */
+  top: 359vh;
   left: 4vw;
   width: 5vw;
   height: 5vw;
@@ -1340,7 +1361,8 @@ html.no-touch #strengths .group:hover .no-touch\:group-hover\:text-stone-300{--t
   height: 111vh;
 }
 #portfolio .wrapper .ornt.navy300s{
-  top: 10vh;
+  /* top: 10vh; */
+  top: -192vh;
   left: 43vw;
   width: 3.5vw;
   height: 3.5vw;
@@ -1348,7 +1370,8 @@ html.no-touch #strengths .group:hover .no-touch\:group-hover\:text-stone-300{--t
 }
 #portfolio .wrapper .ornt.orange500{
   top: 16.4vh;
-  left: 40.9vw;
+  /* left: 40.9vw; */
+  left: 142vw;
   width: 2.2vw;
   height: 2.2vw;
   border: 0.15vw solid #FF7300;

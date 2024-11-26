@@ -55,14 +55,17 @@ $(window).scroll(function() {
 $(document).ready(function(){
   $(window).scroll(function(){
     windowTop = $(window).scrollTop();
-    $('.move-top').css({
-      'transform':'translateY('+(windowTop) * -0.1 +'px)'
+    $('.move-up').css({
+      'transform':'translateY('+(windowTop) * -0.15 +'px)'
+    });
+    $('.move-down').css({
+      'transform':'translateY('+(windowTop) * 0.15 +'px)'
     });
     $('.move-left').css({
-      'transform':'translateX('+(windowTop) * -0.1 +'px)'
+      'transform':'translateX('+(windowTop) * -0.15 +'px)'
     });
     $('.move-right').css({
-      'transform':'translateX('+(windowTop) * 0.1  +'px)'
+      'transform':'translateX('+(windowTop) * 0.15 +'px)'
     });
   });
 });
