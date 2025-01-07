@@ -440,14 +440,14 @@ form input[type=number]{-webkit-appearance: textfield;-moz-appearance: textfield
   width: 2vw;
 }
 #footer .wrapper .logo{
-  top: 8vh;
+  top: 6vh;
   left: 6.5vw;
 }
 #footer .wrapper .logo .image{
   width: 16vw;
 }
 #footer .wrapper .information{
-  top: 10vh;
+  top: 8vh;
   right: 6.5vw;
   width: 32vw;
   height: 10vw;
@@ -1496,8 +1496,59 @@ html.no-touch #strengths .group:hover .no-touch\:group-hover\:text-stone-300{--t
 /* =============================================================== */
 /* ----- Desktop ----- */
 #gallery{}
-#gallery .wrapper{}
-#gallery .wrapper .background{}
+#gallery .background{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+#gallery .wrapper{
+  padding: 25vh 5.25vw;
+}
+#gallery .wrapper .gm{
+  position: relative;
+  z-index: 2;
+  margin: 2.5vh 1.25vw;
+  object-fit: cover;
+}
+#gallery .wrapper .gm.image-01{
+  margin-left: 9.5vw;
+  width: 38.2vw;
+  height: 42.7vh;
+}
+#gallery .wrapper .gm.image-02{
+  margin-right: 0;
+  width: 38.2vw;
+  height: 42.6vh;
+}
+#gallery .wrapper .gm.image-03{
+  margin: 2.5vh 0;
+  width: 100%;
+  height: 72.7vh;
+}
+#gallery .wrapper .double{
+  display: inline-block;
+  width: 36.3%;
+}
+#gallery .wrapper .double .gm.image-04{
+  display: block;
+  margin: 2.5vh 0;
+  width: 100%;
+}
+#gallery .wrapper .double .gm.image-05{
+  display: block;
+  margin: 5vh 0;
+  width: 100%;
+}
+#gallery .wrapper .gm.image-06{
+  display: inline-block;
+  vertical-align: top;
+  margin: 2.5vh 0 2.5vh 2.5vw;
+  width: 60.8%;
+}
+/*
 #gallery .wrapper .layer-01{
   top: 30vh;
   transform: unset;
@@ -1530,6 +1581,7 @@ html.no-touch #strengths .group:hover .no-touch\:group-hover\:text-stone-300{--t
 #gallery .wrapper .layer-01 .image-06{
   height: 63vh;
 }
+*/
 /* ----- End Desktop ----- */
 /* ----- Mobile ----- */
 @media screen and (max-width: 846px){}
