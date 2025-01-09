@@ -610,7 +610,7 @@ form input[type=number]{-webkit-appearance: textfield;-moz-appearance: textfield
 #chair-statement .wrapper .layer-01 .ornt.blue400s{
   margin: 0 auto;
   padding: 3vh 0;
-  height: auto;
+  height: 18%;
   border-radius: 2vw;
 }
 #chair-statement .wrapper .layer-01 .ornt.blue400s h3{}
