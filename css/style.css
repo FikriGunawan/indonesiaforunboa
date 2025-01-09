@@ -426,6 +426,9 @@ form input[type=number]{-webkit-appearance: textfield;-moz-appearance: textfield
 /* ----- Desktop ----- */
 #footer{}
 #footer .wrapper{}
+#footer .wrapper .background{
+  height: 50vh;
+}
 #footer .wrapper hr{
   width: 87%;
 }
@@ -601,6 +604,8 @@ form input[type=number]{-webkit-appearance: textfield;-moz-appearance: textfield
 #chair-statement .wrapper .layer-01 .image{
   margin: 0 auto;
   width: 86%;
+  height: 90%;
+  object-fit: cover;
 }
 #chair-statement .wrapper .layer-01 .ornt.blue400s{
   margin: 0 auto;
@@ -1512,6 +1517,7 @@ html.no-touch #strengths .group:hover .no-touch\:group-hover\:text-stone-300{--t
   z-index: 2;
   margin: 2.5vh 1.25vw;
   object-fit: cover;
+  border-radius: 2.5vw;
 }
 #gallery .wrapper .gm.image-01{
   margin-left: 9.5vw;
