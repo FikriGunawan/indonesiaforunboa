@@ -1152,7 +1152,7 @@ html.no-touch #strengths .group:hover .no-touch\:group-hover\:text-stone-300{--t
 #timeline .wrapper .sticky-statement{
   position: relative;
   width: 100%;
-  height: 250vh;
+  height: 275vh;
 }
 #timeline .wrapper .sticky-statement .background{
   position: sticky;
@@ -1166,7 +1166,7 @@ html.no-touch #strengths .group:hover .no-touch\:group-hover\:text-stone-300{--t
 }
 #timeline .wrapper .layer-02 .content{
   margin: 0 auto;
-  padding: 10vh 10vw;
+  padding: 15vh 10vw 10vh;
   width: 83vw;
   border-radius: 2vw;
   overflow: hidden;
@@ -1176,10 +1176,10 @@ html.no-touch #strengths .group:hover .no-touch\:group-hover\:text-stone-300{--t
   display: block;
   position: absolute;
   z-index: 2;
-  top: 10vh;
-  left: 30.4vw;
+  top: 15vh;
+  left: 28vw;
   width: 0.25vw;
-  height: 178vh;
+  height: 187vh;
   background-color: #FF7300;
 }
 #timeline .wrapper .layer-02 .content .bg-white{
@@ -1187,18 +1187,21 @@ html.no-touch #strengths .group:hover .no-touch\:group-hover\:text-stone-300{--t
 }
 #timeline .wrapper .layer-02 .content .item{}
 #timeline .wrapper .layer-02 .content .item .left{
-  width: 23%;
+  width: 20%;
+}
+#timeline .wrapper .layer-02 .content .item .left h3{
+  line-height: 3vh;
 }
 #timeline .wrapper .layer-02 .content .item .right{
   padding-left: 15%;
-  width: 76%;
+  width: 79%;
 }
 #timeline .wrapper .layer-02 .content .item .right::before{
   content: '';
   display: block;
   position: absolute;
   top: 0;
-  left: 19.9vw;
+  left: 17.5vw;
   width: 1.2vw;
   height: 1.2vw;
   border-radius: 50vw;
@@ -1420,16 +1423,23 @@ html.no-touch #strengths .group:hover .no-touch\:group-hover\:text-stone-300{--t
   transition: all .5s;
 }
 #portfolio .wrapper .layer-02 .content .item .wrap .wrapTitle{
-  transform: translate(0, 55%);
+  transform: translate(0, 10vh);
   width: 15vw;
   transition: all .5s;
 }
 #portfolio .wrapper .layer-02 .content .item .wrap:hover .wrapTitle{
-  transform: translate(40%, -230%);
+  transform: translate(8vw, -21vh);
   transition: all .5s;
 }
-#portfolio .wrapper .layer-02 .content .item .wrap .wrapTitle h3{}
-#portfolio .wrapper .layer-02 .content .item .wrap .wrapTitle h4{}
+#portfolio .wrapper .layer-02 .content .item .wrap .wrapTitle h3{
+  margin-bottom: 0.5vh;
+  font-size: 2vw;
+  line-height: 4vh;
+}
+#portfolio .wrapper .layer-02 .content .item .wrap .wrapTitle h4{
+  font-size: 0.9vw;
+  line-height: 2.5vh;
+}
 #portfolio .wrapper .layer-02 .content .item .wrap .wrapBrief{
   position: absolute;
   margin: 0 auto;
@@ -1473,7 +1483,7 @@ html.no-touch #strengths .group:hover .no-touch\:group-hover\:text-stone-300{--t
   background-color: #C3C8D0;
 }
 #portfolio .wrapper .layer-02 .content.stagePadding-02 .owl-dots .owl-dot.active span{
-  width: 82vw !important;
+  width: 81vw !important;
   background-color: #9BA4B0 !important;
 }
 #portfolio .wrapper .layer-02 .content.stagePadding-02 .owl-dots .owl-dot:hover span{
