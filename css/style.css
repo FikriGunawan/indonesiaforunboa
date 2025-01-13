@@ -480,6 +480,7 @@ form input[type=number]{-webkit-appearance: textfield;-moz-appearance: textfield
 /*                  Section Header                                 */
 /* =============================================================== */
 /* ----- Desktop ----- */
+.background-hs{}
 #header{}
 #header .wrapper{}
 #header .wrapper .ornt{}
