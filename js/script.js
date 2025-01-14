@@ -282,3 +282,78 @@ $(document).ready(function() {
   $('.navStagePadding02NextBtn').click(function() {navStagePadding02.trigger('next.owl.carousel');})
   // End Stage Padding Slider 02
 });
+
+// Strengths
+function xSlider02() {
+  return {
+    swiper: null,
+    init: function () {
+      this.swiper = new Swiper(this.$el.querySelector('.swiper'), {
+        direction: 'horizontal',
+        loop: false,
+        slidesPerView: 1,
+        effect: 'creative',
+        creativeEffect: {
+          prev: {
+            shadow: true,
+            translate: [0, 0, -400],
+          },
+          next: {
+            translate: ["100%", "100%", 0],
+            rotate: [0, 0, 45],
+            origin: 'right bottom',
+          },
+        },
+        on: {
+          slideChange: (swiper) => {
+            this.activeSlideIndex = swiper.activeIndex;
+            this.timeoutPercent = 0;
+          }
+        }
+      });
+      this.slidesCount = this.swiper.slides.length;
+      this.$watch('activeSlideIndex', (slideIndex) => {
+        if (this.swiper.activeIndex === slideIndex) {
+          return;
+        }
+        this.swiper.slideTo(slideIndex);
+      });
+    }
+  }
+}
+function xSlider02wrap() {
+  return {
+    slidesCount: 1,
+    activeSlideIndex: 0,
+    timeoutDuration: 3000,
+    timeoutPercent: 0,
+    refreshInterval: 50,
+    hasHover: false,
+    inViewport: false,
+    init: function () {
+      setInterval(() => {
+        if (this.hasHover) {
+          this.timeoutPercent = .0;
+          return;
+        }
+        if (!this.inViewport) {
+          this.timeoutPercent = 0;
+          return;
+        }
+        if (document.documentElement.classList.contains('touch')) {
+          this.timeoutPercent = 0;
+          return;
+        }
+        if (this.timeoutPercent > 1) {
+          this.timeoutPercent = 0;
+          if (this.activeSlideIndex + 1 <= this.slidesCount - 1) {
+            this.activeSlideIndex++;
+          } else {
+            this.activeSlideIndex = 0;
+          }
+        }
+        this.timeoutPercent += this.refreshInterval / this.timeoutDuration;
+      }, this.refreshInterval)
+    }
+  }
+}

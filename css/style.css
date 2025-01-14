@@ -37,7 +37,6 @@ body{
 @font-face{font-family: "Sequel-Sans-Roman-Body";src: url(../fonts/Sequel-Sans-Roman-Body.ttf) format("truetype");}
 @font-face{font-family: "SourceCodeVariable-Roman";src: url(../fonts/SourceCodeVariable-Roman.otf) format("opentype");}
 @font-face{font-family: "SourceSerifVariable-Roman";src: url(../fonts/SourceSerifVariable-Roman.otf) format("opentype");}
-
 .Sequel-Sans-Bold-Body{font-family: "Sequel-Sans-Bold-Body";}
 .Sequel-Sans-Book-Body{font-family: "Sequel-Sans-Book-Body";}
 .Sequel-Sans-Light-Body{font-family: "Sequel-Sans-Light-Body";}
@@ -47,9 +46,6 @@ body{
 .SourceSerifVariable-SemiBold{font-family: "SourceSerifVariable-Roman";font-weight: 600;}
 .SourceSerifVariable-Medium{font-family: "SourceSerifVariable-Roman";font-weight: 500;}
 .SourceSerifVariable-Regular{font-family: "SourceSerifVariable-Roman";font-weight: 400;}
-
-
-
 .Decorative-Headline{font-family: "SourceSerifVariable-Roman";font-weight: 600;font-size: 5vw;}
 .Decorative-Headline-2{font-family: "SourceSerifVariable-Roman";font-weight: 400;font-size: 5vw;}
 .Headline-Hero{font-family: "SourceSerifVariable-Roman";font-weight: 600;font-size: 4.6vw;}
@@ -68,16 +64,6 @@ h6.font-mono700.Body-Text:after,h6.font-white.Body-Text:after{content: '';displa
 .Body-TextBold{font-family: "Sequel-Sans-Roman-Body";font-size: 1.2vw;}
 .Caption{}
 .Caption-Bold{}
-
-
-
-
-
-
-
-
-
-
 .font-96{font-size: 96px;}
 .font-88{font-size: 88px;}
 .font-72{font-size: 72px;}
@@ -260,7 +246,6 @@ form input[type=number]{-webkit-appearance: textfield;-moz-appearance: textfield
 }
 .compArrow .wrap .left{}
 .compArrow .wrap .right{}
-
 .compDots{}
 .compDots span{
   display: inline-block;
@@ -1365,6 +1350,56 @@ html.no-touch #strengths .group:hover .no-touch\:group-hover\:text-stone-300{--t
 }
 #commitment .wrapper .layer-02 .item .right .brief h4{}
 #commitment .wrapper .layer-02 .item .right .brief p{}
+.commitmentContent{}
+.commitmentContent .ccWrap{
+  position: sticky;
+  top: 0;
+}
+.commitmentContent .ccWrap h3{
+  position: absolute;
+  top: 15vh;
+  left: 0;
+  width: 41%;
+  text-align: right;
+  transition: all 0.5s;
+}
+.commitmentContent .ccWrap h3.active{
+  color: #FF7300;
+  transition: all 0.5s;
+}
+.commitmentContent .desc{
+  position: absolute;
+  padding: 20vh 5vw 5vh;
+  top: 0;
+  right: 0;
+  width: 58.7%;
+  height: 100%;
+}    
+.commitmentContent .desc h5{
+  margin-right: 2vw;
+  padding-bottom: 1vh;
+  width: 5vw;
+}
+.commitmentContent .desc h5::after{
+  content: '';
+  position: absolute;
+  display: block;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 0.1vh;
+  background-color: #1A1B1C;
+}
+.commitmentContent .desc .brief{
+  margin-bottom: 5vh;
+  width: 80%;
+}
+.commitmentAnim01{
+  position: absolute;
+  top: 160vh;
+  width: 100%;
+  height: 1vh;
+}
 /* ----- End Desktop ----- */
 /* ----- Mobile ----- */
 @media screen and (max-width: 846px){}
@@ -1435,24 +1470,118 @@ html.no-touch #strengths .group:hover .no-touch\:group-hover\:text-stone-300{--t
   width: 12vw;
   transition: all .5s;
 }
+#portfolio .wrapper .layer-02 .content .item.item-01 .wrap .logo{
+  transform: translate(0, 7vh);
+  width: 16vw;
+}
+#portfolio .wrapper .layer-02 .content .item.item-02 .wrap .logo{
+  transform: translate(0, 4vh);
+  width: 14vw;
+}
+#portfolio .wrapper .layer-02 .content .item.item-03 .wrap .logo{
+  transform: translate(0, 4vh);
+  width: 14vw;
+}
+#portfolio .wrapper .layer-02 .content .item.item-04 .wrap .logo{
+  transform: translate(0, 3vh);
+  width: 12vw;
+}
+#portfolio .wrapper .layer-02 .content .item.item-05 .wrap .logo{
+  transform: translate(0, 3vh);
+  width: 13vw;
+}
+#portfolio .wrapper .layer-02 .content .item.item-06 .wrap .logo{
+  transform: translate(0, 3vh);
+  width: 6.5vw;
+}
+#portfolio .wrapper .layer-02 .content .item.item-07 .wrap .logo{
+  transform: translate(0, 3vh);
+  width: 13vw;
+}
+#portfolio .wrapper .layer-02 .content .item.item-08 .wrap .logo{
+  transform: translate(0, 13vh);
+  width: 13vw;
+}
+#portfolio .wrapper .layer-02 .content .item.item-09 .wrap .logo{
+  transform: translate(0, 3vh);
+  width: 12vw;
+}
+#portfolio .wrapper .layer-02 .content .item.item-10 .wrap .logo{
+  transform: translate(0, 8vh);
+  width: 18vw;
+}
 #portfolio .wrapper .layer-02 .content .item .wrap:hover .logo{
   transform: translate(-7vw, -1vh);
   width: 7vw;
   transition: all .5s;
+}
+#portfolio .wrapper .layer-02 .content .item.item-01 .wrap:hover .logo{
+  transform: translate(-7vw, -1vh);
+  width: 7vw;
+}
+#portfolio .wrapper .layer-02 .content .item.item-02 .wrap:hover .logo{
+  transform: translate(-7.5vw, -1vh);
+  width: 6vw;
+}
+#portfolio .wrapper .layer-02 .content .item.item-03 .wrap:hover .logo{
+  transform: translate(-7vw, -1vh);
+  width: 7vw;
+}
+#portfolio .wrapper .layer-02 .content .item.item-04 .wrap:hover .logo{
+  transform: translate(-7.7vw, -1vh);
+  width: 6vw;
+}
+#portfolio .wrapper .layer-02 .content .item.item-05 .wrap:hover .logo{
+  transform: translate(-7.5vw, -1vh);
+  width: 6vw;
+}
+#portfolio .wrapper .layer-02 .content .item.item-06 .wrap:hover .logo{
+  transform: translate(-9vw, -1vh);
+  width: 3vw;
+}
+#portfolio .wrapper .layer-02 .content .item.item-07 .wrap:hover .logo{
+  transform: translate(-7.5vw, -1vh);
+  width: 6vw;
+}
+#portfolio .wrapper .layer-02 .content .item.item-08 .wrap:hover .logo{
+  transform: translate(-7vw, -0);
+  width: 7vw;
+}
+#portfolio .wrapper .layer-02 .content .item.item-09 .wrap:hover .logo{
+  transform: translate(-7.5vw, -1vh);
+  width: 6.5vw;
+}
+#portfolio .wrapper .layer-02 .content .item.item-10 .wrap:hover .logo{
+  transform: translate(-7vw, 1vh);
+  width: 7vw;
 }
 #portfolio .wrapper .layer-02 .content .item .wrap .wrapTitle{
   transform: translate(0, 10vh);
   width: 15vw;
   transition: all .5s;
 }
+#portfolio .wrapper .layer-02 .content .item.item-10 .wrap .wrapTitle{
+  transform: translate(0, 7vh);
+}
 #portfolio .wrapper .layer-02 .content .item .wrap:hover .wrapTitle{
   transform: translate(8vw, -19vh);
   transition: all .5s;
+}
+#portfolio .wrapper .layer-02 .content .item.item-04 .wrap:hover .wrapTitle{
+  transform: translate(7vw, -19vh)
+}
+#portfolio .wrapper .layer-02 .content .item.item-10 .wrap:hover .wrapTitle{
+  transform: translate(6.5vw, -19vh);
+  width: 10vw;
 }
 #portfolio .wrapper .layer-02 .content .item .wrap .wrapTitle h3{
   margin-bottom: 0.5vh;
   font-size: 2vw;
   line-height: 4vh;
+}
+#portfolio .wrapper .layer-02 .content .item.item-10 .wrap:hover .wrapTitle h3{
+  font-size: 1.2vw;
+  line-height: 3vh;
 }
 #portfolio .wrapper .layer-02 .content .item .wrap .wrapTitle h4{
   font-size: 0.9vw;
@@ -1582,40 +1711,6 @@ html.no-touch #strengths .group:hover .no-touch\:group-hover\:text-stone-300{--t
   margin: 2.5vh 0 2.5vh 2.5vw;
   width: 60.8%;
 }
-/*
-#gallery .wrapper .layer-01{
-  top: 30vh;
-  transform: unset;
-  width: 90vw;
-}
-#gallery .wrapper .layer-01 .container{
-  max-width: 100%;
-  width: 100%;
-}
-#gallery .wrapper .layer-01 img{
-  width: 100%;
-  object-fit: cover;
-  border-radius: 1vw;
-}
-#gallery .wrapper .layer-01 .image-01{
-  height: 32vh;
-}
-#gallery .wrapper .layer-01 .image-02{
-  height: 32vh;
-}
-#gallery .wrapper .layer-01 .image-03{
-  height: 71vh;
-}
-#gallery .wrapper .layer-01 .image-04{
-  height: 30vh;
-}
-#gallery .wrapper .layer-01 .image-05{
-  height: 30vh;
-}
-#gallery .wrapper .layer-01 .image-06{
-  height: 63vh;
-}
-*/
 /* ----- End Desktop ----- */
 /* ----- Mobile ----- */
 @media screen and (max-width: 846px){}
