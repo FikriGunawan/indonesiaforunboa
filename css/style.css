@@ -26,6 +26,7 @@ body{
 .bg-mono600{background-color: #7F8791;}
 .bg-navy100{background-color: #D0D8F7;}
 .bg-navy500{background-color: #133ED8;}
+.bg-blue500{background-color: #027AFF;}
 .bg-blue600{background-color: #0262CC;}
 .list-style-none{margin: 0;padding: 0;list-style-type: none;}
 
@@ -155,6 +156,10 @@ form input[type=number]{-webkit-appearance: textfield;-moz-appearance: textfield
 .ornt.blue400s{
   background-color: #3595FF;
   border: 0.15vw solid #3595FF;
+}
+.ornt.blue500s{
+  background-color: #027AFF;
+  border: 0.15vw solid #027AFF;
 }
 .ornt.blue600{
   background-color: transparent;
@@ -443,7 +448,7 @@ form input[type=number]{-webkit-appearance: textfield;-moz-appearance: textfield
   width: 2vw;
 }
 #footer .wrapper .logo{
-  top: 6vh;
+  top: 9vh;
   left: 6.5vw;
 }
 #footer .wrapper .logo .image{
@@ -592,6 +597,18 @@ form input[type=number]{-webkit-appearance: textfield;-moz-appearance: textfield
   width: 2.8vw;
   height: 2.8vw;
   border: 0.15vw solid #0262CC;
+}
+#chair-statement .wrapper .ornt.orange300{
+  top: 97vh;
+  left: 94vw;
+  width: 3vw;
+  height: 3vw;
+}
+#chair-statement .wrapper .ornt.blue500s{
+  top: 78vh;
+  left: 75vw;
+  width: 5vw;
+  height: 5vw;
 }
 #chair-statement .wrapper .layer-01{
   left: 6.5vw;
@@ -771,7 +788,7 @@ html.no-touch #strengths .group:hover .no-touch\:group-hover\:text-stone-300{--t
 #strengths .\[\&_\.swiper-slide\]\:\!w-\[calc\(100vw-60px\)\] .swiper-slide{width: calc(100vw - 60px) !important;}
 #strengths .md\:\[\&_\.swiper-slide\]\:\!w-\[calc\(33\.3333\%\)\] .swiper-slide{width: calc(33.3333%) !important;}
 #strengths .md\:\[\&_\.swiper-slide\]\:\!w-\[calc\(41\.66\%\)\] .swiper-slide{width: calc(41.66%) !important;}
-#strengths .rounded-lg{border-radius: 0.5rem;}
+#strengths .rounded-lg{border-radius: 0.5rem;border-radius: 2vw;}
 #strengths .overflow-hidden{overflow: hidden;}
 #strengths .bg-cover{background-size: cover;}
 #strengths .bg-center{background-position: center;}
@@ -1380,7 +1397,7 @@ html.no-touch #strengths .group:hover .no-touch\:group-hover\:text-stone-300{--t
 #portfolio .wrapper .ornt.orange500{
   top: 16.4vh;
   /* left: 40.9vw; */
-  left: 142vw;
+  left: -70vw;
   width: 2.2vw;
   height: 2.2vw;
   border: 0.15vw solid #FF7300;
@@ -1419,8 +1436,8 @@ html.no-touch #strengths .group:hover .no-touch\:group-hover\:text-stone-300{--t
   transition: all .5s;
 }
 #portfolio .wrapper .layer-02 .content .item .wrap:hover .logo{
-  transform: translate(-155%, -35%);
-  width: 5.5vw;
+  transform: translate(-7vw, -1vh);
+  width: 7vw;
   transition: all .5s;
 }
 #portfolio .wrapper .layer-02 .content .item .wrap .wrapTitle{
@@ -1429,7 +1446,7 @@ html.no-touch #strengths .group:hover .no-touch\:group-hover\:text-stone-300{--t
   transition: all .5s;
 }
 #portfolio .wrapper .layer-02 .content .item .wrap:hover .wrapTitle{
-  transform: translate(8vw, -21vh);
+  transform: translate(8vw, -19vh);
   transition: all .5s;
 }
 #portfolio .wrapper .layer-02 .content .item .wrap .wrapTitle h3{
@@ -1484,7 +1501,7 @@ html.no-touch #strengths .group:hover .no-touch\:group-hover\:text-stone-300{--t
   background-color: #C3C8D0;
 }
 #portfolio .wrapper .layer-02 .content.stagePadding-02 .owl-dots .owl-dot.active span{
-  width: 81vw !important;
+  width: 78vw !important;
   background-color: #9BA4B0 !important;
 }
 #portfolio .wrapper .layer-02 .content.stagePadding-02 .owl-dots .owl-dot:hover span{
@@ -1528,7 +1545,7 @@ html.no-touch #strengths .group:hover .no-touch\:group-hover\:text-stone-300{--t
   z-index: 2;
   margin: 2.5vh 1.25vw;
   object-fit: cover;
-  border-radius: 2.5vw;
+  border-radius: 2vw;
 }
 #gallery .wrapper .gm.image-01{
   margin-left: 9.5vw;

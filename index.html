@@ -91,6 +91,8 @@
         <div class="position-absolute ornt navy200s move-down"></div>
         <div class="position-absolute ornt orange200 move-left"></div>
         <div class="position-absolute ornt blue600 move-down"></div>
+        <div class="position-absolute ornt z-1 orange300 move-left"></div>
+        <div class="position-absolute ornt z-1 blue500s move-down"></div>
         <div class="boxl text-center layer-01">
           <img class="img-fluid position-absolute top-0 start-0 icon" src="images/icon/quote.svg" alt="Indonesia for UNBoA" />
           <img class="img-fluid position-relative image" src="images/chairman-of-the-BPK.png" alt="Indonesia for UNBoA" />
@@ -229,7 +231,7 @@
           
                           <!-- Item 1 -->
                           <div class="swiper-slide rounded-lg overflow-hidden">
-                            <div x-data="xLazyBackground" x-init="loadImage" data-image-url="images/audit-board.png" x-bind:style="{ background: shown ? null : 'linear-gradient(to right, #0A833E, #6D767B)' }" class="bg-center bg-cover overflow-hidden transition-background" style="background: linear-gradient(to right, #0A833E, #6D767B)">
+                            <div x-data="xLazyBackground" x-init="loadImage" data-image-url="images/jpg/audit-board.jpg" x-bind:style="{ background: shown ? null : 'linear-gradient(to right, #0A833E, #6D767B)' }" class="bg-center bg-cover overflow-hidden transition-background" style="background: linear-gradient(to right, #0A833E, #6D767B)">
                               <div x-ref="image" x-bind:style="{backgroundImage: loaded ? `url(${imageUrl})` : null,opacity: opacity}" class="aspect-[5/6] bg-gray-300 bg-cover bg-center bg-no-repeat"></div>
                             </div>
                           </div>
@@ -237,7 +239,7 @@
           
                           <!-- Item 2 -->
                           <div class="swiper-slide rounded-lg overflow-hidden">
-                            <div x-data="xLazyBackground" x-init="loadImage" data-image-url="images/legislative.png" x-bind:style="{ background: shown ? null : 'linear-gradient(to right, #77747F, #888332)' }" class="bg-center bg-cover overflow-hidden transition-background" style="background: linear-gradient(to right, #77747F, #888332)">
+                            <div x-data="xLazyBackground" x-init="loadImage" data-image-url="images/jpg/legislative.jpg" x-bind:style="{ background: shown ? null : 'linear-gradient(to right, #77747F, #888332)' }" class="bg-center bg-cover overflow-hidden transition-background" style="background: linear-gradient(to right, #77747F, #888332)">
                               <div x-ref="image" x-bind:style="{backgroundImage: loaded ? `url(${imageUrl})` : null,opacity: opacity}" class="aspect-[5/6] bg-gray-300 bg-cover bg-center bg-no-repeat"></div>
                             </div>
                           </div>
@@ -245,7 +247,7 @@
           
                           <!-- Item 3 -->
                           <div class="swiper-slide rounded-lg overflow-hidden">
-                            <div x-data="xLazyBackground" x-init="loadImage" data-image-url="images/executive.png" x-bind:style="{ background: shown ? null : 'linear-gradient(to right, #564033, #6C7E8C)' }" class="bg-center bg-cover overflow-hidden transition-background" style="background: linear-gradient(to right, #564033, #6C7E8C)">
+                            <div x-data="xLazyBackground" x-init="loadImage" data-image-url="images/jpg/executive.jpg" x-bind:style="{ background: shown ? null : 'linear-gradient(to right, #564033, #6C7E8C)' }" class="bg-center bg-cover overflow-hidden transition-background" style="background: linear-gradient(to right, #564033, #6C7E8C)">
                               <div x-ref="image" x-bind:style="{backgroundImage: loaded ? `url(${imageUrl})` : null,opacity: opacity}" class="aspect-[5/6] bg-gray-300 bg-cover bg-center bg-no-repeat"></div>
                             </div>
                           </div>
@@ -253,7 +255,7 @@
           
                           <!-- Item 4 -->
                           <div class="swiper-slide rounded-lg overflow-hidden">
-                            <div x-data="xLazyBackground" x-init="loadImage" data-image-url="images/judicative.png" x-bind:style="{ background: shown ? null : 'linear-gradient(to right, #8692AA, #5F7374)' }" class="bg-center bg-cover overflow-hidden transition-background" style="background: linear-gradient(to right, #8692AA, #5F7374)">
+                            <div x-data="xLazyBackground" x-init="loadImage" data-image-url="images/jpg/judicative.jpg" x-bind:style="{ background: shown ? null : 'linear-gradient(to right, #8692AA, #5F7374)' }" class="bg-center bg-cover overflow-hidden transition-background" style="background: linear-gradient(to right, #8692AA, #5F7374)">
                               <div x-ref="image" x-bind:style="{backgroundImage: loaded ? `url(${imageUrl})` : null,opacity: opacity}" class="aspect-[5/6] bg-gray-300 bg-cover bg-center bg-no-repeat"></div>
                             </div>
                           </div>
@@ -991,7 +993,7 @@
     <div class="row">
       <div class="col-lg-12 p-0 position-relative wrapper">
         <div class="position-absolute z-1 ornt navy300s move-down"></div>
-        <div class="position-absolute z-1 ornt orange500 move-left"></div>
+        <div class="position-absolute z-1 ornt orange500 move-right"></div>
         <img class="img-fluid position-absolute top-0 start-0 w-100 background" src="images/background-portfolio.jpg" alt="Indonesia for UNBoA" />
         <div class="position-relative layer-01">
           <h6 class="position-relative d-inline-block mb-2vh pb-1vh font-mono700 Body-Text slideanimRight">Portfolio</h6>
@@ -1077,13 +1079,19 @@
             width: 6.5vw;
           }
           #portfolio .wrapper .layer-02 .content .item.item-10 .wrap:hover .logo{
-            transform: translate(-7vw, -1vh);
+            transform: translate(-7vw, 1vh);
             width: 7vw;
           }
+          /* Title */
+          #portfolio .wrapper .layer-02 .content .item.item-10 .wrap .wrapTitle{
+            transform: translate(0, 7vh);
+          }
           /* Title Hover */
-          #portfolio .wrapper .layer-02 .content .item.item-04 .wrap:hover .wrapTitle{transform: translate(7vw, -21vh)}
+          #portfolio .wrapper .layer-02 .content .item.item-04 .wrap:hover .wrapTitle{
+            transform: translate(7vw, -19vh)
+          }
           #portfolio .wrapper .layer-02 .content .item.item-10 .wrap:hover .wrapTitle{
-            transform: translate(6.5vw, -21vh);
+            transform: translate(6.5vw, -19vh);
             width: 10vw;
           }
           #portfolio .wrapper .layer-02 .content .item.item-10 .wrap:hover .wrapTitle h3{
@@ -1403,10 +1411,10 @@
       <div class="col-lg-12 p-0 position-relative">
         <img class="img-fluid background" src="images/background-gallery.jpg" alt="Indonesia for UNBoA" />
         <div class="wrapper">
-          <img class="img-fluid gm image-01" src="images/master-gallery-01.png" alt="Indonesia for UNBoA" /><img class="img-fluid gm image-02" src="images/master-gallery-02.png" alt="Indonesia for UNBoA" /><img class="img-fluid gm image-03" src="images/master-gallery-03.png" alt="Indonesia for UNBoA" />
+          <img class="img-fluid gm image-01" src="images/jpg/master-gallery-01.jpg" alt="Indonesia for UNBoA" /><img class="img-fluid gm image-02" src="images/jpg/master-gallery-02.jpg" alt="Indonesia for UNBoA" /><img class="img-fluid gm image-03" src="images/jpg/master-gallery-03.jpg" alt="Indonesia for UNBoA" />
           <div class="double">
-            <img class="img-fluid gm image-04" src="images/master-gallery-04.png" alt="Indonesia for UNBoA" /><img class="img-fluid gm image-05" src="images/master-gallery-05.png" alt="Indonesia for UNBoA" />
-          </div><img class="img-fluid gm image-06" src="images/master-gallery-06.png" alt="Indonesia for UNBoA" />
+            <img class="img-fluid gm image-04" src="images/jpg/master-gallery-04.jpg" alt="Indonesia for UNBoA" /><img class="img-fluid gm image-05" src="images/jpg/master-gallery-05.jpg" alt="Indonesia for UNBoA" />
+          </div><img class="img-fluid gm image-06" src="images/jpg/master-gallery-06.jpg" alt="Indonesia for UNBoA" />
         </div>
         <!--
         <div class="boxc layer-01">
