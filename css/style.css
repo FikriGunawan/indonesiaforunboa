@@ -1829,7 +1829,7 @@ html.no-touch #strengths .group:hover .no-touch\:group-hover\:text-stone-300{--t
     left: 0;
     width: 15vw;
     height: 20vh;
-    background: url('http://localhost/indonesiaforunboa/images/mobile/cre-left.png');
+    background: url('https://indonesiaforunboa.netlify.app/images/mobile/cre-left.png');
     background-repeat: no-repeat !important;
     background-size: 100% 100% !important;
     background-position: center !important;
@@ -1843,7 +1843,7 @@ html.no-touch #strengths .group:hover .no-touch\:group-hover\:text-stone-300{--t
     right: 0;
     width: 15vw;
     height: 20vh;
-    background: url('http://localhost/indonesiaforunboa/images/mobile/cre-right.png');
+    background: url('https://indonesiaforunboa.netlify.app/images/mobile/cre-right.png');
     background-repeat: no-repeat !important;
     background-size: 100% 100% !important;
     background-position: center !important;
