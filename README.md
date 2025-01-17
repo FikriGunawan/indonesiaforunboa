@@ -9,14 +9,15 @@
 - Fonts = https://fonts.google.com/specimen/Source+Serif+4?query=source+serif
 
 ## Sections
+- [] Section Ornament
 - [] Section Navigation
-- [] Section Header
-- [] Section Statement
-- [] Section Board
-- [] Section Strengths
-- [] Section Employees
-- [] Section Tools
-- [] Section Credentials
+- [x] Section Header
+- [x] Section Statement
+- [x] Section Board
+- [x] Section Strengths
+- [x] Section Employees
+- [x] Section Tools
+- [x] Section Credentials
 - [] Section Timeline
 - [] Section Commitment
 - [] Section Portfolio

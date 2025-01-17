@@ -127,6 +127,21 @@ $(document).ready(function(){
       }
     });
   });
+  $('.burgerBtn').click(function() {
+    $(".burgerBtn").addClass("active");
+    $(".closeBtn").addClass("active");
+    $("#navigation").addClass("active");
+  });
+  $('.closeBtn').click(function() {
+    $(".burgerBtn").removeClass("active");
+    $(".closeBtn").removeClass("active");
+    $("#navigation").removeClass("active");
+  });
+  $('#navigation .menu ul li a').click(function() {
+    $(".burgerBtn").removeClass("active");
+    $(".closeBtn").removeClass("active");
+    $("#navigation").removeClass("active");
+  });
 });
 
 $("#navigation .menu ul li:nth-child(1)").addClass("active");
@@ -230,9 +245,9 @@ $(document).ready(function() {
     autoplay: true,
     responsive:{
       0:{
-        items: 1,
-        stagePadding: 20,
-        margin: 0
+        items: 3,
+        center: true,
+        margin: 10
       },
       600:{
         items: 2,
@@ -261,7 +276,6 @@ $(document).ready(function() {
     responsive:{
       0:{
         items: 1,
-        stagePadding: 20,
         margin: 0
       },
       600:{
@@ -281,6 +295,33 @@ $(document).ready(function() {
   $('.navStagePadding02PrevBtn').click(function() {navStagePadding02.trigger('prev.owl.carousel');})
   $('.navStagePadding02NextBtn').click(function() {navStagePadding02.trigger('next.owl.carousel');})
   // End Stage Padding Slider 02
+  // Mobile Gallery
+  $('.mobileGallery').addClass('owl-carousel owl-theme').owlCarousel({
+    responsiveClass: true,
+    center: true,
+    nav: false,
+    dots: true,
+    loop: true,
+    autoplay: true,
+    responsive:{
+      0:{
+        items: 1,
+        stagePadding: 50,
+        margin: 10
+      },
+      600:{
+        items: 2,
+        stagePadding: 100,
+        margin: 0
+      },
+      1000:{
+        items: 2,
+        stagePadding: 100,
+        margin: 0
+      }
+    }
+  })
+  // End Mobile Gallery
 });
 
 // Strengths
