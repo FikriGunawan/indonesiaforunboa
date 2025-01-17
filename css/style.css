@@ -547,7 +547,7 @@ form input[type=number]{-webkit-appearance: textfield;-moz-appearance: textfield
     float: unset;
     position: fixed;
     z-index: -1;
-    padding: 0 5vw 5vh;
+    padding: 7vh 5vw 5vh;
     top: -70vh;
     left: 0;
     width: 100vw;
@@ -560,7 +560,7 @@ form input[type=number]{-webkit-appearance: textfield;-moz-appearance: textfield
   }
   #navigation.active .wrapper .menu{
     z-index: 90;
-    top: 14vh;
+    top: 10vh;
     opacity: 1;
     transition: all .3s;
   }
