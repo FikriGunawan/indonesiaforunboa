@@ -293,6 +293,12 @@ form input[type=number]{-webkit-appearance: textfield;-moz-appearance: textfield
   .Body-LargeDecorative{font-size: 6.5vw;}
   .Body-Large{font-size: 3vw;}
   .Body-BoldLarge{font-size: 5.5vw;}
+  h3.font-orange500.Body-BoldLarge{
+    padding: 2vh 3vw;
+    font-size: 5vw;
+    border: 2px solid #FF7300;
+    border-radius: 8px;
+  }
   .Body-Text{font-size: 4.2vw;}
   .Body-TextBold{font-size: 4.2vw;}
   .ornt{
@@ -684,7 +690,7 @@ form input[type=number]{-webkit-appearance: textfield;-moz-appearance: textfield
     padding-bottom: 10vh;
   }
   #footer .wrapper .background{
-    height: 120vw;
+    height: 65vh;
   }
   #footer .wrapper hr{}
   #footer .wrapper .gotop{
@@ -1415,6 +1421,7 @@ html.no-touch #strengths .group:hover .no-touch\:group-hover\:text-stone-300{--t
   #strengths .wrapper .layer-01 h2{
     margin-bottom: 2vh !important;
     width: 100%;
+    font-size: 8.6vw;
   }
   #strengths .wrapper .layer-01 h3{}
   #strengths .wrapper .layer-01 .strmcWrap{}
@@ -1819,6 +1826,10 @@ html.no-touch #strengths .group:hover .no-touch\:group-hover\:text-stone-300{--t
     animation-duration: unset !important;
     -webkit-animation-duration: unset !important;
     visibility: unset !important;
+  }  
+  #credentials .wrapper .layer-01 .content.stagePadding-01{
+    left: -25vw;
+    width: 150vw;
   }
   #credentials .wrapper .layer-01 .content::before{
     content: '';
@@ -1826,9 +1837,9 @@ html.no-touch #strengths .group:hover .no-touch\:group-hover\:text-stone-300{--t
     position: absolute;
     z-index: 2;
     top: 0;
-    left: 0;
+    left: 25vw;
     width: 15vw;
-    height: 20vh;
+    height: 100%;
     background: url('https://indonesiaforunboa.netlify.app/images/mobile/cre-left.png');
     background-repeat: no-repeat !important;
     background-size: 100% 100% !important;
@@ -1840,9 +1851,9 @@ html.no-touch #strengths .group:hover .no-touch\:group-hover\:text-stone-300{--t
     position: absolute;
     z-index: 2;
     top: 0;
-    right: 0;
+    right: 25vw;
     width: 15vw;
-    height: 20vh;
+    height: 100%;
     background: url('https://indonesiaforunboa.netlify.app/images/mobile/cre-right.png');
     background-repeat: no-repeat !important;
     background-size: 100% 100% !important;
@@ -1850,13 +1861,14 @@ html.no-touch #strengths .group:hover .no-touch\:group-hover\:text-stone-300{--t
   }
   #credentials .wrapper .layer-01 .content .item{}
   #credentials .wrapper .layer-01 .content .item .wrap{
-    height: 20vh;
+    height: 27vh;
+    border-radius: 35px;
   }
   #credentials .wrapper .layer-01 .content .item .wrap .icon{
-    width: 95%;
+    width: 90%;
   }
   #credentials .wrapper .layer-01 .content .item .wrap h3{
-    width: 80%;
+    width: 75%;
   }
   #credentials .wrapper .layer-01 .content.stagePadding-01 .owl-stage{padding-left:0px !important;}
   #credentials .wrapper .layer-01 .content.stagePadding-01 .owl-dots{
@@ -2011,13 +2023,13 @@ html.no-touch #strengths .group:hover .no-touch\:group-hover\:text-stone-300{--t
   }
   #timeline .wrapper .layer-02{}
   #timeline .wrapper .layer-02 .content{
-    padding: 5vh 10vw;
+    padding: 5vh 5vw;
     width: 85vw;
   }
   #timeline .wrapper .layer-02 .content::before{
-    top: 5vh;
-    left: 25vw;
-    height: 234vh;
+    top: 5.6vh;
+    left: 21.87vw;
+    height: 231vh;
   }
   #timeline .wrapper .layer-02 .content .bg-white{}
   #timeline .wrapper .layer-02 .content .item{}
@@ -2028,10 +2040,12 @@ html.no-touch #strengths .group:hover .no-touch\:group-hover\:text-stone-300{--t
     font-size: 4.5vw;
   }
   #timeline .wrapper .layer-02 .content .item .right{
-    width: 80%;
+    padding-left: 12%;
+    width: 83%;
   }
   #timeline .wrapper .layer-02 .content .item .right::before{
-    left: 13.8vw;
+    top: 0.5vh;
+    left: 15.8vw;
     width: 2.5vw;
     height: 2.5vw;
   }
@@ -2040,7 +2054,7 @@ html.no-touch #strengths .group:hover .no-touch\:group-hover\:text-stone-300{--t
     width: 45%;
   }
   #timeline .wrapper .layer-02 .content .item .right .wrap h4{
-    font-size: 3.3vw;
+    font-size: 4.2vw;
     line-height: 3vh;
   }
   #timeline .wrapper .layer-02 .content .item .right .wrap span{
@@ -2290,6 +2304,7 @@ html.no-touch #strengths .group:hover .no-touch\:group-hover\:text-stone-300{--t
   }
   .commitmentContent .ccWrap h3{
     position: relative;
+    margin-bottom: 2vh;
     top: unset;
     left: unset;
     width: 100%;
@@ -2305,12 +2320,20 @@ html.no-touch #strengths .group:hover .no-touch\:group-hover\:text-stone-300{--t
     width: 100%;
     height: auto;
   }
-  .commitmentContent .desc h5{}
-  .commitmentContent .desc h5::after{}
+  .commitmentContent .desc h5{
+    width: 8vw;
+    font-family: "Sequel-Sans-Bold-Body";
+    color: #484C52;
+  }
+  .commitmentContent .desc h5::after{
+    background-color: #484C52;
+  }
   .commitmentContent .desc .brief{}
   .commitmentContent .desc .brief h4,
   .commitmentContent .desc .brief p{
-    font-size: 3.3vw;
+    display: inline;
+    vertical-align: top !important;
+    font-size: 4.2vw;
     line-height: 3vh;
   }
   .commitmentAnim01{}
