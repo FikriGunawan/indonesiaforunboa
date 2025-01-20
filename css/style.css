@@ -1725,7 +1725,7 @@ html.no-touch #strengths .group:hover .no-touch\:group-hover\:text-stone-300{--t
 #credentials{}
 #credentials .wrapper{
   height: 135vh;
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
 }
 #credentials .wrapper .ornt.orange500{
   /* top: 32vh; */
@@ -1781,7 +1781,7 @@ html.no-touch #strengths .group:hover .no-touch\:group-hover\:text-stone-300{--t
   background-color: #C3C8D0;
 }
 #credentials .wrapper .layer-01 .content.stagePadding-01 .owl-dots .owl-dot.active span{
-  width: 47vw !important;
+  width: 45vw !important;
   background-color: #9BA4B0 !important;
 }
 #credentials .wrapper .layer-01 .content.stagePadding-01 .owl-dots .owl-dot:hover span{
