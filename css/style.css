@@ -262,6 +262,7 @@ form input[type=number]{-webkit-appearance: textfield;-moz-appearance: textfield
 /* ----- End Desktop ----- */
 /* ----- Mobile ----- */
 @media screen and (max-width: 846px){
+  /*  
   #navigation,
   .marquee,
   #header,
@@ -282,6 +283,7 @@ form input[type=number]{-webkit-appearance: textfield;-moz-appearance: textfield
   #youtubeModal{
     display: none;
   }
+  */
   .Decorative-Headline{font-size: 13vw;line-height: 8vh;}
   .Decorative-Headline-2{font-size: 13vw;line-height: 8vh;}
   .Headline-Hero{font-size: 9vw;}
@@ -510,7 +512,6 @@ form input[type=number]{-webkit-appearance: textfield;-moz-appearance: textfield
 /* ----- Mobile ----- */
 @media screen and (max-width: 846px){
   #navigation{
-    display: block !important;
     padding: 0 !important;
     background-color: transparent !important;
     transition: all .5s;
@@ -683,9 +684,7 @@ form input[type=number]{-webkit-appearance: textfield;-moz-appearance: textfield
 /* ----- End Desktop ----- */
 /* ----- Mobile ----- */
 @media screen and (max-width: 846px){
-  #footer{
-    display: block !important;
-  }
+  #footer{}
   #footer .wrapper{
     padding-bottom: 10vh;
   }
@@ -830,7 +829,7 @@ form input[type=number]{-webkit-appearance: textfield;-moz-appearance: textfield
   .background-hs{
     height: 200vh !important;
   }
-  #header{display: block;}
+  #header{}
   #header .wrapper{}
   #header .wrapper .ornt{}
   #header .wrapper .ornt.orange500s{
@@ -1017,9 +1016,7 @@ form input[type=number]{-webkit-appearance: textfield;-moz-appearance: textfield
 /* ----- End Desktop ----- */
 /* ----- Mobile ----- */
 @media screen and (max-width: 846px){
-  #chair-statement{
-    display: block !important;
-  }
+  #chair-statement{}
   #chair-statement .wrapper{
     height: auto;
   }
@@ -1141,9 +1138,7 @@ form input[type=number]{-webkit-appearance: textfield;-moz-appearance: textfield
 /* ----- End Desktop ----- */
 /* ----- Mobile ----- */
 @media screen and (max-width: 846px){
-  #board{
-    display: block !important;
-  }
+  #board{}
   #board .wrapper{}
   #board .wrapper .sticky-statement{
     height: auto;
@@ -1359,9 +1354,7 @@ html.no-touch #strengths .group:hover .no-touch\:group-hover\:text-stone-300{--t
 /* ----- End Desktop ----- */
 /* ----- Mobile ----- */
 @media screen and (max-width: 846px){
-  #strengths{
-    display: block !important;
-  }
+  #strengths{}
   #strengths .my-\[160px\]{}
   #strengths .grid{}
   #strengths .grid-cols-1{}
@@ -1567,9 +1560,7 @@ html.no-touch #strengths .group:hover .no-touch\:group-hover\:text-stone-300{--t
 /* ----- End Desktop ----- */
 /* ----- Mobile ----- */
 @media screen and (max-width: 846px){
-  #employees{
-    display: block !important;
-  }
+  #employees{}
   #employees .wrapper{
     padding: 10vh 8vw;
     height: auto !important;
@@ -1673,9 +1664,7 @@ html.no-touch #strengths .group:hover .no-touch\:group-hover\:text-stone-300{--t
 /* ----- End Desktop ----- */
 /* ----- Mobile ----- */
 @media screen and (max-width: 846px){
-  #tools{
-    display: block !important;
-  }
+  #tools{}
   #tools .wrapper{
     padding: 10vh 12vw 0 !important;
   }
@@ -1795,9 +1784,7 @@ html.no-touch #strengths .group:hover .no-touch\:group-hover\:text-stone-300{--t
 /* ----- End Desktop ----- */
 /* ----- Mobile ----- */
 @media screen and (max-width: 846px){
-  #credentials{
-    display: block !important;
-  }
+  #credentials{}
   #credentials .wrapper{
     height: auto;
     overflow: unset;
@@ -2008,9 +1995,7 @@ html.no-touch #strengths .group:hover .no-touch\:group-hover\:text-stone-300{--t
 /* ----- End Desktop ----- */
 /* ----- Mobile ----- */
 @media screen and (max-width: 846px){
-  #timeline{
-    display: block !important;
-  }
+  #timeline{}
   #timeline .wrapper{}
   #timeline .wrapper .layer-01{
     margin-bottom: 5vh;
@@ -2248,7 +2233,6 @@ html.no-touch #strengths .group:hover .no-touch\:group-hover\:text-stone-300{--t
 /* ----- Mobile ----- */
 @media screen and (max-width: 846px){
   #commitment{
-    display: block !important;
     margin-top: -25vh;
   }
   #commitment .wrapper{}
@@ -2293,7 +2277,6 @@ html.no-touch #strengths .group:hover .no-touch\:group-hover\:text-stone-300{--t
   #commitment .wrapper .layer-02 .item .right .brief h4{}
   #commitment .wrapper .layer-02 .item .right .brief p{}
   .commitmentContent{
-    display: block !important;
     margin: 0 !important;
     padding: 0 8vw;
     height: auto !important;
@@ -2582,9 +2565,7 @@ html.no-touch #strengths .group:hover .no-touch\:group-hover\:text-stone-300{--t
 /* ----- End Desktop ----- */
 /* ----- Mobile ----- */
 @media screen and (max-width: 846px){
-  #portfolio{
-    display: block !important;
-  }
+  #portfolio{}
   #portfolio .wrapper{}
   #portfolio .wrapper .ornt.navy300s{display: none;}
   #portfolio .wrapper .ornt.orange500{display: none;}
@@ -2775,9 +2756,7 @@ html.no-touch #strengths .group:hover .no-touch\:group-hover\:text-stone-300{--t
 /* ----- End Desktop ----- */
 /* ----- Mobile ----- */
 @media screen and (max-width: 846px){
-  #gallery{
-    display: block !important;
-  }
+  #gallery{}
   #gallery .background{}
   #gallery .wrapper{
     padding: 0 0 15vh;
