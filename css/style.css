@@ -2551,6 +2551,9 @@ html.no-touch #strengths .group:hover .no-touch\:group-hover\:text-stone-300{--t
   background: #FF7300;
   transition: all .5s;
 }
+#portfolio .wrapper .layer-02 .content .item .counter{
+  display: none;
+}
 #portfolio .wrapper .layer-02 .content.stagePadding-02 .owl-stage{padding-left:0px !important;}
 #portfolio .wrapper .layer-02 .content.stagePadding-02 .owl-dots{
   width: 86vw;
