@@ -2245,7 +2245,7 @@ html.no-touch #strengths .group:hover .no-touch\:group-hover\:text-stone-300{--t
     color: #1A1B1C !important;
   }
   #commitment .wrapper .ornt.navy600s h2 span.Headline-Hero{
-    font-size: 7.5vw;
+    font-size: 7.2vw;
   }
   #commitment .wrapper .desc .point h5{
     width: 8vw;
@@ -2254,6 +2254,9 @@ html.no-touch #strengths .group:hover .no-touch\:group-hover\:text-stone-300{--t
   }
   #commitment .wrapper .desc .point h5::after{
     background-color: #484C52;
+  }  
+  #commitment .wrapper .desc .point .brief{
+    width: 86.4%;
   }
   #commitment .wrapper .desc .brief{}
   #commitment .wrapper .desc .brief h4,
