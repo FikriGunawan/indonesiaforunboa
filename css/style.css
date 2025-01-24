@@ -2007,7 +2007,7 @@ html.no-touch #strengths .group:hover .no-touch\:group-hover\:text-stone-300{--t
     margin-bottom: 5vh;
   }
   #timeline .wrapper .sticky-statement{
-    height: 300vh;
+    height: 265vh;
   }
   #timeline .wrapper .sticky-statement .background{
     object-position: top;
@@ -2191,11 +2191,11 @@ html.no-touch #strengths .group:hover .no-touch\:group-hover\:text-stone-300{--t
 /* ----- Mobile ----- */
 @media screen and (max-width: 846px){
   #commitment{
-    margin-top: -32vh;
+    margin-top: 0;
   }
   #commitment .wrapper{}
   #commitment .wrapper .sticky-statement{
-    height: 215vh;
+    height: 170vh;
   }
   #commitment .wrapper .sticky-statement .background{
     position: absolute;
@@ -2213,7 +2213,7 @@ html.no-touch #strengths .group:hover .no-touch\:group-hover\:text-stone-300{--t
   }
   #commitment .wrapper .desc{
     padding: 0 8vw;
-    top: 45vh;
+    top: 75vw;
     width: 100%;
   }
   #commitment .wrapper .ornt.navy300s{display: none;}
@@ -2227,9 +2227,10 @@ html.no-touch #strengths .group:hover .no-touch\:group-hover\:text-stone-300{--t
   #commitment .wrapper .ornt.navy100s.second{display: none;}
   #commitment .wrapper .ornt.navy600s{
     display: block !important;
-    top: 10vh;
     padding: 0;
-    width: 63vw;
+    top: 10vh;
+    right: 8vw;
+    width: 54vw;
     background: transparent;
     border: unset;
   }
@@ -2244,11 +2245,7 @@ html.no-touch #strengths .group:hover .no-touch\:group-hover\:text-stone-300{--t
     color: #1A1B1C !important;
   }
   #commitment .wrapper .ornt.navy600s h2 span.Headline-Hero{
-    font-size: 8vw;
-  }
-  #commitment .wrapper .desc{
-    padding: 0 6vw;
-    top: 75vw;
+    font-size: 7.5vw;
   }
   #commitment .wrapper .desc .point h5{
     width: 8vw;
@@ -2717,8 +2714,8 @@ html.no-touch #strengths .group:hover .no-touch\:group-hover\:text-stone-300{--t
   #gallery{}
   #gallery .background{}
   #gallery .wrapper{
-    padding: 10vh 0 0;
-    height: 150vh;
+    padding: 5vh 0 10vh;
+    height: auto;
   }
   #gallery .wrapper .layer-01{
     margin-bottom: 5vh;
