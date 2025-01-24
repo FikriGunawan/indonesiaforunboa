@@ -2710,7 +2710,7 @@ html.no-touch #strengths .group:hover .no-touch\:group-hover\:text-stone-300{--t
     padding: 0 8vw;
   }
   #gallery .wrapper .bpkFlip{
-    padding: 60vh 8vw 0;
+    padding: 100vh 8vw 0;
   }
   #gallery .wrapper .gm{
     display: none !important;
