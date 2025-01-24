@@ -84,6 +84,113 @@ $(function () {
     });
   });
 });
+// Animation Timeline
+$(function () {
+  var elements = $(".tltrigger01").toArray();
+  $(window).scroll(function () {
+    elements.forEach(function (item) {
+      if ($(this).scrollTop() >= $(item).offset().top - 0) {
+        $(".sldrg01").addClass("active");
+        $(".sldlt01").addClass("active");
+      }else{
+        $(".sldrg01").removeClass("active");
+        $(".sldlt01").removeClass("active");
+      }
+    });
+  });
+});
+$(function () {
+  var elements = $(".tltrigger02").toArray();
+  $(window).scroll(function () {
+    elements.forEach(function (item) {
+      if ($(this).scrollTop() >= $(item).offset().top - 0) {
+        $(".sldrg02").addClass("active");
+        $(".sldlt02").addClass("active");
+      }else{
+        $(".sldrg02").removeClass("active");
+        $(".sldlt02").removeClass("active");
+      }
+    });
+  });
+});
+$(function () {
+  var elements = $(".tltrigger03").toArray();
+  $(window).scroll(function () {
+    elements.forEach(function (item) {
+      if ($(this).scrollTop() >= $(item).offset().top - 0) {
+        $(".sldlt03").addClass("active");
+      }else{
+        $(".sldlt03").removeClass("active");
+      }
+    });
+  });
+});
+$(function () {
+  var elements = $(".tltrigger04").toArray();
+  $(window).scroll(function () {
+    elements.forEach(function (item) {
+      if ($(this).scrollTop() >= $(item).offset().top - 0) {
+        $(".sldlt04").addClass("active");
+      }else{
+        $(".sldlt04").removeClass("active");
+      }
+    });
+  });
+});
+$(function () {
+  var elements = $(".tltrigger05").toArray();
+  $(window).scroll(function () {
+    elements.forEach(function (item) {
+      if ($(this).scrollTop() >= $(item).offset().top - 0) {
+        $(".sldlt05").addClass("active");
+      }else{
+        $(".sldlt05").removeClass("active");
+      }
+    });
+  });
+});
+$(function () {
+  var elements = $(".tltrigger06").toArray();
+  $(window).scroll(function () {
+    elements.forEach(function (item) {
+      if ($(this).scrollTop() >= $(item).offset().top - 0) {
+        $(".sldrg03").addClass("active");
+        $(".sldlt06").addClass("active");
+      }else{
+        $(".sldrg03").removeClass("active");
+        $(".sldlt06").removeClass("active");
+      }
+    });
+  });
+});
+$(function () {
+  var elements = $(".tltrigger07").toArray();
+  $(window).scroll(function () {
+    elements.forEach(function (item) {
+      if ($(this).scrollTop() >= $(item).offset().top - 0) {
+        $(".sldrg04").addClass("active");
+        $(".sldlt07").addClass("active");
+      }else{
+        $(".sldrg04").removeClass("active");
+        $(".sldlt07").removeClass("active");
+      }
+    });
+  });
+});
+$(function () {
+  var elements = $(".tltrigger08").toArray();
+  $(window).scroll(function () {
+    elements.forEach(function (item) {
+      if ($(this).scrollTop() >= $(item).offset().top - 0) {
+        $(".sldrg05").addClass("active");
+        $(".sldlt08").addClass("active");
+      }else{
+        $(".sldrg05").removeClass("active");
+        $(".sldlt08").removeClass("active");
+      }
+    });
+  });
+});
 /* =============================================================== */
 /*                  End Animation                                  */
 /* =============================================================== */

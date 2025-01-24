@@ -689,7 +689,7 @@ form input[type=number]{-webkit-appearance: textfield;-moz-appearance: textfield
     padding-bottom: 10vh;
   }
   #footer .wrapper .background{
-    height: 65vh;
+    height: 70vh;
   }
   #footer .wrapper hr{}
   #footer .wrapper .gotop{
@@ -2009,7 +2009,7 @@ html.no-touch #strengths .group:hover .no-touch\:group-hover\:text-stone-300{--t
   #timeline .wrapper .layer-02{}
   #timeline .wrapper .layer-02 .content{
     padding: 5vh 5vw;
-    width: 85vw;
+    width: 87vw;
   }
   #timeline .wrapper .layer-02 .content::before{
     top: 5.6vh;
@@ -2061,18 +2061,32 @@ html.no-touch #strengths .group:hover .no-touch\:group-hover\:text-stone-300{--t
 /* =============================================================== */
 /* ----- Desktop ----- */
 #commitment{}
-#commitment .wrapper{
-  /* overflow: hidden; */
+#commitment .wrapper{}
+#commitment .wrapper .sticky-statement{
+  position: relative;
+  width: 100%;
+  height: 230vh;
+}
+#commitment .wrapper .sticky-statement .background{
+  position: sticky;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  width: 23%;
+}
+#commitment .wrapper .sticky-statement .ornament-01{
+  z-index: 1;
+  top: -140vh;
+  left: 0;
+  width: 36%;
 }
 #commitment .wrapper .ornt.navy300s{
-  /* top: 0; */
   top: -160vh;
   left: 75vw;
   width: 7vw;
   height: 7vw;
 }
 #commitment .wrapper .ornt.orange500{
-  /* top: 22vh; */
   top: -145vh;
   left: 50vw;
   width: 3.5vw;
@@ -2082,7 +2096,6 @@ html.no-touch #strengths .group:hover .no-touch\:group-hover\:text-stone-300{--t
 }
 #commitment .wrapper .ornt.navy100s{
   top: 28.5vh;
-  /* left: 53.5vw; */
   left: -30vw;
   width: 2vw;
   height: 2vw;
@@ -2090,10 +2103,6 @@ html.no-touch #strengths .group:hover .no-touch\:group-hover\:text-stone-300{--t
 }
 #commitment .wrapper .ornt.orange400{
   top: 37vh;
-  /*  
-  left: 70vw;
-  width: 30vw;
-  */
   left: -15vw;
   width: 35vw;
   height: 15vh;
@@ -2101,14 +2110,12 @@ html.no-touch #strengths .group:hover .no-touch\:group-hover\:text-stone-300{--t
   border: 0.15vw solid #FF8F33;
 }
 #commitment .wrapper .ornt.navy300s.second{
-  /* top: 52vh; */
   top: -112vh;
   left: 40vw;
   width: 2vw;
   height: 2vw;
 }
 #commitment .wrapper .ornt.orange600s{
-  /* top: 91.5vh; */
   top: 270vh;
   left: 95.5vw;
   width: 3.4vw;
@@ -2118,19 +2125,16 @@ html.no-touch #strengths .group:hover .no-touch\:group-hover\:text-stone-300{--t
 }
 #commitment .wrapper .ornt.navy700{
   top: 106.5vh;
-  /* left: 91.5vw; */
   left: 181.5vw;
 }
 #commitment .wrapper .ornt.orange500.second{
   top: 155vh;
-  /* left: -1vw; */
   left: -94vw;
   width: 5vw;
   height: 5vw;
   border: 0.15vw solid #FF7300;
 }
 #commitment .wrapper .ornt.navy100s.second{
-  /* top: 165vh; */
   top: 359vh;
   left: 4vw;
   width: 5vw;
@@ -2148,68 +2152,18 @@ html.no-touch #strengths .group:hover .no-touch\:group-hover\:text-stone-300{--t
   border-bottom-right-radius: 0;
 }
 #commitment .wrapper .ornt.navy600s h6.font-white.Body-Text:after{background-color: #FBF9F9;}
-#commitment .wrapper .layer-02{}
-#commitment .wrapper .layer-02 .item{}
-#commitment .wrapper .layer-02 .item .left{
-  width: 41%;
-}
-#commitment .wrapper .layer-02 .item .left h3{}
-#commitment .wrapper .layer-02 .item .right{
-  padding: 5vh 5vw;
-  width: 58.7%;
-}
-#commitment .wrapper .layer-02 .item .right h5{
-  margin-right: 2vw;
-  padding-bottom: 1vh;
-  width: 5vw;
-}
-#commitment .wrapper .layer-02 .item .right h5::after{
-  content: '';
-  position: absolute;
-  display: block;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 0.1vh;
-  background-color: #1A1B1C;
-}
-#commitment .wrapper .layer-02 .item .right .brief{
-  margin-bottom: 5vh;
-  width: 80%;
-}
-#commitment .wrapper .layer-02 .item .right .brief h4{}
-#commitment .wrapper .layer-02 .item .right .brief p{}
-.commitmentContent{}
-.commitmentContent .ccWrap{
-  position: sticky;
-  top: 0;
-}
-.commitmentContent .ccWrap h3{
-  position: absolute;
-  top: 15vh;
-  left: 0;
-  width: 41%;
-  text-align: right;
-  transition: all 0.5s;
-}
-.commitmentContent .ccWrap h3.active{
-  color: #FF7300;
-  transition: all 0.5s;
-}
-.commitmentContent .desc{
-  position: absolute;
-  padding: 20vh 5vw 5vh;
-  top: 0;
+#commitment .wrapper .desc{
+  z-index: 1;
+  top: 120vh;
   right: 0;
-  width: 58.7%;
-  height: 100%;
-}    
-.commitmentContent .desc h5{
+  width: 58vw;
+}
+#commitment .wrapper .desc .point h5{
   margin-right: 2vw;
   padding-bottom: 1vh;
   width: 5vw;
 }
-.commitmentContent .desc h5::after{
+#commitment .wrapper .desc .point h5::after{
   content: '';
   position: absolute;
   display: block;
@@ -2219,15 +2173,9 @@ html.no-touch #strengths .group:hover .no-touch\:group-hover\:text-stone-300{--t
   height: 0.1vh;
   background-color: #1A1B1C;
 }
-.commitmentContent .desc .brief{
+#commitment .wrapper .desc .point .brief{
   margin-bottom: 5vh;
   width: 80%;
-}
-.commitmentAnim01{
-  position: absolute;
-  top: 160vh;
-  width: 100%;
-  height: 1vh;
 }
 /* ----- End Desktop ----- */
 /* ----- Mobile ----- */
@@ -2235,7 +2183,26 @@ html.no-touch #strengths .group:hover .no-touch\:group-hover\:text-stone-300{--t
   #commitment{
     margin-top: -25vh;
   }
-  #commitment .wrapper{}
+  #commitment .wrapper{}  
+  #commitment .wrapper .sticky-statement .background{
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    width: 33%;
+  }
+  #commitment .wrapper .sticky-statement .ornament-01{
+    z-index: 1;
+    transform: unset !important;
+    top: 7vh;
+    left: 0;
+    width: 36%;
+  }
+  #commitment .wrapper .desc{
+    padding: 0 8vw;
+    top: 45vh;
+    width: 100%;
+  }
   #commitment .wrapper .ornt.navy300s{display: none;}
   #commitment .wrapper .ornt.orange500{display: none;}
   #commitment .wrapper .ornt.navy100s{display: none;}
@@ -2266,60 +2233,26 @@ html.no-touch #strengths .group:hover .no-touch\:group-hover\:text-stone-300{--t
   #commitment .wrapper .ornt.navy600s h2 span.Headline-Hero{
     font-size: 8vw;
   }
-  #commitment .wrapper .layer-02{}
-  #commitment .wrapper .layer-02 .item{}
-  #commitment .wrapper .layer-02 .item .left{}
-  #commitment .wrapper .layer-02 .item .left h3{}
-  #commitment .wrapper .layer-02 .item .right{}
-  #commitment .wrapper .layer-02 .item .right h5{}
-  #commitment .wrapper .layer-02 .item .right h5::after{}
-  #commitment .wrapper .layer-02 .item .right .brief{}
-  #commitment .wrapper .layer-02 .item .right .brief h4{}
-  #commitment .wrapper .layer-02 .item .right .brief p{}
-  .commitmentContent{
-    margin: 0 !important;
-    padding: 0 8vw;
-    height: auto !important;
+  #commitment .wrapper .desc{
+    padding: 0 6vw;
+    top: 75vw;
   }
-  .commitmentContent .ccWrap{
-    position: relative;
-    top: unset;
-  }
-  .commitmentContent .ccWrap h3{
-    position: relative;
-    margin-bottom: 2vh;
-    top: unset;
-    left: unset;
-    width: 100%;
-    font-size: 6vw;
-    text-align: left;
-  }
-  .commitmentContent .ccWrap h3.active{}
-  .commitmentContent .desc{
-    position: relative;
-    padding: 0;
-    top: unset;
-    right: unset;
-    width: 100%;
-    height: auto;
-  }
-  .commitmentContent .desc h5{
+  #commitment .wrapper .desc .point h5{
     width: 8vw;
     font-family: "Sequel-Sans-Bold-Body";
     color: #484C52;
   }
-  .commitmentContent .desc h5::after{
+  #commitment .wrapper .desc .point h5::after{
     background-color: #484C52;
   }
-  .commitmentContent .desc .brief{}
-  .commitmentContent .desc .brief h4,
-  .commitmentContent .desc .brief p{
+  #commitment .wrapper .desc .brief{}
+  #commitment .wrapper .desc .brief h4,
+  #commitment .wrapper .desc .brief p{
     display: inline;
     vertical-align: top !important;
     font-size: 4.2vw;
     line-height: 3vh;
   }
-  .commitmentAnim01{}
 }
 /* ----- End Mobile ----- */
 /* =============================================================== */
@@ -2710,6 +2643,16 @@ html.no-touch #strengths .group:hover .no-touch\:group-hover\:text-stone-300{--t
 }
 #gallery .wrapper{
   padding: 25vh 5.25vw;
+  height: 260vh;
+}
+#gallery .wrapper .layer-01{
+  margin-bottom: 10vh;
+}
+#gallery .wrapper .bpkFlip{
+  position: relative;
+  padding-top: 90vh;
+  width: 100%;
+  height: 0;
 }
 #gallery .wrapper .gm{
   position: relative;
@@ -2759,7 +2702,15 @@ html.no-touch #strengths .group:hover .no-touch\:group-hover\:text-stone-300{--t
   #gallery{}
   #gallery .background{}
   #gallery .wrapper{
-    padding: 0 0 15vh;
+    padding: 10vh 0 0;
+    height: 110vh;
+  }
+  #gallery .wrapper .layer-01{
+    margin-bottom: 5vh;
+    padding: 0 8vw;
+  }
+  #gallery .wrapper .bpkFlip{
+    padding: 60vh 8vw 0;
   }
   #gallery .wrapper .gm{
     display: none !important;
@@ -2930,6 +2881,35 @@ html.no-touch #strengths .group:hover .no-touch\:group-hover\:text-stone-300{--t
   0%{opacity: 0;-webkit-transform: translateX(-50%);}
   100%{opacity: 1;-webkit-transform: translateX(0%);}
 }
+/* Timeline Animation */
+.tltr{
+  position: absolute;
+  left: 0;
+  width: 100%;
+}
+.tltrigger01{top: 0;}
+.tltrigger02{top: 30vh;}
+.tltrigger03{top: 60vh;}
+.tltrigger04{top: 90vh;}
+.tltrigger05{top: 100vh;}
+.tltrigger06{top: 130vh;}
+.tltrigger07{top: 150vh;}
+.tltrigger08{top: 180vh;}
+.sldrg,.sldlt{
+  position: relative;
+  opacity: 0;
+  transition: 1s !important;
+}
+.sldrg.active,
+.sldlt.active{
+  opacity: 1;
+  transition: 1s;
+}
+.sldrg{left: -20vw;}
+.sldlt{right: -20vw;}
+.sldrg.active{left: 0;}
+.sldlt.active{right: 0;}
+/* End Timeline Animation */
 /* ----- Mobile ----- */
 @media screen and (max-width: 846px){
   #navigation.tarNav{}
