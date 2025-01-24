@@ -2939,6 +2939,11 @@ html.no-touch #strengths .group:hover .no-touch\:group-hover\:text-stone-300{--t
     display: none;
   }
   #header .wrapper .tarHead03.anim{}
+  .sldrg,.sldlt{
+    opacity: 1 !important;
+    left: 0 !important;
+    right: 0 !important;
+  }
 }
 /* ----- End Mobile ----- */
 /* =============================================================== */
