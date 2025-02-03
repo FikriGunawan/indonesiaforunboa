@@ -287,7 +287,7 @@ form input[type=number]{-webkit-appearance: textfield;-moz-appearance: textfield
   .stopperoverflow{
     position: relative;
     width: 100%;
-    overflow-y: hidden;
+    overflow: hidden;
   }
   .Decorative-Headline{font-size: 13vw;line-height: 7vh;}
   .Decorative-Headline-2{font-size: 13vw;line-height: 7vh;}
