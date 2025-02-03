@@ -839,7 +839,9 @@ form input[type=number]{-webkit-appearance: textfield;-moz-appearance: textfield
     height: 200vh !important;
   }
   #header{}
-  #header .wrapper{}
+  #header .wrapper{
+    margin-bottom: -3vh;
+  }
   #header .wrapper .ornt{}
   #header .wrapper .ornt.orange500s{
     top: 62vh;
