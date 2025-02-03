@@ -262,28 +262,33 @@ form input[type=number]{-webkit-appearance: textfield;-moz-appearance: textfield
 /* ----- End Desktop ----- */
 /* ----- Mobile ----- */
 @media screen and (max-width: 846px){
-  /*  
-  #navigation,
+  /* #navigation,
   .marquee,
-  #header,
-  #godown,
+  .background-hs, */
+  /* #header, */
+  /* #godown,
   #chair-statement,
   #board,
   #strengths,
   #employees,
   .background-tc,
-  #tools,
-  #credentials,
-  #timeline,
+  #tools, */
+  /* #credentials, */
+  /* #timeline,
   #commitment,
   .commitmentContent,
   #portfolio,
   #gallery,
   #footer,
-  #youtubeModal{
-    display: none;
+  #youtubeModal, */
+  .displaynone{
+    display: none !important;
   }
-  */
+  .stopperoverflow{
+    position: relative;
+    width: 100%;
+    overflow-y: hidden;
+  }
   .Decorative-Headline{font-size: 13vw;line-height: 7vh;}
   .Decorative-Headline-2{font-size: 13vw;line-height: 7vh;}
   .Headline-Hero{font-size: 9vw;}
