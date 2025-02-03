@@ -2528,7 +2528,7 @@ html.no-touch #strengths .group:hover .no-touch\:group-hover\:text-stone-300{--t
   #portfolio .wrapper .background{}
   #portfolio .wrapper .layer-01{
     margin: 0;
-    padding: 5vh 8vw 5vh;
+    padding: 2vh 8vw 5vh;
     width: 100%;
   }
   #portfolio .wrapper .layer-01 h6{}
