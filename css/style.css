@@ -1084,8 +1084,14 @@ form input[type=number]{-webkit-appearance: textfield;-moz-appearance: textfield
     top: unset;
     left: 5vw;
     width: 90vw;
-  }
+  }  
   #chair-statement .wrapper .ornt.navy600s p{}
+  #chair-statement .wrapper .ornt.navy600s p.Body-LargeDecorative{
+    font-size: 6vw;
+  }
+  #chair-statement .wrapper .ornt.navy600s p.Body-Text{
+    font-size: 4.2vw;
+  }
   #chair-statement .wrapper .button-youtube{
     display: block !important;
     text-align: center;
@@ -2058,6 +2064,16 @@ html.no-touch #strengths .group:hover .no-touch\:group-hover\:text-stone-300{--t
     width: 2.5vw;
     height: 2.5vw;
   }
+  #timeline .wrapper .layer-02 .content .item:last-child .right::after{
+    content: '';
+    display: block;
+    position: absolute;
+    top: 3.5vw;
+    left: 15.8vw;
+    width: 2.5vw;
+    height: 25vh;
+    background-color: #F6F5F5;
+  }
   #timeline .wrapper .layer-02 .content .item .right .wrap{}
   #timeline .wrapper .layer-02 .content .item .right .wrap .logo{
     width: 45%;
@@ -2618,7 +2634,9 @@ html.no-touch #strengths .group:hover .no-touch\:group-hover\:text-stone-300{--t
     height: auto;
     text-align: left;
   }
-  #portfolio .wrapper .layer-02 .content .item .wrap:hover .wrapBrief{}
+  #portfolio .wrapper .layer-02 .content .item .wrap:hover .wrapBrief{
+    height: auto;
+  }
   #portfolio .wrapper .layer-02 .content .item .wrap .wrapBrief h5{}
   #portfolio .wrapper .layer-02 .content .item .wrap .wrapBrief a{
     padding: 1.5vh 5vw;
