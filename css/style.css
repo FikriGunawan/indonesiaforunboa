@@ -15,6 +15,7 @@ body{
 .font-mono500{color: #9BA4B0;}
 .font-mono600{color: #7F8791;}
 .font-mono700{color: #636972;}
+.font-mono800{color: #484C52;}
 .font-orange300{color: #FFAB66;}
 .font-orange500{color: #FF7300;}
 .font-orange700{color: #994500;}
@@ -24,6 +25,8 @@ body{
 .bg-mono100{background-color: #EBEDEF;}
 .bg-mono200{background-color: #D7DBDF;}
 .bg-mono600{background-color: #7F8791;}
+.bg-mono700{background-color: #636972;}
+.bg-mono800{background-color: #484C52;}
 .bg-navy100{background-color: #D0D8F7;}
 .bg-navy500{background-color: #133ED8;}
 .bg-blue500{background-color: #027AFF;}
@@ -38,8 +41,8 @@ body{
 @font-face{font-family: "SourceCodeVariable-Roman";src: url(../fonts/SourceCodeVariable-Roman.otf) format("opentype");}
 @font-face{font-family: "SourceSerifVariable-Roman";src: url(../fonts/SourceSerifVariable-Roman.otf) format("opentype");}
 .Sequel-Sans-Bold-Body{font-family: "Sequel-Sans-Bold-Body";}
-.Sequel-Sans-Book-Body{font-family: "Sequel-Sans-Book-Body";}
-.Sequel-Sans-Light-Body{font-family: "Sequel-Sans-Light-Body";}
+.Sequel-Sans-Book-Body{font-family: "Sequel-Sans-Book-Body" !important;}
+.Sequel-Sans-Light-Body{font-family: "Sequel-Sans-Light-Body" !important;}
 .Sequel-Sans-Roman-Body{font-family: "Sequel-Sans-Roman-Body";}
 .SourceCodeVariable-Roman{font-family: "SourceCodeVariable-Roman";}
 .SourceSerifVariable-Roman{font-family: "SourceSerifVariable-Roman";font-weight: 300;}
@@ -945,7 +948,7 @@ form input[type=number]{-webkit-appearance: textfield;-moz-appearance: textfield
 #chair-statement .wrapper .layer-01{
   left: 6.5vw;
   width: 29vw;
-  height: 85vh;
+  height: 100vh;
   overflow: hidden;
 }
 #chair-statement .wrapper .layer-01 .icon{
@@ -960,11 +963,15 @@ form input[type=number]{-webkit-appearance: textfield;-moz-appearance: textfield
 #chair-statement .wrapper .layer-01 .ornt.blue400s{
   margin: 0 auto;
   padding: 3vh 0;
-  height: 18%;
+  height: auto;
   border-radius: 2vw;
 }
-#chair-statement .wrapper .layer-01 .ornt.blue400s h3{}
-#chair-statement .wrapper .layer-01 .ornt.blue400s p{}
+#chair-statement .wrapper .layer-01 .ornt.blue400s h3{
+  margin-bottom: 0.5vh !important;
+}
+#chair-statement .wrapper .layer-01 .ornt.blue400s p{
+  line-height: 3vh;
+}
 #chair-statement .wrapper .ornt.navy600s{
   padding: 10vh 11vw 10vh 4vw;
   top: 32vh;
@@ -977,6 +984,9 @@ form input[type=number]{-webkit-appearance: textfield;-moz-appearance: textfield
   border-bottom-right-radius: 0;
 }
 #chair-statement .wrapper .ornt.navy600s p{}
+#chair-statement .wrapper .ornt.navy600s p.Body-Text{
+  font-size: 1vw;
+}
 #chair-statement .wrapper .button-youtube{
   display: inline-block;
   padding: 2vh 1.5vw;
@@ -1324,7 +1334,8 @@ html.no-touch #strengths .group:hover .no-touch\:group-hover\:text-stone-300{--t
 }
 #strengths .wrapper .strWrapper .layer-01 .strTextWrap .item .strTextBrief{
   float: right;
-  width: 88%;
+  width: 100%;
+  font-size: 1vw;
 }
 #strengths .wrapper .strWrapper .layer-01 .strTextWrap .item:hover .strTextBrief,
 #strengths .wrapper .strWrapper .layer-01 .strTextWrap .item.active .strTextBrief{
@@ -2171,9 +2182,10 @@ html.no-touch #strengths .group:hover .no-touch\:group-hover\:text-stone-300{--t
 #commitment .wrapper .ornt.navy600s h6.font-white.Body-Text:after{background-color: #FBF9F9;}
 #commitment .wrapper .desc{
   z-index: 1;
+  padding-right: 6vw;
   top: 95vh;
   right: 0;
-  width: 58vw;
+  width: 52.5vw;
 }
 #commitment .wrapper .desc .point h5{
   margin-right: 2vw;
