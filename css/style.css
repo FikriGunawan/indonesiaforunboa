@@ -1877,7 +1877,7 @@ html.no-touch #strengths .group:hover .no-touch\:group-hover\:text-stone-300{--t
 #commitment .wrapper .sticky-statement{
   position: relative;
   width: 100%;
-  height: 185vh;
+  height: 160vh;
 }
 #commitment .wrapper .sticky-statement .background{
   position: sticky;
@@ -1942,14 +1942,14 @@ html.no-touch #strengths .group:hover .no-touch\:group-hover\:text-stone-300{--t
   left: 181.5vw;
 }
 #commitment .wrapper .ornt.orange500.second{
-  top: 155vh;
+  top: 130vh;
   left: -94vw;
   width: 5vw;
   height: 5vw;
   border: 0.15vw solid #FF7300;
 }
 #commitment .wrapper .ornt.navy100s.second{
-  top: 359vh;
+  top: 334vh;
   left: 4vw;
   width: 5vw;
   height: 5vw;
@@ -1999,7 +1999,7 @@ html.no-touch #strengths .group:hover .no-touch\:group-hover\:text-stone-300{--t
     margin-top: 0;
   }
   #commitment .wrapper .sticky-statement{
-    height: 170vh;
+    height: 135vh;
   }
   #commitment .wrapper .sticky-statement .background{
     position: absolute;
