@@ -194,36 +194,6 @@ $(function () {
 /* =============================================================== */
 /*                  End Animation                                  */
 /* =============================================================== */
-
-
-
-
-
-
-
-/*
-$(document).ready(function() {
-  $('#navigation').removeClass("show");
-  // Fixed Show and Hide
-  let prevScrollPos = window.pageYOffset;
-  window.addEventListener('scroll', function() {
-    const currentScrollPos = window.pageYOffset;
-    if (prevScrollPos > currentScrollPos) {
-      document.querySelector('#navigation').classList.add('show');
-    }else{
-      document.querySelector('#navigation').classList.remove('show');
-    }
-    prevScrollPos = currentScrollPos;
-  });
-  $(function () {
-    $(window).scroll(function () {
-      if ($('#navigation').scrollTop() = 0) {
-        $('#navigation').addClass("test");
-      }
-    });
-  });
-});
-*/ 
 $(document).ready(function(){
   $(function () {
     $(window).scroll(function () {
@@ -250,7 +220,6 @@ $(document).ready(function(){
     $("#navigation").removeClass("active");
   });
 });
-
 $("#navigation .menu ul li:nth-child(1)").addClass("active");
 $(function () {
   var elements = $("#header").toArray();
@@ -322,14 +291,12 @@ $(function () {
     });
   });
 });
-
 // Go Down
 $(document).ready(function() {
   document.getElementById("godown").addEventListener("click", function() { 
     window.scrollTo(0, 850); 
   }); 
 });
-
 // Go Top
 $(document).ready(function(){
   $(function () {
@@ -341,7 +308,6 @@ $(document).ready(function(){
     });
   });
 });
-
 $(document).ready(function() {
   // Stage Padding Slider 01
   $('.stagePadding-01').addClass('owl-carousel owl-theme').owlCarousel({
@@ -378,8 +344,6 @@ $(document).ready(function() {
     responsiveClass: true,
     nav: false,
     dots: true,
-    // loop: true,
-    // autoplay: true,
     responsive:{
       0:{
         items: 1,

@@ -2,13 +2,8 @@
 /*                  Default                                        */
 /* =============================================================== */
 /* ----- Desktop ----- */
-
 /* Public */
-body{
-  overflow-x: hidden;
-  background: #EBEDEF;
-  color: #1A1B1C;
-}
+body{overflow-x: hidden;background: #EBEDEF;color: #1A1B1C;}
 .font-white{color: #FBF9F9;}
 .font-mono200{color: #D7DBDF;}
 .font-mono300{color: #C3C8D0;}
@@ -32,7 +27,6 @@ body{
 .bg-blue500{background-color: #027AFF;}
 .bg-blue600{background-color: #0262CC;}
 .list-style-none{margin: 0;padding: 0;list-style-type: none;}
-
 /* Text */
 @font-face{font-family: "Sequel-Sans-Bold-Body";src: url(../fonts/Sequel-Sans-Bold-Body.ttf) format("truetype");}
 @font-face{font-family: "Sequel-Sans-Book-Body";src: url(../fonts/Sequel-Sans-Book-Body.ttf) format("truetype");}
@@ -65,8 +59,6 @@ h3.font-orange700.Body-BoldLarge{padding: 1vh 1vw;border: 0.15vw solid #994500;b
 .Body-Text{font-family: "Sequel-Sans-Light-Body";font-size: 1.2vw;}
 h6.font-mono700.Body-Text:after,h6.font-white.Body-Text:after{content: '';display: block;position: absolute;bottom: 0;left: 0;width: 100%;height: 0.1vh;background-color: #636972;}
 .Body-TextBold{font-family: "Sequel-Sans-Roman-Body";font-size: 1.2vw;}
-.Caption{}
-.Caption-Bold{}
 .font-96{font-size: 96px;}
 .font-88{font-size: 88px;}
 .font-72{font-size: 72px;}
@@ -95,8 +87,6 @@ h6.font-mono700.Body-Text:after,h6.font-white.Body-Text:after{content: '';displa
 h1,h2,h3,h4,h5,h6{margin-bottom: 0;}
 p,a,label,th,td,li,input,textarea,select{margin-bottom: 0;}
 a,a:hover,a[data-toggle="collapse"]{outline: none;color:#1A1B1C;text-decoration: none !important;cursor: pointer;transition: all .5s;}
-b,strong{}
-i{}
 hr{margin: 2vh 0 !important;height: 0.2vh !important;opacity: 1 !important;}
 form input::-webkit-outer-spin-button,form input::-webkit-inner-spin-button{-webkit-appearance: none;margin: 0;}
 form input[type=number]{-webkit-appearance: textfield;-moz-appearance: textfield;appearance: textfield;}
@@ -125,7 +115,6 @@ form input[type=number]{-webkit-appearance: textfield;-moz-appearance: textfield
 .mb-10vh{margin-bottom: 10vh;}
 .mb-15vh{margin-bottom: 15vh;}
 .objectfit-cover{object-fit: cover;}
-
 /* Ornament */
 .ornt{
   width: 1.5vw;
@@ -233,9 +222,7 @@ form input[type=number]{-webkit-appearance: textfield;-moz-appearance: textfield
   background-color: #CC5C00;
   border: 0.15vw solid #CC5C00;
 }
-
 /* Component */
-.compArrow{}
 .compArrow .wrap{
   margin: 0 0.5vw;
   width: 5vw;
@@ -247,9 +234,6 @@ form input[type=number]{-webkit-appearance: textfield;-moz-appearance: textfield
 .compArrow .wrap img{
   width: 3vw;
 }
-.compArrow .wrap .left{}
-.compArrow .wrap .right{}
-.compDots{}
 .compDots span{
   display: inline-block;
   margin-right: 0.5vw;
@@ -265,25 +249,6 @@ form input[type=number]{-webkit-appearance: textfield;-moz-appearance: textfield
 /* ----- End Desktop ----- */
 /* ----- Mobile ----- */
 @media screen and (max-width: 846px){
-  /* #navigation,
-  .marquee,
-  .background-hs, */
-  /* #header, */
-  /* #godown,
-  #chair-statement,
-  #board,
-  #strengths,
-  #employees,
-  .background-tc,
-  #tools, */
-  /* #credentials, */
-  /* #timeline,
-  #commitment,
-  .commitmentContent,
-  #portfolio,
-  #gallery,
-  #footer,
-  #youtubeModal, */
   .displaynone{
     display: none !important;
   }
@@ -388,8 +353,6 @@ form input[type=number]{-webkit-appearance: textfield;-moz-appearance: textfield
 /* =============================================================== */
 /*                  End Default                                    */
 /* =============================================================== */
-
-
 /* =============================================================== */
 /*                  Section Navigation                             */
 /* =============================================================== */
@@ -425,7 +388,6 @@ form input[type=number]{-webkit-appearance: textfield;-moz-appearance: textfield
     opacity: 1;
   }
 }
-#navigation .wrapper{}
 #navigation .wrapper .logo{
   transition: all .5s;
 }
@@ -524,7 +486,6 @@ form input[type=number]{-webkit-appearance: textfield;-moz-appearance: textfield
     background-color: transparent !important;
     transition: all .5s;
   }
-  #navigation .wrapper{}
   #navigation .wrapper .logo{
     position: relative;
     z-index: 95;
@@ -579,7 +540,6 @@ form input[type=number]{-webkit-appearance: textfield;-moz-appearance: textfield
     opacity: 1;
     transition: all .3s;
   }
-  #navigation .wrapper .menu ul{}
   #navigation .wrapper .menu ul li{
     display: block;
   }
@@ -640,11 +600,6 @@ form input[type=number]{-webkit-appearance: textfield;-moz-appearance: textfield
 /* =============================================================== */
 /*                  End Section Navigation                         */
 /* =============================================================== */
-
-
-
-
-
 /* =============================================================== */
 /*                  Section Footer                                 */
 /* =============================================================== */
@@ -652,7 +607,6 @@ form input[type=number]{-webkit-appearance: textfield;-moz-appearance: textfield
 #footer{
   height: 50vh;
 }
-#footer .wrapper{}
 #footer .wrapper .background{
   height: 50vh;
 }
@@ -686,7 +640,6 @@ form input[type=number]{-webkit-appearance: textfield;-moz-appearance: textfield
 #footer .wrapper .information h2{
   font-size: 3.5vw;
 }
-#footer .wrapper .information .socmed{}
 #footer .wrapper .information .socmed .icon{
   margin-left: 1vw;
   height: 4vh;
@@ -703,7 +656,6 @@ form input[type=number]{-webkit-appearance: textfield;-moz-appearance: textfield
   #footer .wrapper .background{
     height: 70vh;
   }
-  #footer .wrapper hr{}
   #footer .wrapper .gotop{
     top: -3.5vh;
     width: 13vw;
@@ -752,19 +704,10 @@ form input[type=number]{-webkit-appearance: textfield;-moz-appearance: textfield
 /* =============================================================== */
 /*                  End Section Footer                             */
 /* =============================================================== */
-
-
-
-
-
 /* =============================================================== */
 /*                  Section Header                                 */
 /* =============================================================== */
 /* ----- Desktop ----- */
-.background-hs{}
-#header{}
-#header .wrapper{}
-#header .wrapper .ornt{}
 #header .wrapper .ornt.orange500s{
   top: 35vh;
   right: 0;
@@ -800,8 +743,6 @@ form input[type=number]{-webkit-appearance: textfield;-moz-appearance: textfield
   left: 6.5vw;
   width: 47vw;
 }
-#header .wrapper .layer-01 h1{}
-#header .wrapper .layer-01 ul{}
 #header .wrapper .layer-01 ul li{
   margin-right: 1vw;
   padding-right: 1vw;
@@ -841,11 +782,9 @@ form input[type=number]{-webkit-appearance: textfield;-moz-appearance: textfield
   .background-hs{
     height: 200vh !important;
   }
-  #header{}
   #header .wrapper{
     margin-bottom: -3vh;
   }
-  #header .wrapper .ornt{}
   #header .wrapper .ornt.orange500s{
     top: 62vh;
     width: 45vw;
@@ -883,34 +822,22 @@ form input[type=number]{-webkit-appearance: textfield;-moz-appearance: textfield
     width: 80vw;
     text-align: center;
   }
-  #header .wrapper .layer-01 h1{}
   #header .wrapper .layer-01 ul{
     display: none;
   }
-  #header .wrapper .layer-01 ul li{}
-  #header .wrapper .layer-01 ul li::after{}
-  #header .wrapper .layer-01 ul li:last-child:after{}
   #header .wrapper .ornament-01{
     top: 72%;
     width: 80vw;
   }
-  #header .wrapper .godown{}
-  #header .wrapper .godown .icon{}
 }
 /* ----- End Mobile ----- */
 /* =============================================================== */
 /*                  End Section Header                             */
 /* =============================================================== */
-
-
-
-
-
 /* =============================================================== */
 /*                  Section Statement                              */
 /* =============================================================== */
 /* ----- Desktop ----- */
-#chair-statement{}
 #chair-statement .wrapper{
   height: 130vh;
 }
@@ -983,7 +910,6 @@ form input[type=number]{-webkit-appearance: textfield;-moz-appearance: textfield
   border-top-right-radius: 0;
   border-bottom-right-radius: 0;
 }
-#chair-statement .wrapper .ornt.navy600s p{}
 #chair-statement .wrapper .ornt.navy600s p.Body-Text{
   font-size: 1vw;
 }
@@ -999,8 +925,6 @@ form input[type=number]{-webkit-appearance: textfield;-moz-appearance: textfield
   background-color: #FFAB66;
   border: 0.15vw solid #FFAB66;
 }
-#youtubeModal{}
-#youtubeModal .modal-dialog{}
 #youtubeModal .modal-dialog,
 #youtubeModal .modal-dialog .modal-content{
   position: relative;
@@ -1011,16 +935,18 @@ form input[type=number]{-webkit-appearance: textfield;-moz-appearance: textfield
   margin: 0;
   background: transparent;
 }
-#youtubeModal .modal-dialog .modal-content{}
 #youtubeModal .modal-dialog .modal-content .close{
   top: 12.5vh;
   right: 15.5vw;
   width: 2.5vw;
   cursor: pointer;
 }
-#youtubeModal .modal-dialog .modal-content .chair-video{
+#youtubeModal .modal-dialog .modal-content .chair-video iframe{
+  position: absolute;
+  margin: 0 auto;
   top: 16vh;
-  transform: unset;
+  left: 0;
+  right: 0;
   width: 63vw;
   height: 70vh;
   border-radius: 2vw;
@@ -1033,11 +959,9 @@ form input[type=number]{-webkit-appearance: textfield;-moz-appearance: textfield
   border-radius: 2vw;
   overflow: hidden;
 }
-#chair-statement .wrapper .layer-03 .chair-video{}
 /* ----- End Desktop ----- */
 /* ----- Mobile ----- */
 @media screen and (max-width: 846px){
-  #chair-statement{}
   #chair-statement .wrapper{
     height: auto;
   }
@@ -1070,11 +994,10 @@ form input[type=number]{-webkit-appearance: textfield;-moz-appearance: textfield
     width: 70vw !important;
     height: auto;
   }
-  #chair-statement .wrapper .layer-01 .ornt.blue400s h3{}
-  #chair-statement .wrapper .layer-01 .ornt.blue400s p{}
   #chair-statement .wrapper .ornt.navy600s{
     display: block !important;
     animation-name: unset !important;
+    animation-duration: unset !important;
     -webkit-animation-name: unset !important;
     -webkit-animation-duration: unset !important;
     visibility: unset !important;
@@ -1084,8 +1007,7 @@ form input[type=number]{-webkit-appearance: textfield;-moz-appearance: textfield
     top: unset;
     left: 5vw;
     width: 90vw;
-  }  
-  #chair-statement .wrapper .ornt.navy600s p{}
+  }
   #chair-statement .wrapper .ornt.navy600s p.Body-LargeDecorative{
     font-size: 6vw;
   }
@@ -1096,40 +1018,25 @@ form input[type=number]{-webkit-appearance: textfield;-moz-appearance: textfield
     display: block !important;
     text-align: center;
   }
-  #chair-statement .wrapper .button-youtube:hover{}
-  #youtubeModal{}
-  #youtubeModal .modal-dialog{}
-  #youtubeModal .modal-dialog,
-  #youtubeModal .modal-dialog .modal-content{}
-  #youtubeModal .modal-dialog .modal-content{}
   #youtubeModal .modal-dialog .modal-content .close{
     top: 7vh;
     right: 5vw;
     width: 10vw;
   }
-  #youtubeModal .modal-dialog .modal-content .chair-video{
+  #youtubeModal .modal-dialog .modal-content .chair-video iframe{
     top: 50%;
     transform: translateY(-50%);
     width: 90vw;
   }
-  #chair-statement .wrapper .layer-03{}
-  #chair-statement .wrapper .layer-03 .chair-video{}
 }
 /* ----- End Mobile ----- */
 /* =============================================================== */
 /*                  End Section Statement                          */
 /* =============================================================== */
-
-
-
-
-
 /* =============================================================== */
 /*                  Section Board                                  */
 /* =============================================================== */
 /* ----- Desktop ----- */
-#board{}
-#board .wrapper{}
 #board .wrapper .sticky-statement{
   position: relative;
   width: 100%;
@@ -1147,9 +1054,9 @@ form input[type=number]{-webkit-appearance: textfield;-moz-appearance: textfield
   right: 5.5vw;
   width: 44.5vw;
 }
-#board .wrapper .layer-01 h2{}
-#board .wrapper .layer-01 h3{
-  margin-bottom: 4vh;
+#board .wrapper .layer-01 h4{
+  margin: 6vh 0 8vh;
+  font-size: 1.9vw;
 }
 #board .wrapper .layer-01 a{
   margin: 1vh 0.2vw;
@@ -1165,8 +1072,6 @@ form input[type=number]{-webkit-appearance: textfield;-moz-appearance: textfield
 /* ----- End Desktop ----- */
 /* ----- Mobile ----- */
 @media screen and (max-width: 846px){
-  #board{}
-  #board .wrapper{}
   #board .wrapper .sticky-statement{
     height: auto;
   }
@@ -1184,8 +1089,9 @@ form input[type=number]{-webkit-appearance: textfield;-moz-appearance: textfield
     margin-bottom: 1vh;
     width: 45vw;
   }
-  #board .wrapper .layer-01 h3{
-    margin-bottom: 3vh;
+  #board .wrapper .layer-01 h4{
+    margin: 3vh 0 6vh;
+    font-size: 4.4vw;
   }
   #board .wrapper .layer-01 a{
     display: inline-block !important;
@@ -1206,16 +1112,10 @@ form input[type=number]{-webkit-appearance: textfield;-moz-appearance: textfield
 /* =============================================================== */
 /*                  End Section Board                              */
 /* =============================================================== */
-
-
-
-
-
 /* =============================================================== */
 /*                  Section Strengths                              */
 /* =============================================================== */
 /* ----- Desktop ----- */
-#strengths{}
 #strengths .my-\[160px\]{margin-top: 160px;margin-bottom: 160px;}
 #strengths .grid{display: grid;}
 #strengths .grid-cols-1{grid-template-columns: repeat(1, minmax(0, 1fr));}
@@ -1268,7 +1168,6 @@ html.no-touch #strengths .group:hover .no-touch\:group-hover\:text-stone-300{--t
   height: 140vh;
 }
 #strengths .wrapper .ornt.orange500{
-  /* top: 17vh; */
   top: -33vh;
   left: 92vw;
   width: 3.5vw;
@@ -1278,29 +1177,23 @@ html.no-touch #strengths .group:hover .no-touch\:group-hover\:text-stone-300{--t
 }
 #strengths .wrapper .ornt.navy400s{
   top: 23.5vh;
-  /* left: 90vw; */
   left: 115vw;
   width: 2vw;
   height: 2vw;
   border-radius: 0.5vw;
 }
-#strengths .wrapper .background-strengths{}
 #strengths .wrapper .layer-01{
   top: 43%;
   left: 6.5vw;
   width: 55vw;
   height: 80vh;
 }
-#strengths .wrapper .layer-01 h6{}
 #strengths .wrapper .layer-01 h2{
   width: 22vw;
 }
-#strengths .wrapper .layer-01 h3{}
 #strengths .wrapper .strWrapper{
   padding: 10vh 6.5vw;
 }
-#strengths .wrapper .strWrapper .layer-01{}
-#strengths .wrapper .strWrapper .layer-01 .strTextWrap{}
 #strengths .wrapper .strWrapper .layer-01 .strTextWrap .item{
   margin: 0 0.5vw -5vh;
   padding: 5vh 2.5vw;
@@ -1382,70 +1275,16 @@ html.no-touch #strengths .group:hover .no-touch\:group-hover\:text-stone-300{--t
 /* ----- End Desktop ----- */
 /* ----- Mobile ----- */
 @media screen and (max-width: 846px){
-  #strengths{}
-  #strengths .my-\[160px\]{}
-  #strengths .grid{}
-  #strengths .grid-cols-1{}
-  #strengths .grid-cols-12{}
-  #strengths .grid-flow-dense{}
-  #strengths .gap-x-5{}
-  #strengths .gap-y-\[60px\]{}
-  #strengths .col-span-12{}
-  #strengths .group:hover .group-hover\:translate-x-0{}
-  #strengths .group:hover .group-hover\:pl-5{}
-  html.no-touch #strengths .group:hover .no-touch\:group-hover\:translate-x-full{}
-  html.no-touch #strengths .group:hover .no-touch\:group-hover\:text-stone-300{}
-  #strengths .col-span-1{}
-  #strengths .transition-colors{}
-  #strengths .relative{}
-  #strengths .border-b{}
-  #strengths .border-stone-300{}
-  #strengths .block{}
-  #strengths .absolute{}
-  #strengths .w-full{}
-  #strengths .-bottom-px{}
-  #strengths .h-px{}
-  #strengths .bg-gray-700{}
-  #strengths .text-balance{}
-  #strengths .tracking-\[-\.36px\]{}
-  #strengths .text-pretty{}
-  #strengths .\[\&_\.swiper-slide\]\:\!w-\[calc\(100vw-60px\)\] .swiper-slide{}
-  #strengths .md\:\[\&_\.swiper-slide\]\:\!w-\[calc\(33\.3333\%\)\] .swiper-slide{}
-  #strengths .md\:\[\&_\.swiper-slide\]\:\!w-\[calc\(41\.66\%\)\] .swiper-slide{}
-  #strengths .rounded-lg{}
-  #strengths .overflow-hidden{}
-  #strengths .bg-cover{}
-  #strengths .bg-center{}
-  #strengths .aspect-\[5\/6\]{}
-  #strengths .bg-gray-300{}
-  #strengths .bg-no-repeat{}
-  #strengths .md\:col-span-5{}
-  #strengths .md\:col-span-7{}
-  #strengths .md\:pr-10{}
-  #strengths .md\:order-first{}
-  #strengths .md\:order-last{}
-  #strengths .md\:tracking-\[-\.8px\]{}
-  #strengths .group:hover .md\:group-hover\:z-20{}
-  #strengths .group:hover .md\:group-hover\:pr-5{}
-  #strengths .group:hover .md\:group-hover\:opacity-100{}
-  #strengths .group:hover .md\:group-hover\:drop-shadow-\[0_5px_5px_\#37474F\]{}
-  #strengths .lg\:gap-y-\[80px\]{}
-  #strengths .lg\:grid-cols-2{}
   #strengths .wrapper{
     height: auto;
   }
   #strengths .wrapper .ornt.orange500{display: none;}
   #strengths .wrapper .ornt.navy400s{display: none;}
-  #strengths .wrapper .background-strengths{}
-  #strengths .wrapper .layer-01{}
-  #strengths .wrapper .layer-01 h6{}
   #strengths .wrapper .layer-01 h2{
     margin-bottom: 2vh !important;
     width: 100%;
     font-size: 8.6vw;
   }
-  #strengths .wrapper .layer-01 h3{}
-  #strengths .wrapper .layer-01 .strmcWrap{}
   #strengths .wrapper .layer-01 .strmcWrap .item{
     margin-bottom: 5vh;
   }
@@ -1484,26 +1323,6 @@ html.no-touch #strengths .group:hover .no-touch\:group-hover\:text-stone-300{--t
   #strengths .wrapper .strWrapper .layer-01 .strTextWrap{
     display: none;
   }
-  #strengths .wrapper .strWrapper .layer-01 .strTextWrap .item{}
-  #strengths .wrapper .strWrapper .layer-01 .strTextWrap .item:hover,
-  #strengths .wrapper .strWrapper .layer-01 .strTextWrap .item.active{}
-  #strengths .wrapper .strWrapper .layer-01 .strTextWrap .item .strTextHeading{}
-  #strengths .wrapper .strWrapper .layer-01 .strTextWrap .item .strTextHeading h5{}
-  #strengths .wrapper .strWrapper .layer-01 .strTextWrap .item:hover h5,
-  #strengths .wrapper .strWrapper .layer-01 .strTextWrap .item.active h5{}
-  #strengths .wrapper .strWrapper .layer-01 .strTextWrap .item .strTextHeading h4{}
-  #strengths .wrapper .strWrapper .layer-01 .strTextWrap .item:hover h4,
-  #strengths .wrapper .strWrapper .layer-01 .strTextWrap .item.active h4{}
-  #strengths .wrapper .strWrapper .layer-01 .strTextWrap .item .strTextBrief{}
-  #strengths .wrapper .strWrapper .layer-01 .strTextWrap .item:hover .strTextBrief,
-  #strengths .wrapper .strWrapper .layer-01 .strTextWrap .item.active .strTextBrief{}
-  #strengths .wrapper .strWrapper .layer-01 .strTextWrap .item .strTextHeading .Line{}
-  #strengths .wrapper .strWrapper .layer-01 .strTextWrap .item .strTextHeading .Line .LineMove{}
-  #strengths .wrapper .strWrapper .layer-01 .strTextWrap .item .strTextHeading .LineStay{}
-  #strengths .wrapper .strWrapper .layer-01 .strTextWrap .item:hover .strTextHeading .Line .LineMove,
-  #strengths .wrapper .strWrapper .layer-01 .strTextWrap .item.active .strTextHeading .Line .LineMove,
-  #strengths .wrapper .strWrapper .layer-01 .strTextWrap .item:hover .strTextHeading .LineStay,
-  #strengths .wrapper .strWrapper .layer-01 .strTextWrap .item.active .strTextHeading .LineStay{}
   #strengths .wrapper .layer-02{
     display: none;
   }
@@ -1512,20 +1331,12 @@ html.no-touch #strengths .group:hover .no-touch\:group-hover\:text-stone-300{--t
 /* =============================================================== */
 /*                  End Section Strengths                          */
 /* =============================================================== */
-
-
-
-
-
 /* =============================================================== */
 /*                  Section Employees                              */
 /* =============================================================== */
 /* ----- Desktop ----- */
-#employees{}
-#employees .wrapper{}
 #employees .wrapper .ornt.orange500{
   top: -5vh;
-  /* left: 93vw; */
   left: 128vw;
   width: 5vw;
   height: 5vw;
@@ -1533,14 +1344,12 @@ html.no-touch #strengths .group:hover .no-touch\:group-hover\:text-stone-300{--t
 }
 #employees .wrapper .ornt.orange500.second{
   top: 75vh;
-  /* left: -1vw; */
   left: -40vw;
   width: 5vw;
   height: 5vw;
   border: 0.15vw solid #FF7300;
 }
 #employees .wrapper .ornt.navy100s{
-  /* top: 85vh; */
   top: 160vh;
   left: 4vw;
   width: 5vw;
@@ -1588,7 +1397,6 @@ html.no-touch #strengths .group:hover .no-touch\:group-hover\:text-stone-300{--t
 /* ----- End Desktop ----- */
 /* ----- Mobile ----- */
 @media screen and (max-width: 846px){
-  #employees{}
   #employees .wrapper{
     padding: 10vh 8vw;
     height: auto !important;
@@ -1622,7 +1430,6 @@ html.no-touch #strengths .group:hover .no-touch\:group-hover\:text-stone-300{--t
   #employees .wrapper .layer-02 .item h5{
     width: 8vw;
   }
-  #employees .wrapper .layer-02 .item h5::after{}
   #employees .wrapper .layer-02 .item h4{
     width: 18vw;
     font-size: 10vw;
@@ -1639,26 +1446,17 @@ html.no-touch #strengths .group:hover .no-touch\:group-hover\:text-stone-300{--t
 /* =============================================================== */
 /*                  End Section Employees                          */
 /* =============================================================== */
-
-
-
-
-
 /* =============================================================== */
 /*                  Section Tools                                  */
 /* =============================================================== */
 /* ----- Desktop ----- */
-#tools{}
-#tools .wrapper{}
 #tools .wrapper .ornt.navy100s{
-  /* top: 15vh; */
   top: -65vh;
   left: 87vw;
   width: 3vw;
   height: 3vw;
 }
 #tools .wrapper .ornt.orange500{
-  /* top: 50vh; */
   top: 140vh;
   left: -0.5vw;
   width: 3vw;
@@ -1688,11 +1486,9 @@ html.no-touch #strengths .group:hover .no-touch\:group-hover\:text-stone-300{--t
   margin: 2vh 0 4vh !important;
   height: 0.5vh !important;
 }
-#tools .wrapper .item h3{}
 /* ----- End Desktop ----- */
 /* ----- Mobile ----- */
 @media screen and (max-width: 846px){
-  #tools{}
   #tools .wrapper{
     padding: 10vh 12vw 0 !important;
   }
@@ -1723,29 +1519,19 @@ html.no-touch #strengths .group:hover .no-touch\:group-hover\:text-stone-300{--t
     transform: unset;
     width: 100%;
   }
-  #tools .wrapper .item hr{}
-  #tools .wrapper .item h3{}
 }
 /* ----- End Mobile ----- */
 /* =============================================================== */
 /*                  End Section Tools                              */
 /* =============================================================== */
-
-
-
-
-
 /* =============================================================== */
 /*                  Section Credentials                            */
 /* =============================================================== */
 /* ----- Desktop ----- */
-#credentials{}
 #credentials .wrapper{
   height: 135vh;
-  /* overflow-x: hidden; */
 }
 #credentials .wrapper .ornt.orange500{
-  /* top: 32vh; */
   top: -71vh;
   left: 65vw;
   width: 3.5vw;
@@ -1755,7 +1541,6 @@ html.no-touch #strengths .group:hover .no-touch\:group-hover\:text-stone-300{--t
 }
 #credentials .wrapper .ornt.navy100s{
   top: 38.5vh;
-  /* left: 63vw; */
   left: 115vw;
   width: 2vw;
   height: 2vw;
@@ -1766,11 +1551,9 @@ html.no-touch #strengths .group:hover .no-touch\:group-hover\:text-stone-300{--t
   width: 58vw;
   height: 85vh;
 }
-#credentials .wrapper .layer-01 h6{}
 #credentials .wrapper .layer-01 h2{
   width: 22vw;
 }
-#credentials .wrapper .layer-01 .content{}
 #credentials .wrapper .layer-01 .content .item{
   padding: 0 1vw;
 }
@@ -1812,7 +1595,6 @@ html.no-touch #strengths .group:hover .no-touch\:group-hover\:text-stone-300{--t
 /* ----- End Desktop ----- */
 /* ----- Mobile ----- */
 @media screen and (max-width: 846px){
-  #credentials{}
   #credentials .wrapper{
     height: auto;
     overflow: unset;
@@ -1827,7 +1609,6 @@ html.no-touch #strengths .group:hover .no-touch\:group-hover\:text-stone-300{--t
     width: 100%;
     height: auto;
   }
-  #credentials .wrapper .layer-01 .background{}
   #credentials .wrapper .layer-01 h6{
     margin-left: 37vw;
   }
@@ -1874,7 +1655,6 @@ html.no-touch #strengths .group:hover .no-touch\:group-hover\:text-stone-300{--t
     background-size: 100% 100% !important;
     background-position: center !important;
   }
-  #credentials .wrapper .layer-01 .content .item{}
   #credentials .wrapper .layer-01 .content .item .wrap{
     height: 27vh;
     border-radius: 35px;
@@ -1942,17 +1722,10 @@ html.no-touch #strengths .group:hover .no-touch\:group-hover\:text-stone-300{--t
 /* =============================================================== */
 /*                  End Section Credentials                        */
 /* =============================================================== */
-
-
-
-
-
 /* =============================================================== */
 /*                  Section Timeline                               */
 /* =============================================================== */
 /* ----- Desktop ----- */
-#timeline{}
-#timeline .wrapper{}
 #timeline .wrapper .layer-01{
   margin: 0 auto 10vh;
   width: 90vw;
@@ -1993,7 +1766,6 @@ html.no-touch #strengths .group:hover .no-touch\:group-hover\:text-stone-300{--t
 #timeline .wrapper .layer-02 .content .bg-white{
   opacity: 0.7;
 }
-#timeline .wrapper .layer-02 .content .item{}
 #timeline .wrapper .layer-02 .content .item .left{
   width: 20%;
 }
@@ -2015,10 +1787,19 @@ html.no-touch #strengths .group:hover .no-touch\:group-hover\:text-stone-300{--t
   border-radius: 50vw;
   background-color: #FF7300;
 }
-#timeline .wrapper .layer-02 .content .item .right .wrap{}
 #timeline .wrapper .layer-02 .content .item .right .wrap .logo{
   margin-right: 1vw;
   width: 28%;
+}
+#timeline .wrapper .layer-02 .content .item .right .wrap h4{
+  display: block;
+  font-family: "Sequel-Sans-Roman-Body";
+  font-size: 1.4vw;
+}
+#timeline .wrapper .layer-02 .content .item .right .wrap span{
+  font-family: "Sequel-Sans-Light-Body";
+  font-size: 1.2vw;
+  color: #484C52;
 }
 /* ----- End Desktop ----- */
 /* ----- Mobile ----- */
@@ -2026,7 +1807,6 @@ html.no-touch #strengths .group:hover .no-touch\:group-hover\:text-stone-300{--t
   #timeline{
     margin-top: -3vh;
   }
-  #timeline .wrapper{}
   #timeline .wrapper .layer-01{
     margin-bottom: 5vh;
   }
@@ -2036,7 +1816,6 @@ html.no-touch #strengths .group:hover .no-touch\:group-hover\:text-stone-300{--t
   #timeline .wrapper .sticky-statement .background{
     object-position: top;
   }
-  #timeline .wrapper .layer-02{}
   #timeline .wrapper .layer-02 .content{
     padding: 5vh 5vw;
     width: 87vw;
@@ -2046,8 +1825,6 @@ html.no-touch #strengths .group:hover .no-touch\:group-hover\:text-stone-300{--t
     left: 21.87vw;
     height: 231vh;
   }
-  #timeline .wrapper .layer-02 .content .bg-white{}
-  #timeline .wrapper .layer-02 .content .item{}
   #timeline .wrapper .layer-02 .content .item .left{
     width: 15%;
   }
@@ -2074,7 +1851,6 @@ html.no-touch #strengths .group:hover .no-touch\:group-hover\:text-stone-300{--t
     height: 25vh;
     background-color: #F6F5F5;
   }
-  #timeline .wrapper .layer-02 .content .item .right .wrap{}
   #timeline .wrapper .layer-02 .content .item .right .wrap .logo{
     width: 45%;
   }
@@ -2091,11 +1867,6 @@ html.no-touch #strengths .group:hover .no-touch\:group-hover\:text-stone-300{--t
 /* =============================================================== */
 /*                  End Section Timeline                           */
 /* =============================================================== */
-
-
-
-
-
 /* =============================================================== */
 /*                  Section Commitment                             */
 /* =============================================================== */
@@ -2103,7 +1874,6 @@ html.no-touch #strengths .group:hover .no-touch\:group-hover\:text-stone-300{--t
 #commitment{
   margin-top: -15vh;
 }
-#commitment .wrapper{}
 #commitment .wrapper .sticky-statement{
   position: relative;
   width: 100%;
@@ -2228,7 +1998,6 @@ html.no-touch #strengths .group:hover .no-touch\:group-hover\:text-stone-300{--t
   #commitment{
     margin-top: 0;
   }
-  #commitment .wrapper{}
   #commitment .wrapper .sticky-statement{
     height: 170vh;
   }
@@ -2293,7 +2062,6 @@ html.no-touch #strengths .group:hover .no-touch\:group-hover\:text-stone-300{--t
   #commitment .wrapper .desc .point .brief{
     width: 86.4%;
   }
-  #commitment .wrapper .desc .brief{}
   #commitment .wrapper .desc .brief h4,
   #commitment .wrapper .desc .brief p{
     display: inline;
@@ -2306,23 +2074,15 @@ html.no-touch #strengths .group:hover .no-touch\:group-hover\:text-stone-300{--t
 /* =============================================================== */
 /*                  End Section Commitment                         */
 /* =============================================================== */
-
-
-
-
-
 /* =============================================================== */
 /*                  Section Portfolio                              */
 /* =============================================================== */
 /* ----- Desktop ----- */
-.background-pgf{}
-#portfolio{}
 #portfolio .wrapper{
   overflow: hidden;
   height: 111vh;
 }
 #portfolio .wrapper .ornt.navy300s{
-  /* top: 10vh; */
   top: -165vh;
   left: 43vw;
   width: 3.5vw;
@@ -2331,18 +2091,15 @@ html.no-touch #strengths .group:hover .no-touch\:group-hover\:text-stone-300{--t
 }
 #portfolio .wrapper .ornt.orange500{
   top: 16.4vh;
-  /* left: 40.9vw; */
   left: -60vw;
   width: 2.2vw;
   height: 2.2vw;
   border: 0.15vw solid #FF7300;
 }
-#portfolio .wrapper .background{}
 #portfolio .wrapper .layer-01{
   margin: 10vh auto 8vh;
   width: 87vw;
 }
-#portfolio .wrapper .layer-01 h6{}
 #portfolio .wrapper .layer-01 h2{
   width: 25vw;
 }
@@ -2361,8 +2118,6 @@ html.no-touch #strengths .group:hover .no-touch\:group-hover\:text-stone-300{--t
   cursor: pointer;
   overflow: hidden;
 }
-#portfolio .wrapper .layer-02 .content .item .wrap .image{}
-#portfolio .wrapper .layer-02 .content .item .wrap .background{}
 #portfolio .wrapper .layer-02 .content .item .wrap .logo{
   transform: translate(0, 0);
   left: 0;
@@ -2504,7 +2259,6 @@ html.no-touch #strengths .group:hover .no-touch\:group-hover\:text-stone-300{--t
   height: 30vh;
   transition: all .5s;
 }
-#portfolio .wrapper .layer-02 .content .item .wrap .wrapBrief h5{}
 #portfolio .wrapper .layer-02 .content .item .wrap .wrapBrief a{
   padding: 1.5vh 1.5vw;
   background: #EBEDEF;
@@ -2547,20 +2301,16 @@ html.no-touch #strengths .group:hover .no-touch\:group-hover\:text-stone-300{--t
 /* ----- End Desktop ----- */
 /* ----- Mobile ----- */
 @media screen and (max-width: 846px){
-  #portfolio{}
   #portfolio .wrapper{
     height: 100vh;
   }
   #portfolio .wrapper .ornt.navy300s{display: none;}
   #portfolio .wrapper .ornt.orange500{display: none;}
-  #portfolio .wrapper .background{}
   #portfolio .wrapper .layer-01{
     margin: 0;
     padding: 2vh 8vw 5vh;
     width: 100%;
   }
-  #portfolio .wrapper .layer-01 h6{}
-  #portfolio .wrapper .layer-01 h2{}
   #portfolio .wrapper .layer-02{
     margin: 0;
     width: 100%;
@@ -2575,8 +2325,6 @@ html.no-touch #strengths .group:hover .no-touch\:group-hover\:text-stone-300{--t
     height: 50vh;
     border-radius: 18px;
   }
-  #portfolio .wrapper .layer-02 .content .item .wrap .image{}
-  #portfolio .wrapper .layer-02 .content .item .wrap .background{}
   #portfolio .wrapper .layer-02 .content .item .wrap .logo{
     top: 3vh;
     transform: unset !important;
@@ -2584,29 +2332,9 @@ html.no-touch #strengths .group:hover .no-touch\:group-hover\:text-stone-300{--t
     right: unset;
     width: 20vw !important;
   }
-  #portfolio .wrapper .layer-02 .content .item.item-01 .wrap .logo{}
-  #portfolio .wrapper .layer-02 .content .item.item-02 .wrap .logo{}
-  #portfolio .wrapper .layer-02 .content .item.item-03 .wrap .logo{}
-  #portfolio .wrapper .layer-02 .content .item.item-04 .wrap .logo{}
-  #portfolio .wrapper .layer-02 .content .item.item-05 .wrap .logo{}
   #portfolio .wrapper .layer-02 .content .item.item-06 .wrap .logo{
     width: 10vw !important;
   }
-  #portfolio .wrapper .layer-02 .content .item.item-07 .wrap .logo{}
-  #portfolio .wrapper .layer-02 .content .item.item-08 .wrap .logo{}
-  #portfolio .wrapper .layer-02 .content .item.item-09 .wrap .logo{}
-  #portfolio .wrapper .layer-02 .content .item.item-10 .wrap .logo{}
-  #portfolio .wrapper .layer-02 .content .item .wrap:hover .logo{}
-  #portfolio .wrapper .layer-02 .content .item.item-01 .wrap:hover .logo{}
-  #portfolio .wrapper .layer-02 .content .item.item-02 .wrap:hover .logo{}
-  #portfolio .wrapper .layer-02 .content .item.item-03 .wrap:hover .logo{}
-  #portfolio .wrapper .layer-02 .content .item.item-04 .wrap:hover .logo{}
-  #portfolio .wrapper .layer-02 .content .item.item-05 .wrap:hover .logo{}
-  #portfolio .wrapper .layer-02 .content .item.item-06 .wrap:hover .logo{}
-  #portfolio .wrapper .layer-02 .content .item.item-07 .wrap:hover .logo{}
-  #portfolio .wrapper .layer-02 .content .item.item-08 .wrap:hover .logo{}
-  #portfolio .wrapper .layer-02 .content .item.item-09 .wrap:hover .logo{}
-  #portfolio .wrapper .layer-02 .content .item.item-10 .wrap:hover .logo{}
   #portfolio .wrapper .layer-02 .content .item .wrap .wrapTitle{
     top: 3vh;
     transform: unset !important;
@@ -2615,15 +2343,10 @@ html.no-touch #strengths .group:hover .no-touch\:group-hover\:text-stone-300{--t
     width: 50vw !important;
     text-align: right !important;
   }
-  #portfolio .wrapper .layer-02 .content .item.item-10 .wrap .wrapTitle{}
-  #portfolio .wrapper .layer-02 .content .item .wrap:hover .wrapTitle{}
-  #portfolio .wrapper .layer-02 .content .item.item-04 .wrap:hover .wrapTitle{}
-  #portfolio .wrapper .layer-02 .content .item.item-10 .wrap:hover .wrapTitle{}
   #portfolio .wrapper .layer-02 .content .item .wrap .wrapTitle h3{
     font-size: 6vw;
     text-align: right !important;
   }
-  #portfolio .wrapper .layer-02 .content .item.item-10 .wrap:hover .wrapTitle h3{}
   #portfolio .wrapper .layer-02 .content .item .wrap .wrapTitle h4{
     font-size: 4vw;
     text-align: right !important;
@@ -2637,24 +2360,17 @@ html.no-touch #strengths .group:hover .no-touch\:group-hover\:text-stone-300{--t
   #portfolio .wrapper .layer-02 .content .item .wrap:hover .wrapBrief{
     height: auto;
   }
-  #portfolio .wrapper .layer-02 .content .item .wrap .wrapBrief h5{}
   #portfolio .wrapper .layer-02 .content .item .wrap .wrapBrief a{
     padding: 1.5vh 5vw;
   }
-  #portfolio .wrapper .layer-02 .content .item .wrap .wrapBrief a:hover{}
   #portfolio .wrapper .layer-02 .content .item .counter{
     display: block;
     margin-top: 8vh;
     color: #0F32AD;
   }
-  #portfolio .wrapper .layer-02 .content.stagePadding-02 .owl-stage{}
   #portfolio .wrapper .layer-02 .content.stagePadding-02 .owl-dots{
     display: none;
   }
-  #portfolio .wrapper .layer-02 .content.stagePadding-02 .owl-dots .owl-dot{}
-  #portfolio .wrapper .layer-02 .content.stagePadding-02 .owl-dots .owl-dot span{}
-  #portfolio .wrapper .layer-02 .content.stagePadding-02 .owl-dots .owl-dot.active span{}
-  #portfolio .wrapper .layer-02 .content.stagePadding-02 .owl-dots .owl-dot:hover span{}
   #portfolio .wrapper .layer-02 .compArrow{
     z-index: 2;
     margin: 0 auto;
@@ -2676,16 +2392,10 @@ html.no-touch #strengths .group:hover .no-touch\:group-hover\:text-stone-300{--t
 /* =============================================================== */
 /*                  End Section Portfolio                          */
 /* =============================================================== */
-
-
-
-
-
 /* =============================================================== */
 /*                  Section Gallery                                */
 /* =============================================================== */
 /* ----- Desktop ----- */
-#gallery{}
 #gallery .background{
   position: absolute;
   top: 0;
@@ -2751,8 +2461,6 @@ html.no-touch #strengths .group:hover .no-touch\:group-hover\:text-stone-300{--t
 /* ----- End Desktop ----- */
 /* ----- Mobile ----- */
 @media screen and (max-width: 846px){
-  #gallery{}
-  #gallery .background{}
   #gallery .wrapper{
     padding: 5vh 0 10vh;
     height: auto;
@@ -2767,16 +2475,6 @@ html.no-touch #strengths .group:hover .no-touch\:group-hover\:text-stone-300{--t
   #gallery .wrapper .gm{
     display: none !important;
   }
-  #gallery .wrapper .gm.image-01{}
-  #gallery .wrapper .gm.image-02{}
-  #gallery .wrapper .gm.image-03{}
-  #gallery .wrapper .double{}
-  #gallery .wrapper .double .gm.image-04{}
-  #gallery .wrapper .double .gm.image-05{}
-  #gallery .wrapper .gm.image-06{}
-  #gallery .wrapper .content{}
-  #gallery .wrapper .content .item{}
-  #gallery .wrapper .content .owl-item.center{}
   #gallery .wrapper .content .item .wrap{
     position: relative;
     width: 100%;
@@ -2813,25 +2511,11 @@ html.no-touch #strengths .group:hover .no-touch\:group-hover\:text-stone-300{--t
   #gallery .wrapper .content.mobileGallery .owl-dots .owl-dot:hover span{
     background-color: #133ED8 !important;
   }
-
-
-
-
-
-
-
-
-
 }
 /* ----- End Mobile ----- */
 /* =============================================================== */
 /*                  End Section Gallery                            */
 /* =============================================================== */
-
-
-
-
-
 /* =============================================================== */
 /*                  Animation                                      */
 /* =============================================================== */
@@ -2964,18 +2648,12 @@ html.no-touch #strengths .group:hover .no-touch\:group-hover\:text-stone-300{--t
 /* End Timeline Animation */
 /* ----- Mobile ----- */
 @media screen and (max-width: 846px){
-  #navigation.tarNav{}
-  #navigation.tarNav.anim{}
-  #header .wrapper .tarHead01{}
   #header .wrapper .tarHead01.anim{
     top: 35%;
   }
-  #header .wrapper .tarHead02{}
-  #header .wrapper .tarHead02.anim{}
   #header .wrapper .tarHead03{
     display: none;
   }
-  #header .wrapper .tarHead03.anim{}
   .sldrg,.sldlt{
     opacity: 1 !important;
     left: 0 !important;
